@@ -2,7 +2,7 @@
 
 namespace Zhb\Eccairs\E5x\Validator;
 
-use Zhb\Eccairs\Exception\E5xNotValidFormat;
+use Zhb\Eccairs\Exception\E5xNotValidFormatException;
 
 class Validator
 {
@@ -15,12 +15,12 @@ class Validator
      */
     public function isValid($xml)
     {
-        set_error_handler(function($message, $code, $file, $line, array $context) {
+        set_error_handler(function($code, $message, $file, $line, array $context) {
             if (0 === error_reporting()) {
                 return false;
             }
 
-            throw new E5xNotValidFormat($message, $code);
+            throw new E5xNotValidFormatException($message, $code);
         });
 
         $doc = new \DOMDocument();

@@ -26,7 +26,7 @@ class Attribute
     /**
      * @var
      *
-     * @Serializer\XmlValue()
+     * @Serializer\XmlValue(cdata=false)
      */
     private $value;
 
