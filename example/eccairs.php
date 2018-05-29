@@ -6,7 +6,6 @@ use \Zhb\Eccairs\Model\Entity\Aircraft;
 use \Zhb\Eccairs\Model\Occurrence;
 use \Zhb\Eccairs\Eccairs;
 use \Zhb\Eccairs\Model\Set;
-use \Zhb\Eccairs\E5x\Zipper;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -49,7 +48,4 @@ $set = new Set();
 $set->setOccurrence($occurrence);
 
 $eccairs = new Eccairs($set);
-$xml = $eccairs->getXml();
-
-$zipper = new Zipper($xml);
-$zipper->compress();
+$eccairs->e5xAsAttachment();

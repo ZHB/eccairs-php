@@ -58,27 +58,11 @@ class Set
     private $occurrence;
 
     /**
-     * @return string
-     */
-    public function getTaxonomyName(): string
-    {
-        return $this->taxonomyName;
-    }
-
-    /**
      * @param string $taxonomyName
      */
     public function setTaxonomyName(string $taxonomyName)
     {
         $this->taxonomyName = $taxonomyName;
-    }
-
-    /**
-     * @return string
-     */
-    public function getTaxonomyVersion(): string
-    {
-        return $this->taxonomyVersion;
     }
 
     /**
@@ -90,27 +74,11 @@ class Set
     }
 
     /**
-     * @return string
-     */
-    public function getDomain(): string
-    {
-        return $this->domain;
-    }
-
-    /**
      * @param string $domain
      */
     public function setDomain(string $domain)
     {
         $this->domain = $domain;
-    }
-
-    /**
-     * @return string
-     */
-    public function getVersion(): string
-    {
-        return $this->version;
     }
 
     /**
@@ -122,14 +90,6 @@ class Set
     }
 
     /**
-     * @return string
-     */
-    public function getXmlns(): string
-    {
-        return $this->xmlns;
-    }
-
-    /**
      * @param string $xmlns
      */
     public function setXmlns(string $xmlns)
@@ -137,13 +97,6 @@ class Set
         $this->xmlns = $xmlns;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getOccurrence()
-    {
-        return $this->occurrence;
-    }
 
     /**
      * @param mixed $occurrence

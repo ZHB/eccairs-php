@@ -8,6 +8,7 @@ use \Zhb\Eccairs\E5x\Validator\Validator;
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use JMS\Serializer\Naming\SerializedNameAnnotationStrategy;
 use JMS\Serializer\Serializer;
+use Zhb\Eccairs\E5x\Zipper;
 use Zhb\Eccairs\Exception\E5xNotValidFormat;
 use Zhb\Eccairs\Model\Set;
 
@@ -26,10 +27,17 @@ class Eccairs
         $this->set = $set;
     }
 
+    public function e5xAsAttachment()
+    {
+        $zipper = new Zipper($this->getXml());
+
+        $zipper->compress();
+    }
+
     /**
      * @return string
      */
-    public function getXml(): string
+    private function getXml(): string
     {
         $xml = $this->getSerializer()->serialize($this->set, 'xml');
 

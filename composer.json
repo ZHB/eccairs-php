@@ -1,6 +1,7 @@
 {
     "name": "zhb/eccairs-php",
     "description": "Library to create ECCAIRS files from PHP",
+    "keywords": ["ECCAIRS"],
     "type": "library",
     "license": "MIT",
     "authors": [

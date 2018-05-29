@@ -3,7 +3,6 @@
 namespace Zhb\Eccairs\Model;
 
 use JMS\Serializer\Annotation as Serializer;
-use Zhb\Eccairs\Exception\NotAllowedAttributeException;
 
 abstract class AbstractEntity
 {
@@ -64,14 +63,6 @@ abstract class AbstractEntity
      */
     public function setAttributes(array $attributes)
     {
-        /*
-        foreach ($attributes as $key => $attribute) {
-            if (!in_array($key, $this->attributesKeys)) {
-                throw new NotAllowedAttributeException('The given attribute '.$key.' is not allowed in this context');
-            }
-        }
-        */
-
         $this->ATTRIBUTES = $attributes;
     }
 }
