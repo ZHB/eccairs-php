@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL319_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">0-2 250 Kg</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft's mass group was 0 to 2 250 Kg.</xs:documentation>
+          <xs:documentation source="explanation">The aircraft's maximum certificated take-off mass was less than 2 251 kilograms.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">2 251 to 5 700 Kg</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft's mass group was 2 250 to 5 700 Kg</xs:documentation>
+          <xs:documentation source="explanation">The aircraft's maximum certificated take-off mass was 2 251 to 5 700 kilograms.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">5 701 to 27 000 Kg</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft's mass group was 5 700 to 27 000 Kg</xs:documentation>
+          <xs:documentation source="explanation">The aircraft's maximum certificated take-off mass was between  5 701 and 27 000 kilograms.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">27 001 to 272 000 Kg</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft's mass group was 27 001 to 272 000 Kg.</xs:documentation>
+          <xs:documentation source="explanation">The aircraft's maximum certificated take-off mass was between  27 001 and 272 000 kilograms.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">&gt; 272 000 Kg</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft's mass group was greater than 272 000 Kg.</xs:documentation>
+          <xs:documentation source="explanation">The aircraft's maximum certificated take-off mass was greater than 272 000 kilograms.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft's mass group was not established.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

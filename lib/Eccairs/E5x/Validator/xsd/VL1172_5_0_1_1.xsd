@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1172_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">A</xs:documentation>
+          <xs:documentation source="detailedDescription">Serious Incident (A) </xs:documentation>
+          <xs:documentation source="explanation">Serious Incident (A) ICAO Annex 13: “An incident involving circumstances indicating that an accident nearly occurred. Note: The difference between an accident and a serious incident lies only in the result.”
+
+EUROCONTROL Note: ATM related serious incidents would include more specifically critical near collisions between aircraft, between aircraft and obstacles, critical near Controlled Flight Into Terrain and critical near Loss of control in flight due to meteorological conditions and VORTEX.
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">B</xs:documentation>
+          <xs:documentation source="detailedDescription">Major Incident (B)</xs:documentation>
+          <xs:documentation source="explanation">Major Incident (B) An incident associated with the operation of an aircraft, in which safety of aircraft may have been compromised, having led to a near collision between aircraft, with ground or obstacles (i.e., safety margins not respected which is not the result of an ATC instruction).
+
+EUROCONTROL Note: ATM related major incidents would include more specifically near collisions between aircraft, near collisions between aircraft and obstacles, near Controlled Flight Into Terrain.
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">C</xs:documentation>
+          <xs:documentation source="detailedDescription">Significant Incident (C)</xs:documentation>
+          <xs:documentation source="explanation">Significant Incident (C)
+An incident involving circumstances indicating that an accident, a serious or major incident could have occurred, if the risk had not been managed within safety margins, or if another aircraft had been in the vicinity.
+
+EUROCONTROL Note: ATM related significant incidents would include more specifically situations where collisions/near collisions could have occurred in other conditions.
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">D</xs:documentation>
+          <xs:documentation source="detailedDescription">Not determined (D) </xs:documentation>
+          <xs:documentation source="explanation">Not determined (D) Insufficient information was available to determine the risk involved or inconclusive or conflicting evidence precluded such determination.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">E</xs:documentation>
+          <xs:documentation source="detailedDescription">No safety effect (E) </xs:documentation>
+          <xs:documentation source="explanation">No safety effect (E) An incident which has no safety significance</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1038_12_0_1_2">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Aircraft stand</xs:documentation>
+          <xs:documentation source="detailedDescription">Aircraft stand</xs:documentation>
+          <xs:documentation source="explanation">Aircraft stand. A designated area on an apron intended to be used for parking an aircraft (ICAO Annex 14)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="17">
+        <xs:annotation>
+          <xs:documentation source="valueID">17</xs:documentation>
+          <xs:documentation source="description">Baggage handling area</xs:documentation>
+          <xs:documentation source="detailedDescription">Baggage handling area</xs:documentation>
+          <xs:documentation source="explanation">Baggage handling area e.g. the baggage handling area in the terminal building</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="16">
+        <xs:annotation>
+          <xs:documentation source="valueID">16</xs:documentation>
+          <xs:documentation source="description">Cargo shed</xs:documentation>
+          <xs:documentation source="detailedDescription">Cargo shed</xs:documentation>
+          <xs:documentation source="explanation">Cargo shed</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9">
+        <xs:annotation>
+          <xs:documentation source="valueID">9</xs:documentation>
+          <xs:documentation source="description">De-icing/anti-icing pad</xs:documentation>
+          <xs:documentation source="detailedDescription">De-icing/anti-icing pad</xs:documentation>
+          <xs:documentation source="explanation">De-icing/anti-icing pad. An area comprising an inner area for the parking of an aeroplane to receive de-icing/anti-icing treatment and an outer area for the manoeuvring of two or more mobile de-icing/anti-icing equipment. ICAO Annex 14</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="18">
+        <xs:annotation>
+          <xs:documentation source="valueID">18</xs:documentation>
+          <xs:documentation source="description">Engine run-up pad</xs:documentation>
+          <xs:documentation source="detailedDescription">Engine run-up pad</xs:documentation>
+          <xs:documentation source="explanation">Engine run-up pad</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="20">
+        <xs:annotation>
+          <xs:documentation source="valueID">20</xs:documentation>
+          <xs:documentation source="description">Fuel farm</xs:documentation>
+          <xs:documentation source="detailedDescription">Fuel farm</xs:documentation>
+          <xs:documentation source="explanation">Fuel farm: the fuel storage area</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">Intersection between taxiways</xs:documentation>
+          <xs:documentation source="detailedDescription">Intersection between taxiways</xs:documentation>
+          <xs:documentation source="explanation">Intersection between taxiways: A junction of two or more taxiways.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="27">
+        <xs:annotation>
+          <xs:documentation source="valueID">27</xs:documentation>
+          <xs:documentation source="description">Near the aerodrome</xs:documentation>
+          <xs:documentation source="detailedDescription">Near the aerodrome</xs:documentation>
+          <xs:documentation source="explanation">The occurrence occurred off the aerodrome but within 10 km from the aerodrome reference point. Aerodrome reference point: The designate geographical location of an aerodrome.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="29">
+        <xs:annotation>
+          <xs:documentation source="valueID">29</xs:documentation>
+          <xs:documentation source="description">Off aerodrome</xs:documentation>
+          <xs:documentation source="detailedDescription">Off aerodrome</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="14">
+        <xs:annotation>
+          <xs:documentation source="valueID">14</xs:documentation>
+          <xs:documentation source="description">Off movement area</xs:documentation>
+          <xs:documentation source="detailedDescription">Off movement area</xs:documentation>
+          <xs:documentation source="explanation">Off movement area, e.g. off that part of a movement area intended for the landing or take-off of aircraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">On apron</xs:documentation>
+          <xs:documentation source="detailedDescription">On apron</xs:documentation>
+          <xs:documentation source="explanation">Apron. A defined area, on a land aerodrome, intended to accommodate aircraft for purposes of loading or unloading passengers, mail or cargo, fuelling, parking or maintenance (ICAO Annex 14)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="21">
+        <xs:annotation>
+          <xs:documentation source="valueID">21</xs:documentation>
+          <xs:documentation source="description">On clearway</xs:documentation>
+          <xs:documentation source="detailedDescription">On clearway</xs:documentation>
+          <xs:documentation source="explanation">Clearway. A defined rectangular area on the ground or water under the control of the appropriate authority, selected or prepared as a suitable area over which an aeroplane may make a portion of its initial climb to a specified height. ICAO Annex 14</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="19">
+        <xs:annotation>
+          <xs:documentation source="valueID">19</xs:documentation>
+          <xs:documentation source="description">On rapid exit taxiway</xs:documentation>
+          <xs:documentation source="detailedDescription">On rapid exit taxiway</xs:documentation>
+          <xs:documentation source="explanation">Rapid exit taxiway. A taxiway connected to a runway at an acute angle and designed to allow landing aeroplanes to turn off at higher speeds than are achieved on other exit taxiways thereby minimizing runway occupancy times. ICAO Annex 14</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">On runway</xs:documentation>
+          <xs:documentation source="detailedDescription">On runway</xs:documentation>
+          <xs:documentation source="explanation">Runway. A defined rectangular area on a land aerodrome prepared for the landing and take-off of aircraft. ICAO Annex 14</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="23">
+        <xs:annotation>
+          <xs:documentation source="valueID">23</xs:documentation>
+          <xs:documentation source="description">On runway - 1st Part</xs:documentation>
+          <xs:documentation source="detailedDescription">Runway 1st Part</xs:documentation>
+          <xs:documentation source="explanation">The first part always means the first third of the runway as seen in the direction of landing.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="24">
+        <xs:annotation>
+          <xs:documentation source="valueID">24</xs:documentation>
+          <xs:documentation source="description">On runway - 2nd Part</xs:documentation>
+          <xs:documentation source="detailedDescription">Runway 2nd Part</xs:documentation>
+          <xs:documentation source="explanation">The second part always means the second third of the runway as seen in the direction of landing.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="25">
+        <xs:annotation>
+          <xs:documentation source="valueID">25</xs:documentation>
+          <xs:documentation source="description">On runway - 3rd Part</xs:documentation>
+          <xs:documentation source="detailedDescription">Runway 3rd Part</xs:documentation>
+          <xs:documentation source="explanation">The third part always means the last third of the runway as seen in the direction of landing.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="22">
+        <xs:annotation>
+          <xs:documentation source="valueID">22</xs:documentation>
+          <xs:documentation source="description">On runway end safety area</xs:documentation>
+          <xs:documentation source="detailedDescription">On runway end safety area (RESA)</xs:documentation>
+          <xs:documentation source="explanation">Runway end safety area (RESA). An area symmetrical about the extended runway centre line and adjacent to the end of the strip primarily intended to reduce the risk of damage to an aeroplane undershooting or overrunning the runway.
+ICAO Annex 14</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="26">
+        <xs:annotation>
+          <xs:documentation source="valueID">26</xs:documentation>
+          <xs:documentation source="description">On stopway</xs:documentation>
+          <xs:documentation source="detailedDescription">On stopway</xs:documentation>
+          <xs:documentation source="explanation">Stopway. A defined rectangular area on the ground at the end of take-off run available prepared as a suitable area in which an aircraft can be stopped in the case of an abandoned take-off.  ICAO Annex 14</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">On taxiway</xs:documentation>
+          <xs:documentation source="detailedDescription">On taxiway</xs:documentation>
+          <xs:documentation source="explanation">Taxiway. A defined path on a land aerodrome established or the taxiing of aircraft and intended to provide a link between one part of the aerodrome and another, including:
+a) Aircraft stand taxilane. A portion of an apron designated as a taxiway and intended to provide access to aircraft stands only.
+b) Apron taxiway. A portion of a taxiway system located on an apron and intended to provide a through taxi route across the apron. ICAO Annex 14.
+
+Note: see separate entry for rapid exit taxiway.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="15">
+        <xs:annotation>
+          <xs:documentation source="valueID">15</xs:documentation>
+          <xs:documentation source="description">Passenger terminal</xs:documentation>
+          <xs:documentation source="detailedDescription">Passenger terminal</xs:documentation>
+          <xs:documentation source="explanation">Passenger terminal</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">Runway turn pad</xs:documentation>
+          <xs:documentation source="detailedDescription">Runway turn pad</xs:documentation>
+          <xs:documentation source="explanation">Runway turn pad</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="13">
+        <xs:annotation>
+          <xs:documentation source="valueID">13</xs:documentation>
+          <xs:documentation source="description">Runway/vehicle lane intersection</xs:documentation>
+          <xs:documentation source="detailedDescription">Runway/vehicle lane intersection</xs:documentation>
+          <xs:documentation source="explanation">Runway/vehicle lane intersection</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Vehicle lane</xs:documentation>
+          <xs:documentation source="detailedDescription">Vehicle lane</xs:documentation>
+          <xs:documentation source="explanation">Vehicle lane</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Vehicle movement area</xs:documentation>
+          <xs:documentation source="detailedDescription">Vehicle movement area</xs:documentation>
+          <xs:documentation source="explanation">Vehicle movement area</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="28">
+        <xs:annotation>
+          <xs:documentation source="valueID">28</xs:documentation>
+          <xs:documentation source="description">Not applicable</xs:documentation>
+          <xs:documentation source="detailedDescription">Not applicable</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation">The location of the occurrence on the aerodrome was other than those listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown</xs:documentation>
+          <xs:documentation source="explanation">The location of the occurrence on the aerodrome is unknown.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

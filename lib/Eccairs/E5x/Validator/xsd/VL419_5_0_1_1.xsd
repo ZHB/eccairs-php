@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL419_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Alcohol</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was consumption of alcohol.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Carbon monoxide</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was inhalation of carbon monoxide.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Chemicals</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was related to chemicals.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Drugs</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was drug abuse.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">Food poisoning</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was food poisoning.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9">
+        <xs:annotation>
+          <xs:documentation source="valueID">9</xs:documentation>
+          <xs:documentation source="description">Hypoxia</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was hypoxia.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Injury</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was an injury.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Medical condition</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was a medical condition.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Psychiatric condition</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was a psychiatric condition.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Smoke/fumes</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was inhalation of smoke/fumes.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="97">
+        <xs:annotation>
+          <xs:documentation source="valueID">97</xs:documentation>
+          <xs:documentation source="description">Not applicable</xs:documentation>
+          <xs:documentation source="detailedDescription">The person was not incapacitated.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was other than one of the above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The reason for the person's incapacitation was unknown.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

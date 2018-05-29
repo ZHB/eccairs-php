@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1167_12_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">State of Registry</xs:documentation>
+          <xs:documentation source="detailedDescription">State of Registry</xs:documentation>
+          <xs:documentation source="explanation">State of registration of the aircraft</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">State of Operator</xs:documentation>
+          <xs:documentation source="detailedDescription">State of Operator</xs:documentation>
+          <xs:documentation source="explanation">State granting the certificate to the aircraft operator</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">State of Occurrence</xs:documentation>
+          <xs:documentation source="detailedDescription">State of Occurrence</xs:documentation>
+          <xs:documentation source="explanation">State where the occurrence occurred (geographical location)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Design Approval Holder</xs:documentation>
+          <xs:documentation source="detailedDescription">Design Approval Holder</xs:documentation>
+          <xs:documentation source="explanation">Organisation responsible of the design/certificate of the aviation product (Aircraft, Engine, Propeller or equipement)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">Aerodrome</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerodrome</xs:documentation>
+          <xs:documentation source="explanation">Aerodrome where the occurrence happened or which was affected</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">ANSP</xs:documentation>
+          <xs:documentation source="detailedDescription">ANSP</xs:documentation>
+          <xs:documentation source="explanation">ANSP (Air Navigation Service Provider) controlling the aircraft at the time of the occurrence or which was otherwise involved or affected</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Operator</xs:documentation>
+          <xs:documentation source="detailedDescription">Operator</xs:documentation>
+          <xs:documentation source="explanation">Organisation which Aircraft Operator Certificate covers the aircraft</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Owner</xs:documentation>
+          <xs:documentation source="detailedDescription">Owner</xs:documentation>
+          <xs:documentation source="explanation">Natural person or legal entity that owns the aircraft</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">CAMO</xs:documentation>
+          <xs:documentation source="detailedDescription">CAMO</xs:documentation>
+          <xs:documentation source="explanation">Continuous Airworthiness Monitoring Organisation</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Competent Authority</xs:documentation>
+          <xs:documentation source="detailedDescription">Competent Authority</xs:documentation>
+          <xs:documentation source="explanation">Competent Authority - National Aviation Authority or corresponding body</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="12">
+        <xs:annotation>
+          <xs:documentation source="valueID">12</xs:documentation>
+          <xs:documentation source="description">Safety Investigation Authority</xs:documentation>
+          <xs:documentation source="detailedDescription">Safety Investigation Authority</xs:documentation>
+          <xs:documentation source="explanation">Safety Investigation Authority (Accident Investigation Body)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9">
+        <xs:annotation>
+          <xs:documentation source="valueID">9</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other</xs:documentation>
+          <xs:documentation source="explanation">Any other not listed above</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

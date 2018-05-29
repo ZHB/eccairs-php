@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1072_12_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="17">
+        <xs:annotation>
+          <xs:documentation source="valueID">17</xs:documentation>
+          <xs:documentation source="description">“Follow Me” Vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">“Follow Me” Vehicle</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for ground guidance purposes</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="12">
+        <xs:annotation>
+          <xs:documentation source="valueID">12</xs:documentation>
+          <xs:documentation source="description">Air Start Unit</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Start Unit</xs:documentation>
+          <xs:documentation source="explanation">A vehicle equipped with an air start unit, supplying air pressure to aircraft</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Bird control vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Bird control vehicle.</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for bird control purposes</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="13">
+        <xs:annotation>
+          <xs:documentation source="valueID">13</xs:documentation>
+          <xs:documentation source="description">Bus</xs:documentation>
+          <xs:documentation source="detailedDescription">Bus</xs:documentation>
+          <xs:documentation source="explanation">A bus used for the transportation of passengers and/or crew</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="14">
+        <xs:annotation>
+          <xs:documentation source="valueID">14</xs:documentation>
+          <xs:documentation source="description">Car</xs:documentation>
+          <xs:documentation source="detailedDescription">Car</xs:documentation>
+          <xs:documentation source="explanation">A car used for the transportation of passengers or for other ground handling services (e.g. aircraft dispatching)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="15">
+        <xs:annotation>
+          <xs:documentation source="valueID">15</xs:documentation>
+          <xs:documentation source="description">Catering truck</xs:documentation>
+          <xs:documentation source="detailedDescription">Catering truck</xs:documentation>
+          <xs:documentation source="explanation">A truck used for supplying aircraft with catering related material</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="24">
+        <xs:annotation>
+          <xs:documentation source="valueID">24</xs:documentation>
+          <xs:documentation source="description">Construction work vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Construction work vehicle</xs:documentation>
+          <xs:documentation source="explanation">Construction work vehicle	A vehicle used for construction, maintenance or other engineering work at the aerodrome</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Fire Services vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Fire Services vehicle</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for fire suppression purposes</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">FO and runway inspection vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">FO and runway inspection vehicle</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for aerodrome surfaces inspection including foreign objects (FO)   </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="16">
+        <xs:annotation>
+          <xs:documentation source="valueID">16</xs:documentation>
+          <xs:documentation source="description">Forklift</xs:documentation>
+          <xs:documentation source="detailedDescription">Forklift</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used to elevate or pick items using a fork mechanism at the front</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="23">
+        <xs:annotation>
+          <xs:documentation source="valueID">23</xs:documentation>
+          <xs:documentation source="description">General use Tractor</xs:documentation>
+          <xs:documentation source="detailedDescription">General use Tractor</xs:documentation>
+          <xs:documentation source="explanation">A general purpose vehicle used at aerodromes for towing carts (for aircraft towing see relevant vehicle category)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="18">
+        <xs:annotation>
+          <xs:documentation source="valueID">18</xs:documentation>
+          <xs:documentation source="description">Lavatory service vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Lavatory service vehicle</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for replacing lavatory liquid from aircraft</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Maintenance vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Maintenance vehicle.</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for aircraft maintenance related tasks</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="19">
+        <xs:annotation>
+          <xs:documentation source="valueID">19</xs:documentation>
+          <xs:documentation source="description">Medical services vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Medical services vehicle</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for medical services (e.g. ambulance)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">Military vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Military vehicle.</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used by the military</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="20">
+        <xs:annotation>
+          <xs:documentation source="valueID">20</xs:documentation>
+          <xs:documentation source="description">Pallet/container loading vehicle </xs:documentation>
+          <xs:documentation source="detailedDescription">Pallet/container loading vehicle </xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for loading and unloading containers and pallets from aircraft (e.g. high-loader, scissor lift etc.)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="21">
+        <xs:annotation>
+          <xs:documentation source="valueID">21</xs:documentation>
+          <xs:documentation source="description">Passenger steps/stairs vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Passenger steps/stairs vehicle</xs:documentation>
+          <xs:documentation source="explanation">A vehicle equipped with stairs/a vehicle that serves as a stair</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="26">
+        <xs:annotation>
+          <xs:documentation source="valueID">26</xs:documentation>
+          <xs:documentation source="description">Police vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Police vehicle</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for policing purposes.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="22">
+        <xs:annotation>
+          <xs:documentation source="valueID">22</xs:documentation>
+          <xs:documentation source="description">Refuelling truck</xs:documentation>
+          <xs:documentation source="detailedDescription">Refuelling truck</xs:documentation>
+          <xs:documentation source="explanation">A truck used for the refuelling of aircraft ( includes fuel hydrant trucks)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="25">
+        <xs:annotation>
+          <xs:documentation source="valueID">25</xs:documentation>
+          <xs:documentation source="description">Security vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Security vehicle</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for security related purposes</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Snow clearing vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Snow clearing vehicle.</xs:documentation>
+          <xs:documentation source="explanation">Vehicle used for snow removal/clearing. Includes blowers and sweepers.
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Tugging / Towing vehicle</xs:documentation>
+          <xs:documentation source="detailedDescription">Aircraft Tugging / Towing vehicle.</xs:documentation>
+          <xs:documentation source="explanation">A vehicle used for the towing of aircraft. It can be a purpose built vehicle or a "general purpose tractor". Both are included in this category. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="27">
+        <xs:annotation>
+          <xs:documentation source="valueID">27</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown</xs:documentation>
+          <xs:documentation source="explanation">a vehicle of unknown or unspecified nature</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

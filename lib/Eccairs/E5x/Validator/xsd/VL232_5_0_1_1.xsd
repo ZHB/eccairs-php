@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL232_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">Electrical</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft type of propulsion system an electrical engine.
+</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Reciprocating</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft type of propulsion system was a reciprocating engine.</xs:documentation>
+          <xs:documentation source="explanation">Reciprocating Engine :
+
+An engine, especially an internal-combustion engine, in which a piston or pistons moving back and forth work upon a crankshaft or other device to create rotational movement. 
+
+Also include here: 
+
+Rotary Engine
+
+An engine, especially an internal-combustion engine, in which the pressure of combustion is contained in a chamber formed by part of the housing and sealed in by one face of the triangular rotor work upon a crankshaft or other device to create rotational movement.
+
+Like a piston engine, the rotary engine uses the pressure created when a combination of air and fuel is burned. In a piston engine, that pressure is contained in the cylinders and forces pistons to move back and forth. The connecting rods and crankshaft convert the reciprocating motion of the pistons into rotational motion that can be used to power a car. 
+In a rotary engine, the pressure of combustion is contained in a chamber formed by part of the housing and sealed in by one face of the triangular rotor, which is what the engine uses instead of pistons. 
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Turboprop</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft type of propulsion system was turboprop engine.</xs:documentation>
+          <xs:documentation source="explanation">Turbo-Prop engine:
+A simple turbojet core with the addition of a propeller output reduction gearbox and a propeller shaft. 
+
+	Types of Turbo-Prop 
+
+1.	Free Turbine Turbo-Prop
+2.	Fixed Turbine Turbo-Prop
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Turbofan</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft type of propulsion system was turbofan engine.</xs:documentation>
+          <xs:documentation source="explanation">Turbofan engine: A turbojet engine in which additional propulsive thrust is gained by extending a portion of the compressor or turbine blades outside the inner engine case. The extended blades propel bypass air flows along the engine axis but between the inner and outer engine casing. This air is not combusted but does provide additional thrust caused by the propulsive effect imparted to it by the extended compressor blading. 
+
+Types of Turbo-Fan 
+
+1.	Low Bypass
+2.	Medium Bypass
+3.	High Bypass
+4.	Ultra-High Bypass
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Turbojet</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft type of propulsion system was turbojet engine.</xs:documentation>
+          <xs:documentation source="explanation">Turbo-Jet  engine:
+
+A jet engine incorporating a turbine-driven air compressor to take in and compress the air for the combustion of fuel (or for heating by a nuclear reactor), the gases of combustion (or the heated air) being used both to rotate the turbine and to create a thrust producing jet. Often called a turbojet. 
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Turboshaft</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft type of propulsion system was turboshaft engine.</xs:documentation>
+          <xs:documentation source="explanation">Turbo-Shaft engine:
+A gas Turbine engine desighned for use in Rotary Wing Aircraft. Turboshaft engines provide power to a transmission unit connected to a rotar, rather than to a propeller.
+
+Types of Turbo-Shaft 
+
+1.	Free Turbine Turbo-Shaft
+2.	Fixed Turbine Turbo-Shaft
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="97">
+        <xs:annotation>
+          <xs:documentation source="valueID">97</xs:documentation>
+          <xs:documentation source="description">None</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft was a glider.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of propulsion unit fitted to the aircraft was other than one of the types listed above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of propulsion unit fitted to the aircraft is unknown.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL117_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Instrument flight rules (IFR)</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft flight plan was filed for instrument flight rules.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Visual flight rules (VFR)</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft flight plan was filed for visual flight rules.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">IFR/VFR</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft flight plan was filed for instrument flight rules/visual flight rules.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">VFR/IFR</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft flight plan was filed for visual flight rules/instrument flight rules.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Controlled VFR</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft flight plan was filed for controlled visual flight rules.</xs:documentation>
+          <xs:documentation source="explanation">Controlled VFR relates to a VFR flight cleared by air traffic control to operate within a control zone in VMC.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Special VFR</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft flight plan was filed for special visual flight rules.</xs:documentation>
+          <xs:documentation source="explanation">Special VFR relates to a VFR flight cleared by air traffic control to operate within a control zone in meteorological conditions below VMC.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">VFR night</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft flight plan was filed for visual flight rules night.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="97">
+        <xs:annotation>
+          <xs:documentation source="valueID">97</xs:documentation>
+          <xs:documentation source="description">None</xs:documentation>
+          <xs:documentation source="detailedDescription">No aircraft flight plan was filed.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft flight plan was filed for other rules than those listed above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of aircraft flight plan filed was not established.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

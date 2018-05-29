@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL15_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">Airway - ATS Route</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was an airway or ATS route</xs:documentation>
+          <xs:documentation source="explanation">An airway or ATS route is a control area or portion theirof established in the form of a corridor.  ICAO Annex 2.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">ATZ</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was an aerodrome traffic zone.</xs:documentation>
+          <xs:documentation source="explanation">An aerodrome traffic zone is an airspace of defined dimensions established around as aerodrome for the protection of aerodrome traffic. ICAO Annex 2</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9">
+        <xs:annotation>
+          <xs:documentation source="valueID">9</xs:documentation>
+          <xs:documentation source="description">CBA</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a cross border area.</xs:documentation>
+          <xs:documentation source="explanation">A cross border area is a temporary segregated area established over international boundaries for specific operational requirements.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">CTA</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a control area.</xs:documentation>
+          <xs:documentation source="explanation">A control area is a controlled airspace extending upwards from a specified limit above the earth. ICAO Annex 2.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">CTR</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a control zone.</xs:documentation>
+          <xs:documentation source="explanation">A control zone is a controlled airspace extending upwards from the surface of the earth to a specified upper limit. ICAO Annex 2.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">CVSM</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a Conventional Vertical Separation Minimum.</xs:documentation>
+          <xs:documentation source="explanation">CVSM : An airspace of defined dimensions within which CVSM (Conventional Vertical Separation Minima) is applied</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Danger area</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a danger area.</xs:documentation>
+          <xs:documentation source="explanation">A danger area is an airspace of defined dimensions within which activities dangerous to the flight may exist at specified times. ICAO Annex 15.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="104">
+        <xs:annotation>
+          <xs:documentation source="valueID">104</xs:documentation>
+          <xs:documentation source="description">FAB</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a functional airspace block (FAB).</xs:documentation>
+          <xs:documentation source="explanation">An airspace block based on operational requirements and established regardless of State boundaries, where the provision of air navigation services and related functions is performance driven and optimised through enhances cooperation among air navigation service providers or, when appropriate, an integrated provider.  Regulation (EC) 1070/2009.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="101">
+        <xs:annotation>
+          <xs:documentation source="valueID">101</xs:documentation>
+          <xs:documentation source="description">FIR / UIR</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a flight information region (FIR) or upper information region (UIR).</xs:documentation>
+          <xs:documentation source="explanation">A flight information region (FIR) is an airspace of defined dimensions within which flight information service and alerting service are provided.  An upper information region (UIR) is an FIR in upper airspace. ICAO Annex 2.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="106">
+        <xs:annotation>
+          <xs:documentation source="valueID">106</xs:documentation>
+          <xs:documentation source="description">LFA</xs:documentation>
+          <xs:documentation source="detailedDescription">LFA: Low Flying Area.  </xs:documentation>
+          <xs:documentation source="explanation">LFA: Low Flying Area.  A low flying area designated for military low flying operations that covers open airspace  from the surface to 2,000 feet above ground level (AGL) or mean sea level (MSL).  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="103">
+        <xs:annotation>
+          <xs:documentation source="valueID">103</xs:documentation>
+          <xs:documentation source="description">Lower Control Area (LTA)</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a lower control area (LTA).</xs:documentation>
+          <xs:documentation source="explanation">A control area (TA) in lower airspace. ICAO Annex 2.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="105">
+        <xs:annotation>
+          <xs:documentation source="valueID">105</xs:documentation>
+          <xs:documentation source="description">MATZ</xs:documentation>
+          <xs:documentation source="detailedDescription">MATZ:  Military Aerodrome Traffic Zone.  </xs:documentation>
+          <xs:documentation source="explanation">MATZ:  Military Aerodrome Traffic Zone.  At certain military aerodromes, Military Aerodrome Traffic Zones (MATZ) have been established to provide a volume of airspace within which increased protection may be given to aircraft in the critical stages of circuit, approach and climb-out. A MATZ acquires the status of the airspace classification within which it lies; however, additional mandatory ATC requirements are invariably specified for military pilots. In the airspace outside the Aerodrome Traffic Zone (ATZ), observation of MATZ procedures is not compulsory for civil pilots. (Ref: UK AIP 2.2-11 para 2.2.1)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Prohibited area</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a prohibited area.</xs:documentation>
+          <xs:documentation source="explanation">A prohibited area is an airspace of defined dimensions, above the land or territorial waters of a State, within which the flight of an aircraft is prohibited. ICAO Annex 11.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">TMA</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a terminal control area.</xs:documentation>
+          <xs:documentation source="explanation">A terminal control area is an area normally established at the confluence of ATS routes in the vicinity of one or more major aerodromes. ICAO Annex 2.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">RVSM</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a Reduced Vertical Separation Minimum.</xs:documentation>
+          <xs:documentation source="explanation">RVSM: An airspace of defined dimensions within which RVSM (Reduced Vertical Separation Minima) is applied
+ 
+ RVSM: The approval that is issued by the appropriate authority of the State in which the Operator is based or of the State in which the aircraft is registered. To obtain such RVSM approval, Operators shall satisfy the said State : a) That aircraft for which the RVSM Approval is sought have the vertical navigation performance capability required for RVSM operations through compliance with the criteria of the RVSM Minimum Aircraft Systems Performance Specification ; b) That they have instituted procedures in respect of continued airworthiness (maintenance and repair) practices and programmes ; c) that they have instituted flight crew procedures for operations in the RVSM airspace.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Restricted area</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a restricted area.</xs:documentation>
+          <xs:documentation source="explanation">A restricted area is an airspace of defined dimensions, above the land or territorial waters of a State, within which the flight of an aircraft is restricted in accordance with certain specified conditions. ICAO Annex 11</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="12">
+        <xs:annotation>
+          <xs:documentation source="valueID">12</xs:documentation>
+          <xs:documentation source="description">Transitional area</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a transitional area.</xs:documentation>
+          <xs:documentation source="explanation">Transitional area: An area of defined dimensions designed for the purpose of ensuring the re-arrangement of aircraft flights levels when passing from a CVSM area to an RVSM area or vice versa</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">TSA</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was a temporary segregated area.</xs:documentation>
+          <xs:documentation source="explanation">A temporary segregated area is an airspace of defined dimensions, within which activities require the reservation of airspace for the exclusive use of specific users during determined period of time.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="102">
+        <xs:annotation>
+          <xs:documentation source="valueID">102</xs:documentation>
+          <xs:documentation source="description">Upper Control Area (UTA)</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was an upper control area (UTA).</xs:documentation>
+          <xs:documentation source="explanation">A control area (TA) in upper airspace. ICAO Annex 2.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was other than one of the above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of airspace was not determined.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

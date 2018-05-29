@@ -1,0 +1,1624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1046_12_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">AB Aircontainer A.C.</xs:documentation>
+          <xs:documentation source="detailedDescription">AB Aircontainer A.C.</xs:documentation>
+          <xs:documentation source="explanation">Rotevägen 14 611 92 Nyköping  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">ACEP - Advanced Composits Engineering + Production GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">ACEP - Advanced Composits Engineering + Production GmbH</xs:documentation>
+          <xs:documentation source="explanation">Dennewartstr. 27 52068 Aachen  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9">
+        <xs:annotation>
+          <xs:documentation source="valueID">9</xs:documentation>
+          <xs:documentation source="description">Acro Aircraft Seating Ltd</xs:documentation>
+          <xs:documentation source="detailedDescription">Acro Aircraft Seating Ltd</xs:documentation>
+          <xs:documentation source="explanation">Unit 3E Haddenham Business Park Haddenham, Bucks HP17 8LJ </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">ACSS - Aviation Communication &amp; Surveillance Systems, LLC</xs:documentation>
+          <xs:documentation source="detailedDescription">ACSS - Aviation Communication &amp; Surveillance Systems, LLC</xs:documentation>
+          <xs:documentation source="explanation">19810 North 7th Avenue Phoenix AZ 85027-4400 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">AeMaC (Aircraft Equipment Maintenance and Consulting)</xs:documentation>
+          <xs:documentation source="detailedDescription">AeMaC (Aircraft Equipment Maintenance and Consulting)</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">Aerazur</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerazur</xs:documentation>
+          <xs:documentation source="explanation">Quality Department 2, Rue Maurice Mallet 92130, Issy les Moulineaux </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="12">
+        <xs:annotation>
+          <xs:documentation source="valueID">12</xs:documentation>
+          <xs:documentation source="description">Aero Net</xs:documentation>
+          <xs:documentation source="detailedDescription">Aero Net</xs:documentation>
+          <xs:documentation source="explanation">Saint Michel 22110 Glomel  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="13">
+        <xs:annotation>
+          <xs:documentation source="valueID">13</xs:documentation>
+          <xs:documentation source="description">AeroAntenna Technology, Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">AeroAntenna Technology, Inc.</xs:documentation>
+          <xs:documentation source="explanation">20732 Lassen Street Chatsworth, CA 91311  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="14">
+        <xs:annotation>
+          <xs:documentation source="valueID">14</xs:documentation>
+          <xs:documentation source="description">Aerobox Composite Structures</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerobox Composite Structures</xs:documentation>
+          <xs:documentation source="explanation">4321-B Fulcrum Way Rio Rancho New Mexico 87144 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="15">
+        <xs:annotation>
+          <xs:documentation source="valueID">15</xs:documentation>
+          <xs:documentation source="description">Aerodata AG</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerodata AG</xs:documentation>
+          <xs:documentation source="explanation">Hermann-Blenk-Str. 34-36 38108 Braunschweig  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="16">
+        <xs:annotation>
+          <xs:documentation source="valueID">16</xs:documentation>
+          <xs:documentation source="description">Aerodyne Research</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerodyne Research</xs:documentation>
+          <xs:documentation source="explanation">12649 Race Track Road Tampa Florida 33626 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="17">
+        <xs:annotation>
+          <xs:documentation source="valueID">17</xs:documentation>
+          <xs:documentation source="description">Aeropack S.A.</xs:documentation>
+          <xs:documentation source="detailedDescription">Aeropack S.A.</xs:documentation>
+          <xs:documentation source="explanation">Rue Bois L'Eveque 95 4000 Liege  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="18">
+        <xs:annotation>
+          <xs:documentation source="valueID">18</xs:documentation>
+          <xs:documentation source="description">Aerosila</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerosila</xs:documentation>
+          <xs:documentation source="explanation">6, Metallistov Str. Stupino Moscow Region, 142800 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">AFDS 3</xs:documentation>
+          <xs:documentation source="detailedDescription">AFDS 3</xs:documentation>
+          <xs:documentation source="explanation">55 Old Bedford Road Lincoln MA 01773 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="19">
+        <xs:annotation>
+          <xs:documentation source="valueID">19</xs:documentation>
+          <xs:documentation source="description">Air Précision SAS</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Précision SAS</xs:documentation>
+          <xs:documentation source="explanation">B.P. 36 - 5 avenue Denis-Papin 92353 Le  Plessis-Robinson Cedex  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="21">
+        <xs:annotation>
+          <xs:documentation source="valueID">21</xs:documentation>
+          <xs:documentation source="description">Airbus Hamburg EGLG</xs:documentation>
+          <xs:documentation source="detailedDescription">Airbus Hamburg EGLG</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="22">
+        <xs:annotation>
+          <xs:documentation source="valueID">22</xs:documentation>
+          <xs:documentation source="description">Aircraft Interior Products</xs:documentation>
+          <xs:documentation source="detailedDescription">Aircraft Interior Products</xs:documentation>
+          <xs:documentation source="explanation">Zone d'Aviation d'Affaires 93350 Le Bourget Airport  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="20">
+        <xs:annotation>
+          <xs:documentation source="valueID">20</xs:documentation>
+          <xs:documentation source="description">AirPlus Maintenance GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">AirPlus Maintenance GmbH</xs:documentation>
+          <xs:documentation source="explanation">Am Flugplatz 30 88046 Friedrichshafen  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="23">
+        <xs:annotation>
+          <xs:documentation source="valueID">23</xs:documentation>
+          <xs:documentation source="description">Alcan Singen GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Alcan Singen GmbH</xs:documentation>
+          <xs:documentation source="explanation">Alusingen-Platz 1 78224 Singen  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="24">
+        <xs:annotation>
+          <xs:documentation source="valueID">24</xs:documentation>
+          <xs:documentation source="description">AmSafe Bridport Limited T/A AmSafe Bridport</xs:documentation>
+          <xs:documentation source="detailedDescription">AmSafe Bridport Limited T/A AmSafe Bridport</xs:documentation>
+          <xs:documentation source="explanation">The Court West Street - Bridport Dorset DT6 3QU</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">AOA apparatebau gauting GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">AOA apparatebau gauting GmbH</xs:documentation>
+          <xs:documentation source="explanation">Ammerseestr. 45-49 82131 Gauting  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">APIC</xs:documentation>
+          <xs:documentation source="detailedDescription">APIC</xs:documentation>
+          <xs:documentation source="explanation">4450 Ruffin Road P.O. Box 85757 San Diego CA 92186-5757</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="25">
+        <xs:annotation>
+          <xs:documentation source="valueID">25</xs:documentation>
+          <xs:documentation source="description">Artex Aircraft Supplies, Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Artex Aircraft Supplies, Inc.</xs:documentation>
+          <xs:documentation source="explanation">14405 Keil Road NE Aurora OR 97002 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="26">
+        <xs:annotation>
+          <xs:documentation source="valueID">26</xs:documentation>
+          <xs:documentation source="description">Aviointeriors S.p.A.</xs:documentation>
+          <xs:documentation source="detailedDescription">Aviointeriors S.p.A.</xs:documentation>
+          <xs:documentation source="explanation">Via Appia Km. 66,400 04013 Tor Tre Ponti (LT)  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="27">
+        <xs:annotation>
+          <xs:documentation source="valueID">27</xs:documentation>
+          <xs:documentation source="description">Avionik Straubing GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Avionik Straubing GmbH</xs:documentation>
+          <xs:documentation source="explanation">Flugplatzstr. 5 D-94348 Atting  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="28">
+        <xs:annotation>
+          <xs:documentation source="valueID">28</xs:documentation>
+          <xs:documentation source="description">Avtech Corporation</xs:documentation>
+          <xs:documentation source="detailedDescription">Avtech Corporation</xs:documentation>
+          <xs:documentation source="explanation">3400 Wallingford Avenue North Seattle Washington 98103-9095</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">AXITUDE S.r.l.</xs:documentation>
+          <xs:documentation source="detailedDescription">AXITUDE S.r.l.</xs:documentation>
+          <xs:documentation source="explanation">Via G. Pascoli  7 80026 - Casoria (NA)  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="29">
+        <xs:annotation>
+          <xs:documentation source="valueID">29</xs:documentation>
+          <xs:documentation source="description">B/E Aerospace (UK) Ltd</xs:documentation>
+          <xs:documentation source="detailedDescription">B/E Aerospace (UK) Ltd</xs:documentation>
+          <xs:documentation source="explanation">Nissen House Grovebury Road Leigton Buzzard Befordshire LU7 4TB</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30">
+        <xs:annotation>
+          <xs:documentation source="valueID">30</xs:documentation>
+          <xs:documentation source="description">B/E Aerospace Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">B/E Aerospace Inc.</xs:documentation>
+          <xs:documentation source="explanation">Seating Products Group 1455 Fairchild Road Winston Salem North Carolina 27105</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="32">
+        <xs:annotation>
+          <xs:documentation source="valueID">32</xs:documentation>
+          <xs:documentation source="description">Barco n.v.</xs:documentation>
+          <xs:documentation source="detailedDescription">Barco n.v.</xs:documentation>
+          <xs:documentation source="explanation">President Kennedypark 35 8500 Kortijk  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="33">
+        <xs:annotation>
+          <xs:documentation source="valueID">33</xs:documentation>
+          <xs:documentation source="description">Becker Flugfunkwerk GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Becker Flugfunkwerk GmbH</xs:documentation>
+          <xs:documentation source="explanation">Baden Airpark Building B108 77836 Rheinmünster </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="31">
+        <xs:annotation>
+          <xs:documentation source="valueID">31</xs:documentation>
+          <xs:documentation source="description">BIRDY</xs:documentation>
+          <xs:documentation source="detailedDescription">BIRDY</xs:documentation>
+          <xs:documentation source="explanation">Bâtiment 290-Zône de Fret BP.811 95548 Orly Aérogare Cedex </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="34">
+        <xs:annotation>
+          <xs:documentation source="valueID">34</xs:documentation>
+          <xs:documentation source="description">Boeing Commercial Airlines / Global Partners</xs:documentation>
+          <xs:documentation source="detailedDescription">Boeing Commercial Airlines / Global Partners</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="35">
+        <xs:annotation>
+          <xs:documentation source="valueID">35</xs:documentation>
+          <xs:documentation source="description">Brice Manufacturing Co.</xs:documentation>
+          <xs:documentation source="detailedDescription">Brice Manufacturing Co.</xs:documentation>
+          <xs:documentation source="explanation">10262 Norris Avenue Pacoima California 91331 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="36">
+        <xs:annotation>
+          <xs:documentation source="valueID">36</xs:documentation>
+          <xs:documentation source="description">Bridgestone Corporation</xs:documentation>
+          <xs:documentation source="detailedDescription">Bridgestone Corporation</xs:documentation>
+          <xs:documentation source="explanation">3-1-1 Ogawahigashi-Cho Kodaira-Shi Tokyo 187-8531 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="37">
+        <xs:annotation>
+          <xs:documentation source="valueID">37</xs:documentation>
+          <xs:documentation source="description">British Airways</xs:documentation>
+          <xs:documentation source="detailedDescription">British Airways</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="38">
+        <xs:annotation>
+          <xs:documentation source="valueID">38</xs:documentation>
+          <xs:documentation source="description">Brüggemann GmbH &amp; Co. KG</xs:documentation>
+          <xs:documentation source="detailedDescription">Brüggemann GmbH &amp; Co. KG</xs:documentation>
+          <xs:documentation source="explanation">Am Kalkheck 2 58313 Herdecke  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="39">
+        <xs:annotation>
+          <xs:documentation source="valueID">39</xs:documentation>
+          <xs:documentation source="description">C.N.S. Systems AB</xs:documentation>
+          <xs:documentation source="detailedDescription">C.N.S. Systems AB</xs:documentation>
+          <xs:documentation source="explanation">S:t Larsgatan 32B SE-582 24 Linköping  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="41">
+        <xs:annotation>
+          <xs:documentation source="valueID">41</xs:documentation>
+          <xs:documentation source="description">Caledonian Airborne Systems</xs:documentation>
+          <xs:documentation source="detailedDescription">Caledonian Airborne Systems</xs:documentation>
+          <xs:documentation source="explanation">Caldeonian House Ninian Road Aberdeen Airport Aberdeen AB21 0PD</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="42">
+        <xs:annotation>
+          <xs:documentation source="valueID">42</xs:documentation>
+          <xs:documentation source="description">Chelton (Electrostatics) Limited</xs:documentation>
+          <xs:documentation source="detailedDescription">Chelton (Electrostatics) Limited</xs:documentation>
+          <xs:documentation source="explanation">The Chelton Centre Fourth Avenue Marlow, Buckinghamshire SL7 1LR</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="43">
+        <xs:annotation>
+          <xs:documentation source="valueID">43</xs:documentation>
+          <xs:documentation source="description">Chelton Antenna S.A.</xs:documentation>
+          <xs:documentation source="detailedDescription">Chelton Antenna S.A.</xs:documentation>
+          <xs:documentation source="explanation">7 Chermin de Vaubesnard 91410 DOURDAN  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="44">
+        <xs:annotation>
+          <xs:documentation source="valueID">44</xs:documentation>
+          <xs:documentation source="description">Chelton Avionics, Inc. dba Wulfsberg Electronics</xs:documentation>
+          <xs:documentation source="detailedDescription">Chelton Avionics, Inc. dba Wulfsberg Electronics</xs:documentation>
+          <xs:documentation source="explanation">6400 Wilkinson Drive Prescott, AZ 86301-6164  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="45">
+        <xs:annotation>
+          <xs:documentation source="valueID">45</xs:documentation>
+          <xs:documentation source="description">Chelton Flight Systems</xs:documentation>
+          <xs:documentation source="detailedDescription">Chelton Flight Systems</xs:documentation>
+          <xs:documentation source="explanation">1109 Main Street, Suite 560 Boise Idaho 83702 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40">
+        <xs:annotation>
+          <xs:documentation source="valueID">40</xs:documentation>
+          <xs:documentation source="description">CIMSA Ingenieria de Sistemas, S.A.</xs:documentation>
+          <xs:documentation source="detailedDescription">CIMSA Ingenieria de Sistemas, S.A.</xs:documentation>
+          <xs:documentation source="explanation">Valles, s/n - Pol. El Ramassar 08520 Las Franquesas BARCELONA </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="46">
+        <xs:annotation>
+          <xs:documentation source="valueID">46</xs:documentation>
+          <xs:documentation source="description">Cirrus Technik GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Cirrus Technik GmbH</xs:documentation>
+          <xs:documentation source="explanation">Flughafen Saarbrücken 66131 Saarbrücken  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="47">
+        <xs:annotation>
+          <xs:documentation source="valueID">47</xs:documentation>
+          <xs:documentation source="description">DAe Systems GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">DAe Systems GmbH</xs:documentation>
+          <xs:documentation source="explanation">Revalstr. 1 23560 Lübeck  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50">
+        <xs:annotation>
+          <xs:documentation source="valueID">50</xs:documentation>
+          <xs:documentation source="description">Dayton-Granger, Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Dayton-Granger, Inc.</xs:documentation>
+          <xs:documentation source="explanation">3299 S.W. 9th Avenue Fort Lauderdale, Fla. 33315  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="51">
+        <xs:annotation>
+          <xs:documentation source="valueID">51</xs:documentation>
+          <xs:documentation source="description">DeCrane Aircraft Seating Company, Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">DeCrane Aircraft Seating Company, Inc.</xs:documentation>
+          <xs:documentation source="explanation">701 Maple Street Peshtigo WI 54157 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="48">
+        <xs:annotation>
+          <xs:documentation source="valueID">48</xs:documentation>
+          <xs:documentation source="description">DME Corporation</xs:documentation>
+          <xs:documentation source="detailedDescription">DME Corporation</xs:documentation>
+          <xs:documentation source="explanation">6830 N. W.16th Terrace Fort Lauderdale FL 33309-1518 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="52">
+        <xs:annotation>
+          <xs:documentation source="valueID">52</xs:documentation>
+          <xs:documentation source="description">DoKaSch GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">DoKaSch GmbH</xs:documentation>
+          <xs:documentation source="explanation">Air Cargo Equipment + Repair Postfach 1359 Industriegebiet Feincheswiese 56424 Staudt</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="49">
+        <xs:annotation>
+          <xs:documentation source="valueID">49</xs:documentation>
+          <xs:documentation source="description">DR&amp;D Industries</xs:documentation>
+          <xs:documentation source="detailedDescription">DR&amp;D Industries</xs:documentation>
+          <xs:documentation source="explanation">3, rue de la Croix Blanche BP 1121 27950 Saint-Marcel </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="53">
+        <xs:annotation>
+          <xs:documentation source="valueID">53</xs:documentation>
+          <xs:documentation source="description">Driessen Aircraft Interior Systems (Europe) BV</xs:documentation>
+          <xs:documentation source="detailedDescription">Driessen Aircraft Interior Systems (Europe) BV</xs:documentation>
+          <xs:documentation source="explanation">De Stek 1 P.O. Box 28 1770 AA Wieringerwerf </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="54">
+        <xs:annotation>
+          <xs:documentation source="valueID">54</xs:documentation>
+          <xs:documentation source="description">Dunlop Aerospace Ltd, T/T Dunlop Aerospace Braking Systems</xs:documentation>
+          <xs:documentation source="detailedDescription">Dunlop Aerospace Ltd, T/T Dunlop Aerospace Braking Systems</xs:documentation>
+          <xs:documentation source="explanation">Holbrook Lane Coventry West Midlands CV6 4AA</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="55">
+        <xs:annotation>
+          <xs:documentation source="valueID">55</xs:documentation>
+          <xs:documentation source="description">Dunlop Aircraft Tyres Limited</xs:documentation>
+          <xs:documentation source="detailedDescription">Dunlop Aircraft Tyres Limited</xs:documentation>
+          <xs:documentation source="explanation">40 Fort Parkway Erdington Birmingham B24 9HL </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="56">
+        <xs:annotation>
+          <xs:documentation source="valueID">56</xs:documentation>
+          <xs:documentation source="description">EADS Deutschland GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">EADS Deutschland GmbH</xs:documentation>
+          <xs:documentation source="explanation">Woerthstrasse 85 89077 Ulm  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="57">
+        <xs:annotation>
+          <xs:documentation source="valueID">57</xs:documentation>
+          <xs:documentation source="description">EADS Sogerma Services</xs:documentation>
+          <xs:documentation source="detailedDescription">EADS Sogerma Services</xs:documentation>
+          <xs:documentation source="explanation">Z.I. de L'Arsenal BP 109 17303 ROCHEFORT Cedex </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="58">
+        <xs:annotation>
+          <xs:documentation source="valueID">58</xs:documentation>
+          <xs:documentation source="description">EAE electronics GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">EAE electronics GmbH</xs:documentation>
+          <xs:documentation source="explanation">Dekan-Laist-Str. 52 55129 Mainz  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="61">
+        <xs:annotation>
+          <xs:documentation source="valueID">61</xs:documentation>
+          <xs:documentation source="description">Eastern Aero Marine (EAM)</xs:documentation>
+          <xs:documentation source="detailedDescription">Eastern Aero Marine (EAM)</xs:documentation>
+          <xs:documentation source="explanation">5502 NW 37th Avenue Miami, FL 33142  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="62">
+        <xs:annotation>
+          <xs:documentation source="valueID">62</xs:documentation>
+          <xs:documentation source="description">Eaton Limited</xs:documentation>
+          <xs:documentation source="detailedDescription">Eaton Limited</xs:documentation>
+          <xs:documentation source="explanation">Broad Ground Road Lakeside Redditch Worcs B98 8 YS </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="59">
+        <xs:annotation>
+          <xs:documentation source="valueID">59</xs:documentation>
+          <xs:documentation source="description">ECT Industries</xs:documentation>
+          <xs:documentation source="detailedDescription">ECT Industries</xs:documentation>
+          <xs:documentation source="explanation">ZA la Plaine 07130 SOYONS  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="60">
+        <xs:annotation>
+          <xs:documentation source="valueID">60</xs:documentation>
+          <xs:documentation source="description">ELTA SA</xs:documentation>
+          <xs:documentation source="detailedDescription">ELTA SA</xs:documentation>
+          <xs:documentation source="explanation">14 Place Marcel Dassault BP 70048 31702 Blagnac </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="63">
+        <xs:annotation>
+          <xs:documentation source="valueID">63</xs:documentation>
+          <xs:documentation source="description">Embex</xs:documentation>
+          <xs:documentation source="detailedDescription">Embex</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="64">
+        <xs:annotation>
+          <xs:documentation source="valueID">64</xs:documentation>
+          <xs:documentation source="description">Envirotainer Engineering AB</xs:documentation>
+          <xs:documentation source="detailedDescription">Envirotainer Engineering AB</xs:documentation>
+          <xs:documentation source="explanation">Lagga Marma SE-741 93 Knivsta  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="65">
+        <xs:annotation>
+          <xs:documentation source="valueID">65</xs:documentation>
+          <xs:documentation source="description">Essex PB&amp;R Corporation</xs:documentation>
+          <xs:documentation source="detailedDescription">Essex PB&amp;R Corporation</xs:documentation>
+          <xs:documentation source="explanation">8007 Chivvis Drive St. Louis Missouri 63123 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="66">
+        <xs:annotation>
+          <xs:documentation source="valueID">66</xs:documentation>
+          <xs:documentation source="description">Euro Telematik AG</xs:documentation>
+          <xs:documentation source="detailedDescription">Euro Telematik AG</xs:documentation>
+          <xs:documentation source="explanation">Riedeweg 5 89081 Ulm  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="67">
+        <xs:annotation>
+          <xs:documentation source="valueID">67</xs:documentation>
+          <xs:documentation source="description">EuroAvionics Navigationssysteme GmbH &amp; Co. KG</xs:documentation>
+          <xs:documentation source="detailedDescription">EuroAvionics Navigationssysteme GmbH &amp; Co. KG</xs:documentation>
+          <xs:documentation source="explanation">Am Lindenberg 8 71263 Weil der Stadt - Hausen  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="68">
+        <xs:annotation>
+          <xs:documentation source="valueID">68</xs:documentation>
+          <xs:documentation source="description">FAST Aero Space Technologies AG</xs:documentation>
+          <xs:documentation source="detailedDescription">FAST Aero Space Technologies AG</xs:documentation>
+          <xs:documentation source="explanation">Airport 2540 Grenchen  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="70">
+        <xs:annotation>
+          <xs:documentation source="valueID">70</xs:documentation>
+          <xs:documentation source="description">Filser Electronic GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Filser Electronic GmbH</xs:documentation>
+          <xs:documentation source="explanation">Gewerbestrasse 2 86875 Waal  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="71">
+        <xs:annotation>
+          <xs:documentation source="valueID">71</xs:documentation>
+          <xs:documentation source="description">Firebird GmbH &amp; Co. KG</xs:documentation>
+          <xs:documentation source="detailedDescription">Firebird GmbH &amp; Co. KG</xs:documentation>
+          <xs:documentation source="explanation">Am Tower 16 54634 Bitburg  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="72">
+        <xs:annotation>
+          <xs:documentation source="valueID">72</xs:documentation>
+          <xs:documentation source="description">Fischer + Entwicklungen GmbH &amp; Co KG </xs:documentation>
+          <xs:documentation source="detailedDescription">Fischer + Entwicklungen GmbH &amp; Co KG </xs:documentation>
+          <xs:documentation source="explanation">Müller-Armack-Strasse 4 84034 Landshut  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="73">
+        <xs:annotation>
+          <xs:documentation source="valueID">73</xs:documentation>
+          <xs:documentation source="description">Flight Components AG</xs:documentation>
+          <xs:documentation source="detailedDescription">Flight Components AG</xs:documentation>
+          <xs:documentation source="explanation">Bitzibergstrasse 5 8184 Bachenbülach  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="74">
+        <xs:annotation>
+          <xs:documentation source="valueID">74</xs:documentation>
+          <xs:documentation source="description">Flying Service Engineering &amp; Equipment Ltd</xs:documentation>
+          <xs:documentation source="detailedDescription">Flying Service Engineering &amp; Equipment Ltd</xs:documentation>
+          <xs:documentation source="explanation">Springfield Road Chesham Buckinghamshire HP5 1PP </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="75">
+        <xs:annotation>
+          <xs:documentation source="valueID">75</xs:documentation>
+          <xs:documentation source="description">Franklin Products Ltd</xs:documentation>
+          <xs:documentation source="detailedDescription">Franklin Products Ltd</xs:documentation>
+          <xs:documentation source="explanation">Unit 03 Cherrycourt Way Leighton Buzzard Beds LU7 4UH</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="69">
+        <xs:annotation>
+          <xs:documentation source="valueID">69</xs:documentation>
+          <xs:documentation source="description">FRC Component Products Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">FRC Component Products Inc.</xs:documentation>
+          <xs:documentation source="explanation">1511 South Benjamin Avenue 50401 Mason City  Iowa</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="76">
+        <xs:annotation>
+          <xs:documentation source="valueID">76</xs:documentation>
+          <xs:documentation source="description">FreeFlight Systems</xs:documentation>
+          <xs:documentation source="detailedDescription">FreeFlight Systems</xs:documentation>
+          <xs:documentation source="explanation">3700 Interstate 35 S. Waco Texas 76706 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="77">
+        <xs:annotation>
+          <xs:documentation source="valueID">77</xs:documentation>
+          <xs:documentation source="description">G&amp;L Technology Ltd</xs:documentation>
+          <xs:documentation source="detailedDescription">G&amp;L Technology Ltd</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="83">
+        <xs:annotation>
+          <xs:documentation source="valueID">83</xs:documentation>
+          <xs:documentation source="description">Gables Engineering Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Gables Engineering Inc.</xs:documentation>
+          <xs:documentation source="explanation">247 Greco Avenue Coral Gables FL33146 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="84">
+        <xs:annotation>
+          <xs:documentation source="valueID">84</xs:documentation>
+          <xs:documentation source="description">Garmin AT, Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Garmin AT, Inc.</xs:documentation>
+          <xs:documentation source="explanation">2345 Turner Rd SE Salem Oregon 97302 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="85">
+        <xs:annotation>
+          <xs:documentation source="valueID">85</xs:documentation>
+          <xs:documentation source="description">Garmin International</xs:documentation>
+          <xs:documentation source="detailedDescription">Garmin International</xs:documentation>
+          <xs:documentation source="explanation">1200 East 151st Street Olathe Kansas 66062 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="86">
+        <xs:annotation>
+          <xs:documentation source="valueID">86</xs:documentation>
+          <xs:documentation source="description">Garrecht Avionik GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Garrecht Avionik GmbH</xs:documentation>
+          <xs:documentation source="explanation">Am Graben 4 D-55263 Wackernheim  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="78">
+        <xs:annotation>
+          <xs:documentation source="valueID">78</xs:documentation>
+          <xs:documentation source="description">GE Aviation (formerly Smiths Aerospace)</xs:documentation>
+          <xs:documentation source="detailedDescription">GE Aviation (formerly Smiths Aerospace)</xs:documentation>
+          <xs:documentation source="explanation">Bishops Cleeve Cheltenham Gloucestershire, GL52 8SF </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="79">
+        <xs:annotation>
+          <xs:documentation source="valueID">79</xs:documentation>
+          <xs:documentation source="description">GE Sensing (Druck Ltd.)</xs:documentation>
+          <xs:documentation source="detailedDescription">GE Sensing (Druck Ltd.)</xs:documentation>
+          <xs:documentation source="explanation">Fir Tree Lane Groby Leicestershire LE6 0EH</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="80">
+        <xs:annotation>
+          <xs:documentation source="valueID">80</xs:documentation>
+          <xs:documentation source="description">GEMELLI S.r.I.</xs:documentation>
+          <xs:documentation source="detailedDescription">GEMELLI S.r.I.</xs:documentation>
+          <xs:documentation source="explanation">Via Manzoni 39 20010 Canegrate (MI)  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="87">
+        <xs:annotation>
+          <xs:documentation source="valueID">87</xs:documentation>
+          <xs:documentation source="description">Geven SrL</xs:documentation>
+          <xs:documentation source="detailedDescription">Geven SrL</xs:documentation>
+          <xs:documentation source="explanation">Via Boscofangone Zona ASI 80035 Nola (NA) </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="81">
+        <xs:annotation>
+          <xs:documentation source="valueID">81</xs:documentation>
+          <xs:documentation source="description">GITA Aviation (Changzhou) Co. Ltd.</xs:documentation>
+          <xs:documentation source="detailedDescription">GITA Aviation (Changzhou) Co. Ltd.</xs:documentation>
+          <xs:documentation source="explanation">Puqian Industrial Park No. 105 Lu Chang Tou Guanghua Road, Changzhou Jiangsu Province</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="88">
+        <xs:annotation>
+          <xs:documentation source="valueID">88</xs:documentation>
+          <xs:documentation source="description">Goodrich Avionics Systems, Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Goodrich Avionics Systems, Inc.</xs:documentation>
+          <xs:documentation source="explanation">5353 52nd Street, S.E. Grand Rapids MI 49512-9704 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="89">
+        <xs:annotation>
+          <xs:documentation source="valueID">89</xs:documentation>
+          <xs:documentation source="description">Goodrich Power Systems</xs:documentation>
+          <xs:documentation source="detailedDescription">Goodrich Power Systems</xs:documentation>
+          <xs:documentation source="explanation">Pitstone Green Business Park Westfield Road Pitstone Buckinghamshire LU7 9GT </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="90">
+        <xs:annotation>
+          <xs:documentation source="valueID">90</xs:documentation>
+          <xs:documentation source="description">Goodyear (Thailand) PCL</xs:documentation>
+          <xs:documentation source="detailedDescription">Goodyear (Thailand) PCL</xs:documentation>
+          <xs:documentation source="explanation">50/9 Paholyotin Road Klong Luang Patumthani 12120</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="82">
+        <xs:annotation>
+          <xs:documentation source="valueID">82</xs:documentation>
+          <xs:documentation source="description">GPI</xs:documentation>
+          <xs:documentation source="detailedDescription">GPI</xs:documentation>
+          <xs:documentation source="explanation">Zone Artisanale de la Bohalle BP1 49800 Brain sur L'Authion </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="91">
+        <xs:annotation>
+          <xs:documentation source="valueID">91</xs:documentation>
+          <xs:documentation source="description">Greiner PURtec GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Greiner PURtec GmbH</xs:documentation>
+          <xs:documentation source="explanation">Erwin Greiner Str. 5 4690 Schwanenstadt  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="92">
+        <xs:annotation>
+          <xs:documentation source="valueID">92</xs:documentation>
+          <xs:documentation source="description">Grupo Antolin Transport</xs:documentation>
+          <xs:documentation source="detailedDescription">Grupo Antolin Transport</xs:documentation>
+          <xs:documentation source="explanation">Zone Industrielle de l'Orne les Sources 42160 Andrézieux-Bouthèon  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="94">
+        <xs:annotation>
+          <xs:documentation source="valueID">94</xs:documentation>
+          <xs:documentation source="description">Hamilton Sundstrand Power Systems</xs:documentation>
+          <xs:documentation source="detailedDescription">Hamilton Sundstrand Power Systems</xs:documentation>
+          <xs:documentation source="explanation">4400 Ruffin Road P.O. Box 85757 San Diego CA 92186-5757</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="95">
+        <xs:annotation>
+          <xs:documentation source="valueID">95</xs:documentation>
+          <xs:documentation source="description">Heinrich Mertens</xs:documentation>
+          <xs:documentation source="detailedDescription">Heinrich Mertens</xs:documentation>
+          <xs:documentation source="explanation">Im Braukhaussiepen 14 58802 Balve  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="96">
+        <xs:annotation>
+          <xs:documentation source="valueID">96</xs:documentation>
+          <xs:documentation source="description">Helly Hansen Spesialprodukter AS</xs:documentation>
+          <xs:documentation source="detailedDescription">Helly Hansen Spesialprodukter AS</xs:documentation>
+          <xs:documentation source="explanation">Postboks 218 N-1501 Moss  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="97">
+        <xs:annotation>
+          <xs:documentation source="valueID">97</xs:documentation>
+          <xs:documentation source="description">Hoffmann Air Cargo Equipment GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Hoffmann Air Cargo Equipment GmbH</xs:documentation>
+          <xs:documentation source="explanation">Pfingsweide 27-31 61169 Friedberg  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Holmberg GmbH &amp; Co. KG</xs:documentation>
+          <xs:documentation source="detailedDescription">Holmberg GmbH &amp; Co. KG</xs:documentation>
+          <xs:documentation source="explanation">Ohlauer Straße 5-11 10999 Berlin  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Honeywell ASCa Inc</xs:documentation>
+          <xs:documentation source="detailedDescription">Honeywell ASCa Inc</xs:documentation>
+          <xs:documentation source="explanation">3333 Unity Drive Mississauga Ontario L5L S6S</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">Honeywell Commercial Aviation Products</xs:documentation>
+          <xs:documentation source="detailedDescription">Honeywell Commercial Aviation Products</xs:documentation>
+          <xs:documentation source="explanation">8840 Evergreen Blvd. Minneapolis MN 55433-6040 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="101">
+        <xs:annotation>
+          <xs:documentation source="valueID">101</xs:documentation>
+          <xs:documentation source="description">Honeywell Engines Systems &amp; Services</xs:documentation>
+          <xs:documentation source="detailedDescription">Honeywell Engines Systems &amp; Services</xs:documentation>
+          <xs:documentation source="explanation">111 S. 34th Street P.O. Box 52181 Phoenix, AZ 85072-2181 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="102">
+        <xs:annotation>
+          <xs:documentation source="valueID">102</xs:documentation>
+          <xs:documentation source="description">Honeywell Grimes Aerospace Company</xs:documentation>
+          <xs:documentation source="detailedDescription">Honeywell Grimes Aerospace Company</xs:documentation>
+          <xs:documentation source="explanation">550 Route 55 Urbana OH 43078 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="103">
+        <xs:annotation>
+          <xs:documentation source="valueID">103</xs:documentation>
+          <xs:documentation source="description">Honeywell International Inc. (Glendale)</xs:documentation>
+          <xs:documentation source="detailedDescription">Honeywell International Inc. (Glendale)</xs:documentation>
+          <xs:documentation source="explanation">21111 N 19th Avenue Phoenix Arizona 85027 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="104">
+        <xs:annotation>
+          <xs:documentation source="valueID">104</xs:documentation>
+          <xs:documentation source="description">Honeywell International Inc. (Olathe)</xs:documentation>
+          <xs:documentation source="detailedDescription">Honeywell International Inc. (Olathe)</xs:documentation>
+          <xs:documentation source="explanation">One Technology Center 23500 W.105th St MS 37 Olathe Kansas 66061</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="105">
+        <xs:annotation>
+          <xs:documentation source="valueID">105</xs:documentation>
+          <xs:documentation source="description">Honeywell International Inc. (Phoenix)</xs:documentation>
+          <xs:documentation source="detailedDescription">Honeywell International Inc. (Phoenix)</xs:documentation>
+          <xs:documentation source="explanation">21111 N 19th Avenue Phoenix Arizona 85027 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="106">
+        <xs:annotation>
+          <xs:documentation source="valueID">106</xs:documentation>
+          <xs:documentation source="description">Honeywell International Inc. (Redmond)</xs:documentation>
+          <xs:documentation source="detailedDescription">Honeywell International Inc. (Redmond)</xs:documentation>
+          <xs:documentation source="explanation">15001 N.E 36th Street PO Box 97001 Redmond Washington 98073-9701</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="107">
+        <xs:annotation>
+          <xs:documentation source="valueID">107</xs:documentation>
+          <xs:documentation source="description">Hoover Industries</xs:documentation>
+          <xs:documentation source="detailedDescription">Hoover Industries</xs:documentation>
+          <xs:documentation source="explanation">7260 N.W. 68th Street Miami, FL 33166-2014  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="93">
+        <xs:annotation>
+          <xs:documentation source="valueID">93</xs:documentation>
+          <xs:documentation source="description">HR Smith (Technical Developments) Ltd</xs:documentation>
+          <xs:documentation source="detailedDescription">HR Smith (Technical Developments) Ltd</xs:documentation>
+          <xs:documentation source="explanation">Street Court Kingsland Leominster Herefordshire  HR6 9QA</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="109">
+        <xs:annotation>
+          <xs:documentation source="valueID">109</xs:documentation>
+          <xs:documentation source="description">Ing. Büro Lang</xs:documentation>
+          <xs:documentation source="detailedDescription">Ing. Büro Lang</xs:documentation>
+          <xs:documentation source="explanation">Dorfstr. 14a 21739 Dollern  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="110">
+        <xs:annotation>
+          <xs:documentation source="valueID">110</xs:documentation>
+          <xs:documentation source="description">Innovint Aircraft Interior</xs:documentation>
+          <xs:documentation source="detailedDescription">Innovint Aircraft Interior</xs:documentation>
+          <xs:documentation source="explanation">Holzmühlenstr. 84-86 22041 Hamburg  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="111">
+        <xs:annotation>
+          <xs:documentation source="valueID">111</xs:documentation>
+          <xs:documentation source="description">Intertechnique</xs:documentation>
+          <xs:documentation source="detailedDescription">Intertechnique</xs:documentation>
+          <xs:documentation source="explanation">61 Rue Pierre Curie B.P.1 78373, Plaisir Cedex </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="112">
+        <xs:annotation>
+          <xs:documentation source="valueID">112</xs:documentation>
+          <xs:documentation source="description">Ipeco Holdings Limited</xs:documentation>
+          <xs:documentation source="detailedDescription">Ipeco Holdings Limited</xs:documentation>
+          <xs:documentation source="explanation">Aviation Way Southend Airport Southend on Sea Essex SS2 6UN</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="108">
+        <xs:annotation>
+          <xs:documentation source="valueID">108</xs:documentation>
+          <xs:documentation source="description">ISOTH'AIR</xs:documentation>
+          <xs:documentation source="detailedDescription">ISOTH'AIR</xs:documentation>
+          <xs:documentation source="explanation">Rue de l'Abrivado ZI les Aiguillons 30230, BOULLARGES  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="113">
+        <xs:annotation>
+          <xs:documentation source="valueID">113</xs:documentation>
+          <xs:documentation source="description">KLM</xs:documentation>
+          <xs:documentation source="detailedDescription">KLM</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="115">
+        <xs:annotation>
+          <xs:documentation source="valueID">115</xs:documentation>
+          <xs:documentation source="description">L-3 Communications Aviation Recorders</xs:documentation>
+          <xs:documentation source="detailedDescription">L-3 Communications Aviation Recorders</xs:documentation>
+          <xs:documentation source="explanation">6000 Fruitville Road Sarasota FL 34232 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="116">
+        <xs:annotation>
+          <xs:documentation source="valueID">116</xs:documentation>
+          <xs:documentation source="description">L-3 Communications Avionics Systems Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">L-3 Communications Avionics Systems Inc.</xs:documentation>
+          <xs:documentation source="explanation">5353 52nd Street SE Grand Rapids MI 49512-9704 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="114">
+        <xs:annotation>
+          <xs:documentation source="valueID">114</xs:documentation>
+          <xs:documentation source="description">L'Hotellier</xs:documentation>
+          <xs:documentation source="detailedDescription">L'Hotellier</xs:documentation>
+          <xs:documentation source="explanation">4, rue Henri Poincaré 92167 ANTONY Cedex  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="117">
+        <xs:annotation>
+          <xs:documentation source="valueID">117</xs:documentation>
+          <xs:documentation source="description">LITEF GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">LITEF GmbH</xs:documentation>
+          <xs:documentation source="explanation">Lörracherstr. 18 79115 Freiburg  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="123">
+        <xs:annotation>
+          <xs:documentation source="valueID">123</xs:documentation>
+          <xs:documentation source="description">Marc Ingegno</xs:documentation>
+          <xs:documentation source="detailedDescription">Marc Ingegno</xs:documentation>
+          <xs:documentation source="explanation">Regione Pomarolo 13019 Roccapietra di Varallo Sesia </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="122">
+        <xs:annotation>
+          <xs:documentation source="valueID">122</xs:documentation>
+          <xs:documentation source="description">MarS a.s.</xs:documentation>
+          <xs:documentation source="detailedDescription">MarS a.s.</xs:documentation>
+          <xs:documentation source="explanation">Okruzni II. c.p. 239 569 43 Jevicko  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="118">
+        <xs:annotation>
+          <xs:documentation source="valueID">118</xs:documentation>
+          <xs:documentation source="description">MARTEC SERPE-IESM</xs:documentation>
+          <xs:documentation source="detailedDescription">MARTEC SERPE-IESM</xs:documentation>
+          <xs:documentation source="explanation">Z.I. 5 Chemins 56520 Guidel  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="124">
+        <xs:annotation>
+          <xs:documentation source="valueID">124</xs:documentation>
+          <xs:documentation source="description">Martin Baker Aircraft Company Ltd</xs:documentation>
+          <xs:documentation source="detailedDescription">Martin Baker Aircraft Company Ltd</xs:documentation>
+          <xs:documentation source="explanation">Higher Denham Near Uxbridge Middlessex UB9 5AJ </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="125">
+        <xs:annotation>
+          <xs:documentation source="valueID">125</xs:documentation>
+          <xs:documentation source="description">Meggitt Aerospace Ltd. T/A Meggitt Aircraft Braking Systems</xs:documentation>
+          <xs:documentation source="detailedDescription">Meggitt Aerospace Ltd. T/A Meggitt Aircraft Braking Systems</xs:documentation>
+          <xs:documentation source="explanation">Holbrook Lane Coventry West Midlands CV6 4AA</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="126">
+        <xs:annotation>
+          <xs:documentation source="valueID">126</xs:documentation>
+          <xs:documentation source="description">Meggitt Avionics</xs:documentation>
+          <xs:documentation source="detailedDescription">Meggitt Avionics</xs:documentation>
+          <xs:documentation source="explanation">7 Whittle Avenue Segensworth Fareham Hampshire PO15 5SH </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="127">
+        <xs:annotation>
+          <xs:documentation source="valueID">127</xs:documentation>
+          <xs:documentation source="description">Messier Bugatti</xs:documentation>
+          <xs:documentation source="detailedDescription">Messier Bugatti</xs:documentation>
+          <xs:documentation source="explanation">Zone Aéronautique Louis Bréguet BP40 78141 VELIZY Cedex </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="119">
+        <xs:annotation>
+          <xs:documentation source="valueID">119</xs:documentation>
+          <xs:documentation source="description">MICHELIN - LPAV</xs:documentation>
+          <xs:documentation source="detailedDescription">MICHELIN - LPAV</xs:documentation>
+          <xs:documentation source="explanation">Place des Carmes-Déchaux 63040 Clermont-Ferrand Cedex 9  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="128">
+        <xs:annotation>
+          <xs:documentation source="valueID">128</xs:documentation>
+          <xs:documentation source="description">Microturbo</xs:documentation>
+          <xs:documentation source="detailedDescription">Microturbo</xs:documentation>
+          <xs:documentation source="explanation">8, chemin du pont de Rupe 91019 Toulouse cedex 2  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="129">
+        <xs:annotation>
+          <xs:documentation source="valueID">129</xs:documentation>
+          <xs:documentation source="description">Mid-Continent Instruments</xs:documentation>
+          <xs:documentation source="detailedDescription">Mid-Continent Instruments</xs:documentation>
+          <xs:documentation source="explanation">9400 E. 34th Street N. Wichita KS 67226 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="120">
+        <xs:annotation>
+          <xs:documentation source="valueID">120</xs:documentation>
+          <xs:documentation source="description">MIKROTECHNA PRAHA a.s</xs:documentation>
+          <xs:documentation source="detailedDescription">MIKROTECHNA PRAHA a.s</xs:documentation>
+          <xs:documentation source="explanation">Barrandova 409 143 00 Praha 4  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="121">
+        <xs:annotation>
+          <xs:documentation source="valueID">121</xs:documentation>
+          <xs:documentation source="description">MITAS a.s.</xs:documentation>
+          <xs:documentation source="detailedDescription">MITAS a.s.</xs:documentation>
+          <xs:documentation source="explanation">Svehlova 1900 106 25 Praha 10  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="130">
+        <xs:annotation>
+          <xs:documentation source="valueID">130</xs:documentation>
+          <xs:documentation source="description">NEC</xs:documentation>
+          <xs:documentation source="detailedDescription">NEC</xs:documentation>
+          <xs:documentation source="explanation">174-176 Quai de Jemmapes 75010 Paris  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="131">
+        <xs:annotation>
+          <xs:documentation source="valueID">131</xs:documentation>
+          <xs:documentation source="description">Nordisk Aviation Products a.s</xs:documentation>
+          <xs:documentation source="detailedDescription">Nordisk Aviation Products a.s</xs:documentation>
+          <xs:documentation source="explanation">Weidemannsgate 8 P.O. Box 173 3081 Holmestrand </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="132">
+        <xs:annotation>
+          <xs:documentation source="valueID">132</xs:documentation>
+          <xs:documentation source="description">Northern Airborne Technology Ltd.</xs:documentation>
+          <xs:documentation source="detailedDescription">Northern Airborne Technology Ltd.</xs:documentation>
+          <xs:documentation source="explanation">14-1925 Kirschner Road Kelowna British Columbia  V1Y 4N7</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="137">
+        <xs:annotation>
+          <xs:documentation source="valueID">137</xs:documentation>
+          <xs:documentation source="description">PalNet GmbH Air Cargo Products</xs:documentation>
+          <xs:documentation source="detailedDescription">PalNet GmbH Air Cargo Products</xs:documentation>
+          <xs:documentation source="explanation">Vulkanstraße 10 54578 Wiesbaum  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="133">
+        <xs:annotation>
+          <xs:documentation source="valueID">133</xs:documentation>
+          <xs:documentation source="description">PARACHUTES DE FRANCE S.A</xs:documentation>
+          <xs:documentation source="detailedDescription">PARACHUTES DE FRANCE S.A</xs:documentation>
+          <xs:documentation source="explanation">2, RUE DENIS PAPIN 
+JOUY LE MOUTIER
+95031CERGY PONTOISE CEDEX   </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="134">
+        <xs:annotation>
+          <xs:documentation source="valueID">134</xs:documentation>
+          <xs:documentation source="description">PARAFUN</xs:documentation>
+          <xs:documentation source="detailedDescription">PARAFUN</xs:documentation>
+          <xs:documentation source="explanation">Le Mas de Pouverel 83340 Le LUC  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="138">
+        <xs:annotation>
+          <xs:documentation source="valueID">138</xs:documentation>
+          <xs:documentation source="description">Paratec Fallschirmbau-Technik-Service-Vertrieb GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Paratec Fallschirmbau-Technik-Service-Vertrieb GmbH</xs:documentation>
+          <xs:documentation source="explanation">Flugplatz 66798 Wallerfangen  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="139">
+        <xs:annotation>
+          <xs:documentation source="valueID">139</xs:documentation>
+          <xs:documentation source="description">Patmos Engineering Services, Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Patmos Engineering Services, Inc.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="140">
+        <xs:annotation>
+          <xs:documentation source="valueID">140</xs:documentation>
+          <xs:documentation source="description">Penny &amp; Giles Aerospace Ltd</xs:documentation>
+          <xs:documentation source="detailedDescription">Penny &amp; Giles Aerospace Ltd</xs:documentation>
+          <xs:documentation source="explanation">1 Airfield Road Christchurch Dorset BH23 3TH</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="141">
+        <xs:annotation>
+          <xs:documentation source="valueID">141</xs:documentation>
+          <xs:documentation source="description">Performance Designs Inc</xs:documentation>
+          <xs:documentation source="detailedDescription">Performance Designs Inc</xs:documentation>
+          <xs:documentation source="explanation">1300 East International Speedway Blvd. Deland Florida 32724 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="142">
+        <xs:annotation>
+          <xs:documentation source="valueID">142</xs:documentation>
+          <xs:documentation source="description">Pratt &amp; Whitney Canada</xs:documentation>
+          <xs:documentation source="detailedDescription">Pratt &amp; Whitney Canada</xs:documentation>
+          <xs:documentation source="explanation">1000 Marie-Victorin Longueuil Quebec J4G 1A1</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="143">
+        <xs:annotation>
+          <xs:documentation source="valueID">143</xs:documentation>
+          <xs:documentation source="description">Premium Aircraft Interiors UK Ltd. T/A Contour Premium Aircraft Seating</xs:documentation>
+          <xs:documentation source="detailedDescription">Premium Aircraft Interiors UK Ltd. T/A Contour Premium Aircraft Seating</xs:documentation>
+          <xs:documentation source="explanation">Kestrel House Lakeside Llantarnham Park Cwmbran, Torfaen NP44 3HQ</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="135">
+        <xs:annotation>
+          <xs:documentation source="valueID">135</xs:documentation>
+          <xs:documentation source="description">PRONAL</xs:documentation>
+          <xs:documentation source="detailedDescription">PRONAL</xs:documentation>
+          <xs:documentation source="explanation">Z.I ROUBAIX-EST Rue du Trieu du Quesnoy 59115 LEERS </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="144">
+        <xs:annotation>
+          <xs:documentation source="valueID">144</xs:documentation>
+          <xs:documentation source="description">Prvni brenská strojirna Velká Bites a.s.</xs:documentation>
+          <xs:documentation source="detailedDescription">Prvni brenská strojirna Velká Bites a.s.</xs:documentation>
+          <xs:documentation source="explanation">Velká Bites Vlkovská 279 595 12 Velká Bites </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="136">
+        <xs:annotation>
+          <xs:documentation source="valueID">136</xs:documentation>
+          <xs:documentation source="description">PS Engineering Inc</xs:documentation>
+          <xs:documentation source="detailedDescription">PS Engineering Inc</xs:documentation>
+          <xs:documentation source="explanation">9800 Martel Road Lenoir City TN. 37772 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="148">
+        <xs:annotation>
+          <xs:documentation source="valueID">148</xs:documentation>
+          <xs:documentation source="description">Raytheon Systems Limited</xs:documentation>
+          <xs:documentation source="detailedDescription">Raytheon Systems Limited</xs:documentation>
+          <xs:documentation source="explanation">The Pinnacles Harlow Essex CM19 5BB</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="149">
+        <xs:annotation>
+          <xs:documentation source="valueID">149</xs:documentation>
+          <xs:documentation source="description">Recaro Aircraft Seating GmbH &amp; Co</xs:documentation>
+          <xs:documentation source="detailedDescription">Recaro Aircraft Seating GmbH &amp; Co</xs:documentation>
+          <xs:documentation source="explanation">Daimlerstr. 21 74523 Schwäbisch Hall  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="150">
+        <xs:annotation>
+          <xs:documentation source="valueID">150</xs:documentation>
+          <xs:documentation source="description">Regent Aerospace</xs:documentation>
+          <xs:documentation source="detailedDescription">Regent Aerospace</xs:documentation>
+          <xs:documentation source="explanation">2501 E Hadley Rd Plainfield IN 46123 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="145">
+        <xs:annotation>
+          <xs:documentation source="valueID">145</xs:documentation>
+          <xs:documentation source="description">REVUE THOMMEN AG</xs:documentation>
+          <xs:documentation source="detailedDescription">REVUE THOMMEN AG</xs:documentation>
+          <xs:documentation source="explanation">Hauptstrasse 85 CH-4437 Waldenburg  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="146">
+        <xs:annotation>
+          <xs:documentation source="valueID">146</xs:documentation>
+          <xs:documentation source="description">RFD Beaufort Ltd.</xs:documentation>
+          <xs:documentation source="detailedDescription">RFD Beaufort Ltd.</xs:documentation>
+          <xs:documentation source="explanation">Kingsway, Dunmurry Belfast Northern Ireland, BT17 9AF </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="151">
+        <xs:annotation>
+          <xs:documentation source="valueID">151</xs:documentation>
+          <xs:documentation source="description">Ribeco Frachtgeräte GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Ribeco Frachtgeräte GmbH</xs:documentation>
+          <xs:documentation source="explanation">Max-Berk-Straße 4 69226 Nußloch  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="152">
+        <xs:annotation>
+          <xs:documentation source="valueID">152</xs:documentation>
+          <xs:documentation source="description">Rockwell Collins France</xs:documentation>
+          <xs:documentation source="detailedDescription">Rockwell Collins France</xs:documentation>
+          <xs:documentation source="explanation">6, Avenue Didier Daurat BP 8 31701 Blagnac Cedex </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="153">
+        <xs:annotation>
+          <xs:documentation source="valueID">153</xs:documentation>
+          <xs:documentation source="description">Rockwell Collins Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Rockwell Collins Inc.</xs:documentation>
+          <xs:documentation source="explanation">400 Collins Road, NE Cedar Rapids IA 52498 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="157">
+        <xs:annotation>
+          <xs:documentation source="valueID">157</xs:documentation>
+          <xs:documentation source="description">Röder Präzision GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Röder Präzision GmbH</xs:documentation>
+          <xs:documentation source="explanation">Am Flugplatz 63329 Egelsbach  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="154">
+        <xs:annotation>
+          <xs:documentation source="valueID">154</xs:documentation>
+          <xs:documentation source="description">Rohde &amp; Schwarz GmbH &amp; Co. KG</xs:documentation>
+          <xs:documentation source="detailedDescription">Rohde &amp; Schwarz GmbH &amp; Co. KG</xs:documentation>
+          <xs:documentation source="explanation">Graf Zeppelin-Strasse 18 51147 Koeln  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="155">
+        <xs:annotation>
+          <xs:documentation source="valueID">155</xs:documentation>
+          <xs:documentation source="description">Rohde &amp; Schwarz Messgerätebau GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Rohde &amp; Schwarz Messgerätebau GmbH</xs:documentation>
+          <xs:documentation source="explanation">Postfach 16 52 87686 Memmingen  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="147">
+        <xs:annotation>
+          <xs:documentation source="valueID">147</xs:documentation>
+          <xs:documentation source="description">RTX telecom A/S</xs:documentation>
+          <xs:documentation source="detailedDescription">RTX telecom A/S</xs:documentation>
+          <xs:documentation source="explanation">Stroemmen 6 DK-9400 Noerresundby  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="156">
+        <xs:annotation>
+          <xs:documentation source="valueID">156</xs:documentation>
+          <xs:documentation source="description">Ryan International Corporation</xs:documentation>
+          <xs:documentation source="detailedDescription">Ryan International Corporation</xs:documentation>
+          <xs:documentation source="explanation">4800 Evanswood Drive Columbus OH 43229 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="158">
+        <xs:annotation>
+          <xs:documentation source="valueID">158</xs:documentation>
+          <xs:documentation source="description">SAAB AB (Publ)</xs:documentation>
+          <xs:documentation source="detailedDescription">SAAB AB (Publ)</xs:documentation>
+          <xs:documentation source="explanation">Saab Aerotech Aircraft Services Division P.O. Box 321 S-611 27 Nyköping</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="159">
+        <xs:annotation>
+          <xs:documentation source="valueID">159</xs:documentation>
+          <xs:documentation source="description">SAAB Avitronics</xs:documentation>
+          <xs:documentation source="detailedDescription">SAAB Avitronics</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="160">
+        <xs:annotation>
+          <xs:documentation source="valueID">160</xs:documentation>
+          <xs:documentation source="description">SAGEM DEFENSE SECURITE</xs:documentation>
+          <xs:documentation source="detailedDescription">SAGEM DEFENSE SECURITE</xs:documentation>
+          <xs:documentation source="explanation">Le ponant de PARIS 27 rue Leblanc 75512 Paris Cedex 15 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="164">
+        <xs:annotation>
+          <xs:documentation source="valueID">164</xs:documentation>
+          <xs:documentation source="description">Sandel Avionics, Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Sandel Avionics, Inc.</xs:documentation>
+          <xs:documentation source="explanation">2401 Dogwood Way Vista CA 92081 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="165">
+        <xs:annotation>
+          <xs:documentation source="valueID">165</xs:documentation>
+          <xs:documentation source="description">Schroth Safety Products GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Schroth Safety Products GmbH</xs:documentation>
+          <xs:documentation source="explanation">Im Ohl 14 59757 Arnsberg  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="166">
+        <xs:annotation>
+          <xs:documentation source="valueID">166</xs:documentation>
+          <xs:documentation source="description">Selex Communications S.p.A.</xs:documentation>
+          <xs:documentation source="detailedDescription">Selex Communications S.p.A.</xs:documentation>
+          <xs:documentation source="explanation">Via Pieragostini, 80 16151 Genova  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="167">
+        <xs:annotation>
+          <xs:documentation source="valueID">167</xs:documentation>
+          <xs:documentation source="description">Sennheiser electronic GmbH&amp;Co. KG</xs:documentation>
+          <xs:documentation source="detailedDescription">Sennheiser electronic GmbH&amp;Co. KG</xs:documentation>
+          <xs:documentation source="explanation">Am Labor 1 30900 Wedemark  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="168">
+        <xs:annotation>
+          <xs:documentation source="valueID">168</xs:documentation>
+          <xs:documentation source="description">Septentrio Satellite Navigation</xs:documentation>
+          <xs:documentation source="detailedDescription">Septentrio Satellite Navigation</xs:documentation>
+          <xs:documentation source="explanation">Ubicenter Philipssite 5 3001 Leuven </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="161">
+        <xs:annotation>
+          <xs:documentation source="valueID">161</xs:documentation>
+          <xs:documentation source="description">SERPE-IESM</xs:documentation>
+          <xs:documentation source="detailedDescription">SERPE-IESM</xs:documentation>
+          <xs:documentation source="explanation">Z.I. des Cinq-Chemins 56520 Guidel  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="169">
+        <xs:annotation>
+          <xs:documentation source="valueID">169</xs:documentation>
+          <xs:documentation source="description">Shark Sports Ltd T/A Shark Group</xs:documentation>
+          <xs:documentation source="detailedDescription">Shark Sports Ltd T/A Shark Group</xs:documentation>
+          <xs:documentation source="explanation">Nordstromhouse North Broomhill Morpeth Northumberland NE65905</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="162">
+        <xs:annotation>
+          <xs:documentation source="valueID">162</xs:documentation>
+          <xs:documentation source="description">SICMA AERO SEAT</xs:documentation>
+          <xs:documentation source="detailedDescription">SICMA AERO SEAT</xs:documentation>
+          <xs:documentation source="explanation">Rue Robert Marechal Senior, ZI LA 36100, Issoudun  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="170">
+        <xs:annotation>
+          <xs:documentation source="valueID">170</xs:documentation>
+          <xs:documentation source="description">Siemens S.A.S.</xs:documentation>
+          <xs:documentation source="detailedDescription">Siemens S.A.S.</xs:documentation>
+          <xs:documentation source="explanation">ZI-617, Rue de Fourny-BP20 78531 BUC Cedex  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="171">
+        <xs:annotation>
+          <xs:documentation source="valueID">171</xs:documentation>
+          <xs:documentation source="description">Sigma Tec, Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Sigma Tec, Inc.</xs:documentation>
+          <xs:documentation source="explanation">1001 Industrial Road Augusta KS 67010-9500 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="172">
+        <xs:annotation>
+          <xs:documentation source="valueID">172</xs:documentation>
+          <xs:documentation source="description">Signature Industries</xs:documentation>
+          <xs:documentation source="detailedDescription">Signature Industries</xs:documentation>
+          <xs:documentation source="explanation">Tom Cribb Road Thamesmead, SE28 0BH  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="173">
+        <xs:annotation>
+          <xs:documentation source="valueID">173</xs:documentation>
+          <xs:documentation source="description">Singapore Jamco Pte Ltd</xs:documentation>
+          <xs:documentation source="detailedDescription">Singapore Jamco Pte Ltd</xs:documentation>
+          <xs:documentation source="explanation">No. 8 Loyang Lane Singapore 508915  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="163">
+        <xs:annotation>
+          <xs:documentation source="valueID">163</xs:documentation>
+          <xs:documentation source="description">SIRS Navigation Ltd.</xs:documentation>
+          <xs:documentation source="detailedDescription">SIRS Navigation Ltd.</xs:documentation>
+          <xs:documentation source="explanation">Compass House - Bowes Estate Wrotham Road Meopham  Kent DA 130QB</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="174">
+        <xs:annotation>
+          <xs:documentation source="valueID">174</xs:documentation>
+          <xs:documentation source="description">Skyforce Avionics Ltd</xs:documentation>
+          <xs:documentation source="detailedDescription">Skyforce Avionics Ltd</xs:documentation>
+          <xs:documentation source="explanation">5 The Old Granary Boxgrove Chichester West Sussex PO18 OE</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="175">
+        <xs:annotation>
+          <xs:documentation source="valueID">175</xs:documentation>
+          <xs:documentation source="description">Smiths Aerospace </xs:documentation>
+          <xs:documentation source="detailedDescription">Smiths Aerospace </xs:documentation>
+          <xs:documentation source="explanation">Bishops Cleeve Cheltenham Glos GL52 8SF </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="176">
+        <xs:annotation>
+          <xs:documentation source="valueID">176</xs:documentation>
+          <xs:documentation source="description">Spekon Sächsische Spezialkonfektion GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Spekon Sächsische Spezialkonfektion GmbH</xs:documentation>
+          <xs:documentation source="explanation">Gewerbering 4 02782 Seifhennersdorf  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="177">
+        <xs:annotation>
+          <xs:documentation source="valueID">177</xs:documentation>
+          <xs:documentation source="description">Stauff Systec GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Stauff Systec GmbH</xs:documentation>
+          <xs:documentation source="explanation">Gerberstraße 132 41748 Viersen  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="178">
+        <xs:annotation>
+          <xs:documentation source="valueID">178</xs:documentation>
+          <xs:documentation source="description">Sun Path Products Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Sun Path Products Inc.</xs:documentation>
+          <xs:documentation source="explanation">4439 Skydive Lane Zephyrhills Florida 33542 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="179">
+        <xs:annotation>
+          <xs:documentation source="valueID">179</xs:documentation>
+          <xs:documentation source="description">Survitec Group Limited t/a RFD Beaufort</xs:documentation>
+          <xs:documentation source="detailedDescription">Survitec Group Limited t/a RFD Beaufort</xs:documentation>
+          <xs:documentation source="explanation">Kingsway Dunmurry Belfast BT17 9AF</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="180">
+        <xs:annotation>
+          <xs:documentation source="valueID">180</xs:documentation>
+          <xs:documentation source="description">TEAM</xs:documentation>
+          <xs:documentation source="detailedDescription">TEAM</xs:documentation>
+          <xs:documentation source="explanation">10 Place Vauban Silic 127 94523 RUNGIS CEDEX  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="181">
+        <xs:annotation>
+          <xs:documentation source="valueID">181</xs:documentation>
+          <xs:documentation source="description">TECNOBIT S.L</xs:documentation>
+          <xs:documentation source="detailedDescription">TECNOBIT S.L</xs:documentation>
+          <xs:documentation source="explanation">Avda de Europa, 21 Parque Empresarial La Moraleja 28108 Alcobendas  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="184">
+        <xs:annotation>
+          <xs:documentation source="valueID">184</xs:documentation>
+          <xs:documentation source="description">Telair International</xs:documentation>
+          <xs:documentation source="detailedDescription">Telair International</xs:documentation>
+          <xs:documentation source="explanation">4175 Guardian Street Simi Valley California  93063-3382 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="185">
+        <xs:annotation>
+          <xs:documentation source="valueID">185</xs:documentation>
+          <xs:documentation source="description">Telephonics</xs:documentation>
+          <xs:documentation source="detailedDescription">Telephonics</xs:documentation>
+          <xs:documentation source="explanation">770 Park Avenue Huntington NY 11743 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="186">
+        <xs:annotation>
+          <xs:documentation source="valueID">186</xs:documentation>
+          <xs:documentation source="description">Terma A/S</xs:documentation>
+          <xs:documentation source="detailedDescription">Terma A/S</xs:documentation>
+          <xs:documentation source="explanation">Hovmarken 4 8520 Lystrup  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="187">
+        <xs:annotation>
+          <xs:documentation source="valueID">187</xs:documentation>
+          <xs:documentation source="description">Thales Avionics Electrical Systems</xs:documentation>
+          <xs:documentation source="detailedDescription">Thales Avionics Electrical Systems</xs:documentation>
+          <xs:documentation source="explanation">41, Boulevard de la République B.P. 53 78 401 Chatou Cedex </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="188">
+        <xs:annotation>
+          <xs:documentation source="valueID">188</xs:documentation>
+          <xs:documentation source="description">Thales Avionics Limited</xs:documentation>
+          <xs:documentation source="detailedDescription">Thales Avionics Limited</xs:documentation>
+          <xs:documentation source="explanation">86-88 Bushey Road Raynes Park London SW20 0JW</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="189">
+        <xs:annotation>
+          <xs:documentation source="valueID">189</xs:documentation>
+          <xs:documentation source="description">Thales Avionics S.A.</xs:documentation>
+          <xs:documentation source="detailedDescription">Thales Avionics S.A.</xs:documentation>
+          <xs:documentation source="explanation">45, Rue de Villiers  92526 NEUILLY-SUR-SEINE </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="190">
+        <xs:annotation>
+          <xs:documentation source="valueID">190</xs:documentation>
+          <xs:documentation source="description">Thales Communications S.A.</xs:documentation>
+          <xs:documentation source="detailedDescription">Thales Communications S.A.</xs:documentation>
+          <xs:documentation source="explanation">160 Boulevard de Valmy B.P. 82 92704, Colombes Cedex </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="182">
+        <xs:annotation>
+          <xs:documentation source="valueID">182</xs:documentation>
+          <xs:documentation source="description">THERMOCOAX</xs:documentation>
+          <xs:documentation source="detailedDescription">THERMOCOAX</xs:documentation>
+          <xs:documentation source="explanation">THERMOCOAX SAS Athis de l'Orne BP 26 61438 FLERS Cedex</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="191">
+        <xs:annotation>
+          <xs:documentation source="valueID">191</xs:documentation>
+          <xs:documentation source="description">Thielert Aircraft Engines GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Thielert Aircraft Engines GmbH</xs:documentation>
+          <xs:documentation source="explanation">Platanenstrasse 14 09350 Lichtenstein  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="183">
+        <xs:annotation>
+          <xs:documentation source="valueID">183</xs:documentation>
+          <xs:documentation source="description">TL elektronic Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">TL elektronic Inc.</xs:documentation>
+          <xs:documentation source="explanation">Airport Building 125 503 41 Hradec Kralove  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="192">
+        <xs:annotation>
+          <xs:documentation source="valueID">192</xs:documentation>
+          <xs:documentation source="description">Trans-Cal Industries, Inc.</xs:documentation>
+          <xs:documentation source="detailedDescription">Trans-Cal Industries, Inc.</xs:documentation>
+          <xs:documentation source="explanation">16141 Cohasset St. Van Nuys, CA 91406  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="193">
+        <xs:annotation>
+          <xs:documentation source="valueID">193</xs:documentation>
+          <xs:documentation source="description">Trig Avionics Limited</xs:documentation>
+          <xs:documentation source="detailedDescription">Trig Avionics Limited</xs:documentation>
+          <xs:documentation source="explanation">Building 4 Heriot Watt Research Park Riccarton Currie EH14 4AP</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="195">
+        <xs:annotation>
+          <xs:documentation source="valueID">195</xs:documentation>
+          <xs:documentation source="description">Universal Avionics Systems Corporation</xs:documentation>
+          <xs:documentation source="detailedDescription">Universal Avionics Systems Corporation</xs:documentation>
+          <xs:documentation source="explanation">3260 East Universal Way Tucson Arizona 85706 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="194">
+        <xs:annotation>
+          <xs:documentation source="valueID">194</xs:documentation>
+          <xs:documentation source="description">UUDS AERO</xs:documentation>
+          <xs:documentation source="detailedDescription">UUDS AERO</xs:documentation>
+          <xs:documentation source="explanation">Z.I. les Vignes 2, Rue Eugène Hénaff 93012  BOBIGNY Cedex  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="197">
+        <xs:annotation>
+          <xs:documentation source="valueID">197</xs:documentation>
+          <xs:documentation source="description">Van Riemsdijk Rotterdam b.v</xs:documentation>
+          <xs:documentation source="detailedDescription">Van Riemsdijk Rotterdam b.v</xs:documentation>
+          <xs:documentation source="explanation">Stolwijkstraat 57 3079 DN Rotterdam  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="196">
+        <xs:annotation>
+          <xs:documentation source="valueID">196</xs:documentation>
+          <xs:documentation source="description">VIKING LIFE-SAVING EQUIPMENT A/S</xs:documentation>
+          <xs:documentation source="detailedDescription">VIKING LIFE-SAVING EQUIPMENT A/S</xs:documentation>
+          <xs:documentation source="explanation">Saedding Ringvej 13 6710 Esbjerg V  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="198">
+        <xs:annotation>
+          <xs:documentation source="valueID">198</xs:documentation>
+          <xs:documentation source="description">Walter Dittel Luftfahrtgerätebau</xs:documentation>
+          <xs:documentation source="detailedDescription">Walter Dittel Luftfahrtgerätebau</xs:documentation>
+          <xs:documentation source="explanation">Erpftinger Straße 36 86899 Landsberg/Lech  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="199">
+        <xs:annotation>
+          <xs:documentation source="valueID">199</xs:documentation>
+          <xs:documentation source="description">Weber Aircraft LP</xs:documentation>
+          <xs:documentation source="detailedDescription">Weber Aircraft LP</xs:documentation>
+          <xs:documentation source="explanation">2000 Weber St. Gainesville TX 75240 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="200">
+        <xs:annotation>
+          <xs:documentation source="valueID">200</xs:documentation>
+          <xs:documentation source="description">Werthenbach Hydraulik Antriebstechnik GmbH</xs:documentation>
+          <xs:documentation source="detailedDescription">Werthenbach Hydraulik Antriebstechnik GmbH</xs:documentation>
+          <xs:documentation source="explanation">Grafenheider Straße 101 33729 Bielefeld  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="201">
+        <xs:annotation>
+          <xs:documentation source="valueID">201</xs:documentation>
+          <xs:documentation source="description">Wulfsberg Fliteline</xs:documentation>
+          <xs:documentation source="detailedDescription">Wulfsberg Fliteline</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

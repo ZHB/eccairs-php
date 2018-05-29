@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1019_12_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">ADVANCE RATIO DESIGN CO</xs:documentation>
+          <xs:documentation source="detailedDescription">ADVANCE RATIO DESIGN CO</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">AEROCOMPOSITE CO</xs:documentation>
+          <xs:documentation source="detailedDescription">AEROCOMPOSITE CO</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">AIRFORCE</xs:documentation>
+          <xs:documentation source="detailedDescription">AIRFORCE</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">ARROWPROP CO</xs:documentation>
+          <xs:documentation source="detailedDescription">ARROWPROP CO</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">AUTERROTECH</xs:documentation>
+          <xs:documentation source="detailedDescription">AUTERROTECH</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">AVIA HAMILTON STANDARD AVIATION LTD</xs:documentation>
+          <xs:documentation source="detailedDescription">AVIA HAMILTON STANDARD AVIATION LTD</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">AVIATION PROPELLERS INC</xs:documentation>
+          <xs:documentation source="detailedDescription">AVIATION PROPELLERS INC</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">DART AERO ACESSORIES INC</xs:documentation>
+          <xs:documentation source="detailedDescription">DART AERO ACESSORIES INC</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9">
+        <xs:annotation>
+          <xs:documentation source="valueID">9</xs:documentation>
+          <xs:documentation source="description">DOWTY AEROSPACE PROPPELLERS</xs:documentation>
+          <xs:documentation source="detailedDescription">DOWTY AEROSPACE PROPPELLERS</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">DOWTY PROPELLERS</xs:documentation>
+          <xs:documentation source="detailedDescription">DOWTY PROPELLERS</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">EVRA</xs:documentation>
+          <xs:documentation source="detailedDescription">EVRA</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="12">
+        <xs:annotation>
+          <xs:documentation source="valueID">12</xs:documentation>
+          <xs:documentation source="description">GENERAL NUCLEONICS INC</xs:documentation>
+          <xs:documentation source="detailedDescription">GENERAL NUCLEONICS INC</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="13">
+        <xs:annotation>
+          <xs:documentation source="valueID">13</xs:documentation>
+          <xs:documentation source="description">HALTER UAV PROPELLERS</xs:documentation>
+          <xs:documentation source="detailedDescription">HALTER UAV PROPELLERS</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="14">
+        <xs:annotation>
+          <xs:documentation source="valueID">14</xs:documentation>
+          <xs:documentation source="description">HAMILTON STANDARD</xs:documentation>
+          <xs:documentation source="detailedDescription">HAMILTON STANDARD</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="15">
+        <xs:annotation>
+          <xs:documentation source="valueID">15</xs:documentation>
+          <xs:documentation source="description">HARTZELL PROPELLERS AND CO</xs:documentation>
+          <xs:documentation source="detailedDescription">HARTZELL PROPELLERS AND CO</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="16">
+        <xs:annotation>
+          <xs:documentation source="valueID">16</xs:documentation>
+          <xs:documentation source="description">HOFFMAN PROPELLERS</xs:documentation>
+          <xs:documentation source="detailedDescription">HOFFMAN PROPELLERS</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="17">
+        <xs:annotation>
+          <xs:documentation source="valueID">17</xs:documentation>
+          <xs:documentation source="description">MCCAULEY ACCESSORY DIV</xs:documentation>
+          <xs:documentation source="detailedDescription">MCCAULEY ACCESSORY DIV</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="18">
+        <xs:annotation>
+          <xs:documentation source="valueID">18</xs:documentation>
+          <xs:documentation source="description">MPPE</xs:documentation>
+          <xs:documentation source="detailedDescription">MPPE</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="19">
+        <xs:annotation>
+          <xs:documentation source="valueID">19</xs:documentation>
+          <xs:documentation source="description">MT-PROPELLER ENTWICKLUNG</xs:documentation>
+          <xs:documentation source="detailedDescription">MT-PROPELLER ENTWICKLUNG</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="20">
+        <xs:annotation>
+          <xs:documentation source="valueID">20</xs:documentation>
+          <xs:documentation source="description">PERFECTUS AIRSREW PTYLTD</xs:documentation>
+          <xs:documentation source="detailedDescription">PERFECTUS AIRSREW PTYLTD</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="21">
+        <xs:annotation>
+          <xs:documentation source="valueID">21</xs:documentation>
+          <xs:documentation source="description">PIGNOLO SA</xs:documentation>
+          <xs:documentation source="detailedDescription">PIGNOLO SA</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="22">
+        <xs:annotation>
+          <xs:documentation source="valueID">22</xs:documentation>
+          <xs:documentation source="description">RATIER FIGEAC</xs:documentation>
+          <xs:documentation source="detailedDescription">RATIER FIGEAC</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="24">
+        <xs:annotation>
+          <xs:documentation source="valueID">24</xs:documentation>
+          <xs:documentation source="description">SENSENICH</xs:documentation>
+          <xs:documentation source="detailedDescription">SENSENICH</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="23">
+        <xs:annotation>
+          <xs:documentation source="valueID">23</xs:documentation>
+          <xs:documentation source="description">ST. CROIX AIRCRAFT</xs:documentation>
+          <xs:documentation source="detailedDescription">ST. CROIX AIRCRAFT</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="25">
+        <xs:annotation>
+          <xs:documentation source="valueID">25</xs:documentation>
+          <xs:documentation source="description">WALTER BORN</xs:documentation>
+          <xs:documentation source="detailedDescription">WALTER BORN</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="26">
+        <xs:annotation>
+          <xs:documentation source="valueID">26</xs:documentation>
+          <xs:documentation source="description">WESTERN PROPELLER CO LTD</xs:documentation>
+          <xs:documentation source="detailedDescription">WESTERN PROPELLER CO LTD</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">OTHER</xs:documentation>
+          <xs:documentation source="detailedDescription">OTHER</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">UNKNOWN</xs:documentation>
+          <xs:documentation source="detailedDescription">UNKNOWN</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

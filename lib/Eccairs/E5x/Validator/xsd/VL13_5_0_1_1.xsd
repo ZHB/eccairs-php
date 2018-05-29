@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL13_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">A</xs:documentation>
+          <xs:documentation source="detailedDescription">ATS airspace class A.</xs:documentation>
+          <xs:documentation source="explanation">An ATS airspace class A is one in which IFR flights only are permitted, all flights are provided with ATC service and are separated from each other. ICAO Annex 11.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">B</xs:documentation>
+          <xs:documentation source="detailedDescription">ATS airspace class B.</xs:documentation>
+          <xs:documentation source="explanation">An ATS airspace class B is one in which IFR and VFR flights are permitted, all flights are provided with ATC service and are separated from each other. ICAO Annex 11.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">C</xs:documentation>
+          <xs:documentation source="detailedDescription">ATS airspace class C.</xs:documentation>
+          <xs:documentation source="explanation">An ATS airspace class C is one in which IFR and VFR flights are permitted, all flights are provided with air traffic control service and IFR flights are separated from other IFR flights and from VFR flights. VFR flights are separated from IFR flights and receive traffic information in respect of other VFR flights. ICAO Annex 11.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">D</xs:documentation>
+          <xs:documentation source="detailedDescription">ATS airspace class D.</xs:documentation>
+          <xs:documentation source="explanation">An ATS airspace class D is one in which IFR and VFR flights are permitted and all flights are provided with air traffic control service, IFR flights are separated from other IFR flights and receive traffic information in respect of VFR flights, VFR flights receive traffic information in respect of all other flights. ICAO Annex 11.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">E</xs:documentation>
+          <xs:documentation source="detailedDescription">ATS airspace class E.</xs:documentation>
+          <xs:documentation source="explanation">An ATS airspace class E is one in which IFR and VFR flights are permitted, IFR flights are provided with air traffic control service and are separated from other IFR flights. All flights receive traffic information as far as is practical. Class E shall not be used for control zones. ICAO Annex 11.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">F</xs:documentation>
+          <xs:documentation source="detailedDescription">ATS airspace class F.</xs:documentation>
+          <xs:documentation source="explanation">An ATS airspace class F is one in which IFR and VFR flights are permitted, all participating IFR flights receive an air traffic advisory service and all flights receive flight information service if requested. ICAO Annex 11.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">G</xs:documentation>
+          <xs:documentation source="detailedDescription">ATS airspace class G.</xs:documentation>
+          <xs:documentation source="explanation">An ATS airspace class G is one in which IFR and VFR flights are permitted and receive flight information service if requested. ICAO Annex 11.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">The ATS class of airspace was other than one of those listed above.</xs:documentation>
+          <xs:documentation source="explanation">There is no ICAO definition for this type of airspace,</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The classification of airspace has not been determined.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

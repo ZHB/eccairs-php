@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1117_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Initial notification</xs:documentation>
+          <xs:documentation source="detailedDescription">Initial notification.</xs:documentation>
+          <xs:documentation source="explanation">The record is based on, or contains information corresponding to the level of information in the initial notification of an accident or incident provided in accordance with ICAO Annex 13, Chapter 4. 
+Format and content: 
+The notification shall be in plain language and contain as much of the following information as is readily available, but its dispatch shall not be delayed due to the lack of complete information:
+ 
+ 	a)	for accidents the identifying abbreviation ACCID, for serious incidents INCID; 
+ 	b)	manufacturer, model, nationality and registration marks, and serial number of the aircraft; 
+ 	c)	name of owner, operator and hirer, if any, of the aircraft; 
+ 	d)	name of the pilot-in-command, and nationality of crew and passengers; 
+ 	e)	date and time (local time or UTC) of the accident or serious incident; 
+ 	f)	last point of departure and point of intended landing of the aircraft; 
+ 	g)	position of the aircraft with reference to some easily defined geographical point and latitude and longitude; 
+ 	h)	number of crew and passengers; aboard, killed and seriously injured; others, killed and seriously injured; 
+ 	i)	description of the accident or serious incident and the extent of damage to the aircraft so far as is known; 
+ 	j)	an indication to what extent the investigation will be conducted or is proposed to be delegated by the State of Occurrence; 
+ 	k)	physical characteristics of the accident or serious incident area, as well as an indication of access difficulties or special requirements to reach the site; 
+ 	l)	identification of the originating authority and means to contact the investigator-in-charge and the accident investigation authority of the State of Occurrence at any time; and 
+ 	m)	presence and description of dangerous goods on board the aircraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Open</xs:documentation>
+          <xs:documentation source="detailedDescription">The report is still open. Only initial information has been received. More may follow.</xs:documentation>
+          <xs:documentation source="explanation">Some information was received, but the level of information received was not corresponding to the level expected in a notification or similar. It is expected that more information will be received in due course that may enhance the information and upgrade the status.
+
+Note: for ICAO this status indicates an unofficial occurrence report.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Preliminary</xs:documentation>
+          <xs:documentation source="detailedDescription">The document is a preliminary report.</xs:documentation>
+          <xs:documentation source="explanation">Preliminary Report: the communication used for the prompt dissemination of data obtained in the early stages of the investigation. ICAO Annex 13. At the level of a State this status would indicate that sufficient information at hand to complete a preliminary report. More data is expected in due course, once an investigation has been completed. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Factual</xs:documentation>
+          <xs:documentation source="detailedDescription">Factual - ready for coding: The handling of the occurrence by the competent authority has not yet been completed, but there is sufficient information at hand to analyse and code the occurrence.</xs:documentation>
+          <xs:documentation source="explanation">The handling of the occurrence by the competent authority has not yet been completed, but there is sufficient information at hand to analyse and code the occurrence.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Closed</xs:documentation>
+          <xs:documentation source="detailedDescription">The report is closed.</xs:documentation>
+          <xs:documentation source="explanation">No further information is expected to be received for the occurrence and no further action in respect to the occurrence is being contemplated.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Closed on issue</xs:documentation>
+          <xs:documentation source="detailedDescription">Closed on issue</xs:documentation>
+          <xs:documentation source="explanation">Report closed by the reporting organisation on first its issuance.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Data</xs:documentation>
+          <xs:documentation source="detailedDescription">Data Report</xs:documentation>
+          <xs:documentation source="explanation">A report containing the factual information obtained in the investigation as well as the factors derived from the analysis and the safety recommendations, if any. This is the report required to be completed under Annex 13, Standard 7.5. At the national level this status would imply that the investigation has been completed and all relevant data have been transcribed into the database. No further action is contemplated.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Draft</xs:documentation>
+          <xs:documentation source="detailedDescription">Draft</xs:documentation>
+          <xs:documentation source="explanation">Once a Report is drafted there is a period of 60 days where foreign States are allowed to comment before the final report is published. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

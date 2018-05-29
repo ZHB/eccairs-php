@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1044_5_0_1_2">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Fire</xs:documentation>
+          <xs:documentation source="detailedDescription">A fire in an engine.</xs:documentation>
+          <xs:documentation source="explanation">Uncontrolled fire: An uncontrolled fire should be interpreted in this
+context as an extensive or persistent nacelle fire which is not effectively
+confined to a designated fire zone or which cannot be extinguished by using
+the aircraft means identified in the assumptions. Provision for flammable
+fluid drainage, fire containment, fire detection, and fire extinguishing may
+be taken into account when assessing the severity of the effects of a fire.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Shutdown</xs:documentation>
+          <xs:documentation source="detailedDescription">An engine shutdown performed by flight crew.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Shutdown - Shutdown - fire warning</xs:documentation>
+          <xs:documentation source="detailedDescription">An engine shutdown performed by flight crew due to a fire warning.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Shutdown - Shutdown - temperature</xs:documentation>
+          <xs:documentation source="detailedDescription">An engine shutdown performed by flight crew due to excessive temperature.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Shutdown - Shutdown - vibration</xs:documentation>
+          <xs:documentation source="detailedDescription">An engine shutdown performed by flight crew due to vibration.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Shutdown - Shutdown - other</xs:documentation>
+          <xs:documentation source="detailedDescription">An engine shutdown performed by flight crew for other reasons than the ones listed above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Uncontained failure</xs:documentation>
+          <xs:documentation source="detailedDescription">An uncontained failure in an engine.</xs:documentation>
+          <xs:documentation source="explanation">Non-containment of high-energy debris: Cases where the engine casing was
+unable to contain engine parts within the engine containment structure.
+Uncontained debris cover a large spectrum of energy levels due to the
+various sizes and velocities of parts released in an Engine Failure. The
+Engine has a containment structure which is designed to withstand the consequences of the release of a single blade, and which is often adequate to contain additional released blades and static parts. The Engine containment structure is not expected to contain major rotating parts should they fracture. Discs, hubs, impellers, large
+rotating seals, and other similar large rotating components should therefore
+always be considered to represent potential high-energy debris. Service
+experience has shown that, depending on their size and the internal
+pressures, the rupture of the high-pressure casings can generate high-energy
+debris. Casings may therefore need to be considered as a potential for
+high-energy debris.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The nature of the engine involvement is unknown.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

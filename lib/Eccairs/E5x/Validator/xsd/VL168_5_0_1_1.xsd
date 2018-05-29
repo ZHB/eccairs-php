@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL168_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Dawn</xs:documentation>
+          <xs:documentation source="detailedDescription">The light condition was dawn.</xs:documentation>
+          <xs:documentation source="explanation">Dawn is the first appearance of light in the sky before sunrise, or the time when it appears; the beginning of daylight; morning twilight, daybreak.
+
+Twilight:  The intervals of incomplete darkness following sunset and preceding sunrise.  The time at which evening twilight ends or morning twilight begins is determined by arbritrary convention, and several kinds of twilight have been defined and used; most commonly civil, nautical, and astronomical twilight. 
+
+1) Civil Twilight:  The period of time before sunrise and after sunset when the sun is not more than 6 degrees below the horizon. 
+
+2) Nautical Twilight:  The period of time before sunrise and after sunset when the sun is not more than 12 degrees below the horizon. 
+
+3) Astronomical Twilight:  The period of time before sunrise and sunset when the sun is not more than 18 degrees below the horizon.
+
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Daylight</xs:documentation>
+          <xs:documentation source="detailedDescription">The light condition was daylight.</xs:documentation>
+          <xs:documentation source="explanation">Daylight is the light available naturally between sunrise and sunset.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Dusk/twilight</xs:documentation>
+          <xs:documentation source="detailedDescription">The light condition was dusk/twilight.</xs:documentation>
+          <xs:documentation source="explanation">Dusk is the darker stage of twilight before it is quite dark at night.
+
+Twilight:  The intervals of incomplete darkness following sunset and preceding sunrise.  The time at which evening twilight ends or morning twilight begins is determined by arbritrary convention, and several kinds of twilight have been defined and used; most commonly civil, nautical, and astronomical twilight. 
+
+1) Civil Twilight:  The period of time before sunrise and after sunset when the sun is not more than 6 degrees below the horizon. 
+
+2) Nautical Twilight:  The period of time before sunrise and after sunset when the sun is not more than 12 degrees below the horizon. 
+
+3) Astronomical Twilight:  The period of time before sunrise and sunset when the sun is not more than 18 degrees below the horizon.
+
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Night/dark</xs:documentation>
+          <xs:documentation source="detailedDescription">The light condition was a dark night.</xs:documentation>
+          <xs:documentation source="explanation">Night is that part of the natural day (of 24 hours) during which no light is received from the sun; the time between the end of evening twilight and the beginning of morning twilight.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Night/moonlight</xs:documentation>
+          <xs:documentation source="detailedDescription">The light condition was a moonlit night.</xs:documentation>
+          <xs:documentation source="explanation">Night is that part of the natural day (of 24 hours) during which no light is received from the sun; the time between the end of evening twilight and the beginning of morning twilight.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The light condition at the time of the occurrence is unknown.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

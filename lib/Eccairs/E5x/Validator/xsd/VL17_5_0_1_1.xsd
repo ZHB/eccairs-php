@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL17_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="101">
+        <xs:annotation>
+          <xs:documentation source="valueID">101</xs:documentation>
+          <xs:documentation source="description">Aerobatics</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was aerobatics</xs:documentation>
+          <xs:documentation source="explanation">Aerobatics is the practice of flying maneuvers involving aircraft attitudes that are not used in normal flight. The term is sometimes referred to as acrobatics, especially when translated</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Airshow</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was an airshow.</xs:documentation>
+          <xs:documentation source="explanation">An airshow is a demonstration involving display aircraft flying in the airspace.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="102">
+        <xs:annotation>
+          <xs:documentation source="valueID">102</xs:documentation>
+          <xs:documentation source="description">Balloons</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was balloons</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Calibration flights</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was a calibration flight.</xs:documentation>
+          <xs:documentation source="explanation">A calibration flight is the operation of an aircraft in the airspace to calibrate the aerodrome and area navigation and approach aids. It is a planned and co-ordinated flights for the purpose of verification of navaids performance that may generate restrictions to other traffic.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Glider</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was gliding.</xs:documentation>
+          <xs:documentation source="explanation">Gliding is flying an aeroplane which is without engine power.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Military exercise</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was a military exercise.</xs:documentation>
+          <xs:documentation source="explanation">Planned and co-ordinated, either routine or non routine military activity.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="103">
+        <xs:annotation>
+          <xs:documentation source="valueID">103</xs:documentation>
+          <xs:documentation source="description">Model aircraft</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was model aircraft</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Parachuting</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was parachuting.</xs:documentation>
+          <xs:documentation source="explanation">Parachuting is the use of any contrivance, natural or artificial which serves to check a fall through the air, or to support a person in the air.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Training flights</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was a training flight.</xs:documentation>
+          <xs:documentation source="explanation">A training flight is the operation of an aircraft in the airspace for the purpose of flight instruction.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="104">
+        <xs:annotation>
+          <xs:documentation source="valueID">104</xs:documentation>
+          <xs:documentation source="description">UAS / RPAS</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was UAS / RPAS </xs:documentation>
+          <xs:documentation source="explanation">The special activity in the airspace was Unmanned Aircraft Systems / Remotely Piloted Aircraft Systems</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">None</xs:documentation>
+          <xs:documentation source="detailedDescription">There was no special activity in the airspace.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">The special activity in the airspace was other than any of the above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of special activity in the airspace was not determined.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

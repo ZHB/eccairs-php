@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL436_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Degraded ATM service</xs:documentation>
+          <xs:documentation source="detailedDescription">The effect on the air trafic management personnel was to degrade ATM service while still able to function fully.</xs:documentation>
+          <xs:documentation source="explanation">An occurrence involving circumstances indicating that a total, serious or partial major inability to provide safe and non degraded ATM Services could have occurred, if the risk had not been managed/controlled by ATS personnel within safety regulatory requirements, even if this implied limitations in the provisions of ATM services.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Service affect/partial</xs:documentation>
+          <xs:documentation source="detailedDescription">The effect on the air trafic management personnel was to affect the ability to provide service, moderately.</xs:documentation>
+          <xs:documentation source="explanation"> An occurrence associated with the sudden and partial inability to provide ATM Services in compliance with applicable safety regulatory requirements. Example: Inability to maintain a safe ATM service within one or more airspace sectors without warning and for a significant period of time. The ATCO's workload increased significantly and he was provided with less information than required for normal operations. Limitations to ATM services were imposed and/or contingency Separation Measures weer applied to compensate for the loss or corrupted function(s) but the risk of infringing safe separation was high and multiple losses of separation did/could have occurred until traffic levels were reduced.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Service affect/serious</xs:documentation>
+          <xs:documentation source="detailedDescription">The effect on the air trafic management personnel was to affect the ability to provide service, seriously.</xs:documentation>
+          <xs:documentation source="explanation"> An occurrence associated with the total and sudden inability to provide ATM Services in compliance with applicable safety regulatory requirements. It involves circumstances indicating that the ability to provide ATM services is severely compromised and has the potential to impact many aircraft safe operations over a significant period of time.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Inability to prov serv</xs:documentation>
+          <xs:documentation source="detailedDescription">The effect on the air trafic management personnel was a total inability to provide safe ATM service.</xs:documentation>
+          <xs:documentation source="explanation"> An occurrence associated with the total inability to provide ATM Services in compliance with applicable safety regulatory requirements, where: - There is a sudden and non managed total loss of ATM service or situation awareness - There is a totally corrupted ATM service or corrupted information provided to ATS personnel. Example: Sudden inability to provide any degree of safe ATM service within several airspace sectors without warning and for a significant period of time. No contingency measure could be applied. ATCO loosing totally its ability to control the situation. Situation has every chance to lead to many accidents/serious incidents</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">No effect</xs:documentation>
+          <xs:documentation source="detailedDescription">No effect</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Not determined</xs:documentation>
+          <xs:documentation source="detailedDescription">Not determined</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

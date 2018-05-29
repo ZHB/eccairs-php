@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1015_5_0_1_2">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">Accident</xs:documentation>
+          <xs:documentation source="detailedDescription">Accident</xs:documentation>
+          <xs:documentation source="explanation">An occurrence associated with the operation of an aircraft which, in the case of a manned aircraft, takes place between the time any person boards the aircraft with the intention of flight until such time as all such persons have disembarked, or in the case of an unmanned aircraft, takes place between the time the aircraft is ready to move with the purpose of flight until such time it comes to rest at the end of the flight and the primary propulsion system is shut down, in which:
+
+(a) a person is fatally or seriously injured as a result of:
+— being in the aircraft, or,
+— direct contact with any part of the aircraft, including parts which have become detached from the aircraft, or,
+— direct exposure to jet blast, except when the injuries are from natural causes, self-inflicted or inflicted by other persons, or when the injuries are to stowaways hiding outside the areas normally available to the passengers and crew; or
+
+(b) the aircraft sustains damage or structural failure which adversely affects
+the structural strength, performance or flight characteristics of the aircraft, and would normally require major repair or replacement of the affected component, except for engine failure or damage, when the damage is limited to a single engine, (including its cowlings or accessories), to propellers, wing tips, antennas, probes, vanes, tires, brakes, wheels, fairings, panels, landing gear doors, windscreens, the aircraft skin (such as small dents or puncture holes) or minor damages to main rotor blades, tail rotor blades, landing gear, and those resulting from hail or bird strike, (including holes in the radome); or
+
+(c) the aircraft is missing or is completely inaccessible;
+
+Note 1.— For statistical uniformity only, an injury resulting in death within thirty days of the date of the accident is
+classified, by ICAO, as a fatal injury.
+Note 2.— An aircraft is considered to be missing when the official search has been terminated and the wreckage has not been located.
+Note 3.— The type of unmanned aircraft system to be investigated is addressed in 5.1 of Annex 13.
+Note 4.— Guidance for the determination of aircraft damage can be found in Attachment F of Annex 13.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="200">
+        <xs:annotation>
+          <xs:documentation source="valueID">200</xs:documentation>
+          <xs:documentation source="description">Serious incident</xs:documentation>
+          <xs:documentation source="detailedDescription">Serious incident</xs:documentation>
+          <xs:documentation source="explanation">An incident involving circumstances indicating that an accident nearly occurred.
+
+Note:
+- The difference between an accident and a serious incident lies only in the result.
+- Examples of serious incidents can be found in Attachment C of ICAO Annex 13 and in the ICAO Accident/Incident Reporting Manual (ICAO Doc 9156).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="300">
+        <xs:annotation>
+          <xs:documentation source="valueID">300</xs:documentation>
+          <xs:documentation source="description">Incident</xs:documentation>
+          <xs:documentation source="detailedDescription">Incident</xs:documentation>
+          <xs:documentation source="explanation">An occurrence, other than an accident, associated with the operation of an aircraft which affects or could affect the safety of operation.
+N.B. The type of incidents which are of main interest to the International Civil Aviation Organization for accident prevention studies are listed in the ICAO Accident/Incident Reporting Manual (ICAO Doc 9156) and ICAO Annex 13.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="301">
+        <xs:annotation>
+          <xs:documentation source="valueID">301</xs:documentation>
+          <xs:documentation source="description">Major incident</xs:documentation>
+          <xs:documentation source="detailedDescription">Major incident</xs:documentation>
+          <xs:documentation source="explanation">An incident in which:
+- Safety may have been compromised either having lead to a near collision between aircrafts, with the ground or obstacles  (i.e. safety margins not respected which is not the result of an ATC instruction).
+- Assessment of the incident using a risk classification process has identified that this incident could have deteriorated into more serious situation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="302">
+        <xs:annotation>
+          <xs:documentation source="valueID">302</xs:documentation>
+          <xs:documentation source="description">Significant incident</xs:documentation>
+          <xs:documentation source="detailedDescription">Significant incident</xs:documentation>
+          <xs:documentation source="explanation">An incident in which:
+- An accident, serious or major incident could have occurred if the risk had not been managed within safety margins (one or more safety barriers remaining).
+- or if another aircraft or vehicle had been in the vicinity during the incident.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="400">
+        <xs:annotation>
+          <xs:documentation source="valueID">400</xs:documentation>
+          <xs:documentation source="description">Occurrence without safety effect</xs:documentation>
+          <xs:documentation source="detailedDescription">Occurrence without safety effect (Eurocontrol).
+A possibly safety related occurrence (not meeting the reporting requirements).</xs:documentation>
+          <xs:documentation source="explanation">Eurocontrol: An incident which has no safety significance. 
+N.B. This appears to be a contradiction with the ICAO definition of an incident: An occurrence, other than an accident, associated with the operation of an aircraft which affects or could affect the safety of operation.
+
+A possibly safety related occurrence not meeting the reporting requirements. This could be e.g. the result of downgrading the incident after review.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="501">
+        <xs:annotation>
+          <xs:documentation source="valueID">501</xs:documentation>
+          <xs:documentation source="description">Observation</xs:documentation>
+          <xs:documentation source="detailedDescription">Observation</xs:documentation>
+          <xs:documentation source="explanation">The observation of a potential safety issue or hazard that, if not rectified could cause or have caused an incident.  The date and time of occurrence for an observation is that when it was first observed for the purposes of reporting and not an assessment of how long the safety issue might have been present. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="502">
+        <xs:annotation>
+          <xs:documentation source="valueID">502</xs:documentation>
+          <xs:documentation source="description">Occurrence with No Flight Intended</xs:documentation>
+          <xs:documentation source="detailedDescription">Occurrence with No Flight Intended</xs:documentation>
+          <xs:documentation source="explanation">A reportable Occurrence where there was no intention of flight.
+Example:
+Substantial damage found on aircraft during maintenance.
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="500">
+        <xs:annotation>
+          <xs:documentation source="valueID">500</xs:documentation>
+          <xs:documentation source="description">Not determined</xs:documentation>
+          <xs:documentation source="detailedDescription">Not determined</xs:documentation>
+          <xs:documentation source="explanation">The class of the occurrence has not been determined. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

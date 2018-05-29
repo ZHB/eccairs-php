@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL613_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Useful</xs:documentation>
+          <xs:documentation source="detailedDescription">Useful: there was or would have been a risk of collision between the aircraft.</xs:documentation>
+          <xs:documentation source="explanation">Useful:The ACAS system generated an advisory in accordance with its technical specifications in a situation where there was or would have been a risk of collision between the aircraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">False</xs:documentation>
+          <xs:documentation source="detailedDescription">False: an advisory in a situation where there was not or would not have been a risk of collision between the aircraft.
+</xs:documentation>
+          <xs:documentation source="explanation">False:The ACAS II system generated an advisory in accordance with its technical specifications in a situation where there was not or would not have been a risk of collision between the aircraft.
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Phantom</xs:documentation>
+          <xs:documentation source="detailedDescription">Phantom:non-existing threat</xs:documentation>
+          <xs:documentation source="explanation">Phantom: A form of a false RA in which the ACAS system generated an advisory against a non existing threat aircraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Unnecessary</xs:documentation>
+          <xs:documentation source="detailedDescription">Unnecessary: an advisory in a situation where there was not or would not have been a risk of collision between the aircraft.</xs:documentation>
+          <xs:documentation source="explanation">Unnecessary: The ACAS system generated an advisory in accordance with its technical specifications in a situation where there was not or would not have been a risk of collision between the aircraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Unclassifiable</xs:documentation>
+          <xs:documentation source="detailedDescription">Unclassifiable</xs:documentation>
+          <xs:documentation source="explanation">The ACAS system generated an advisory that cannot be classified because of insufficient data</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

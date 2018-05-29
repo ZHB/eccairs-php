@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL121_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Standing</xs:documentation>
+          <xs:documentation source="detailedDescription">The occurrence took place when the aircraft was standing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the occurrence took place was when the aircraft was standing.
+
+The phase of flight prior to pushback or taxi, or after arrival, at the gate, ramp, or parking area, while the aircraft is stationary.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Taxi</xs:documentation>
+          <xs:documentation source="detailedDescription">The occurrence took place when the aircraft was taxiing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the occurrence took place was when the aircraft was taxiing.
+
+The phase of flight in which movement of an aircraft on the surface of an aerodrome under its own power occurs, excluding take-off and landing. ICAO Annex 2.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">The occurrence took place when the aircraft was taking off.</xs:documentation>
+          <xs:documentation source="explanation">The occurrence took place when the aircraft was taking off.
+
+The phase of flight from the application of take-off power until reaching the first prescribed power reduction, or until reaching the VFR pattern or 1000 feet (300 metres) above runway end elevation, whichever comes first or the termination (abort) of the take-off. It includes initial climb or climb into traffic pattern.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">En route</xs:documentation>
+          <xs:documentation source="detailedDescription">The occurrence took place when the aircraft was en route.</xs:documentation>
+          <xs:documentation source="explanation">The occurrence took place when the aircraft was en-route.
+
+Instrument Flight Rules (IFR): From completion of Initial Climb through cruise altitude and completion of controlled descent to the Initial Approach Fix (IAF).
+
+Visual Flight Rules (VFR): From completion of Initial Climb through cruise and controlled descent to the VFR pattern altitude or 1000 feet above runway elevation, whichever comes first.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Approach</xs:documentation>
+          <xs:documentation source="detailedDescription">The occurrence took place when the aircraft was approaching the aerodrome.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the occurrence took place was when the aircraft was on approach to the aerodrome.
+
+The phase of flight from the outer marker to the to the point of transition from nose-low to nose-high attitude immediately prior to the flare above the runway [IFR]; or [VFR] from 1000 feet (300 metres) above the runway end elevation or from the point of VFR pattern entry to the flare above the runway.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Landing</xs:documentation>
+          <xs:documentation source="detailedDescription">The occurrence took place when the aircraft was landing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the occurrence took place was when the aircraft was landing.
+
+The phase of flight from the point of transition from nose-low to nose-up attitude, immediately before landing (flare), through touchdown and until aircraft exits landing runway, comes to a stop or when power is applied for takeoff in the case of a touch-and-go landing, whichever occurs first.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Manoeuvring</xs:documentation>
+          <xs:documentation source="detailedDescription">The occurrence took place when the aircraft was manoeuvring.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the occurrence took place was when the aircraft was manoeuvring.
+
+An event involving a phase of flight in which planned low-level flight, or attitude, or planned abnormal attitude, or abnormal acceleration occurs. It includes low altitude/aerobatic flight operations.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Post-impact</xs:documentation>
+          <xs:documentation source="detailedDescription">The occurrence took place after the aircraft's initial impact.</xs:documentation>
+          <xs:documentation source="explanation">The phase, in an accident or incident sequence, after the aircraft has collided with the first object, place or person.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">Tow</xs:documentation>
+          <xs:documentation source="detailedDescription">The occurrence took place when the aircraft was towing.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The phase of flight during which the occurrence took place is unknown.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

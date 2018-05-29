@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL230_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="97">
+        <xs:annotation>
+          <xs:documentation source="valueID">97</xs:documentation>
+          <xs:documentation source="description">None</xs:documentation>
+          <xs:documentation source="detailedDescription">There was no precipitation.</xs:documentation>
+          <xs:documentation source="explanation">Precipitation is moisture released from the atmosphere especially in large enough particles to fall sensibly except fog and mist. e.g. hail, snow, rain sleet and drizzle.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Light</xs:documentation>
+          <xs:documentation source="detailedDescription">The intensity of precipitation was light.</xs:documentation>
+          <xs:documentation source="explanation">Precipitation is moisture released from the atmosphere especially in large enough particles to fall sensibly except fog and mist. e.g. hail, snow, rain sleet and drizzle.
+ 
+ Light:
+ Rain: Individual drops easily identified, puddles form slowly, small streams may flow in gutters. 
+ Drizzle: Can be felt on the face but is not visible. Produces little run off from roads or roofs. Generally visibility is reduced, but not less than 1000 m. 
+ Snow: Small sparse flakes. Visibility generally reduced but not less than 1000 m. 
+ Hail: Sparse hailstones of small size, often mixed with rain.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Moderate</xs:documentation>
+          <xs:documentation source="detailedDescription">The intensity of precipitation was moderate.</xs:documentation>
+          <xs:documentation source="explanation">Precipitation is moisture released from the atmosphere especially in large enough particles to fall sensibly except fog and mist. e.g. hail, snow, rain sleet and drizzle.
+ 
+ Moderate:
+ Rain: Rapidly forming puddles, down pipes flowing freely, some spray visible over hard surfaces. 
+ Drizzle: Window and road surfaces streaming with moisture. Visibility generally between 400 and 1000 m. 
+ Snow: Large numerous flakes and visibility generally between 400-1000 m. 
+ Hail: Particles numerous enough to whiten the ground.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Heavy</xs:documentation>
+          <xs:documentation source="detailedDescription">The intensity of precipitation was heavy.</xs:documentation>
+          <xs:documentation source="explanation">Precipitation is moisture released from the atmosphere especially in large enough particles to fall sensibly except fog and mist. e.g. hail, snow, rain sleet and drizzle.
+ 
+ Heavy:
+ Rain: Falls in sheets, misty spray over hard surfaces, may cause roaring noise on roof. 
+ Drizzle: Visibility reduced to less than 400 m. 
+ Snow: Numerous flakes of all sizes. Visibility generally reduced below 400 m. 
+ Hail: A proportion of the hailstones exceed 6 mm diameter.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The intensity of the precipitation was unknown.</xs:documentation>
+          <xs:documentation source="explanation">Precipitation is moisture released from the atmosphere especially in large enough particles to fall sensibly except fog and mist. e.g. hail, snow, rain sleet and drizzle.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

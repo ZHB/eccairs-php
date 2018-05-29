@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL127_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">VMC</xs:documentation>
+          <xs:documentation source="detailedDescription">The weather conditions were VMC.</xs:documentation>
+          <xs:documentation source="explanation">The general weather conditions in the area of the occurrence were visual meteorological conditions (VMC)
+VMC: Meteorological conditions expressed in terms of visibility, distance from cloud, and ceiling, equal to or better than specified minima. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">IMC</xs:documentation>
+          <xs:documentation source="detailedDescription">The weather conditions were IMC.</xs:documentation>
+          <xs:documentation source="explanation">The general weather conditions in the area of the occurrence were instrument meteorological conditions (IMC).
+IMC: Meteorological conditions expressed in terms of visibility, distance from cloud, and ceiling, less than the minima specified for visual meteorological conditions.
+   Note 1.- The specified minima for visual meteorological conditions are contained in Chapter 4 of Annex 2.
+   Note 2.- In a control zone, a VFR flight may proceed under instrument meteorological conditions if and as authorized by air traffic control.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The weather conditions were unknown.</xs:documentation>
+          <xs:documentation source="explanation">The general weather conditions in the area of the occurrence were not established.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

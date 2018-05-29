@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL311_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Precipitation</xs:documentation>
+          <xs:documentation source="detailedDescription">Precipitation</xs:documentation>
+          <xs:documentation source="explanation">To be used whenever any type of precipitation restricted the visibility</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="97">
+        <xs:annotation>
+          <xs:documentation source="valueID">97</xs:documentation>
+          <xs:documentation source="description">None</xs:documentation>
+          <xs:documentation source="detailedDescription">No restriction to visibility was present.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Cloud</xs:documentation>
+          <xs:documentation source="detailedDescription">The visibility was restricted by cloud.</xs:documentation>
+          <xs:documentation source="explanation">Cloud is a visible cluster of tiny water and/or ice particles in the atmosphere.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Dust</xs:documentation>
+          <xs:documentation source="detailedDescription">The visibility was restricted by dust.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Fog/mist</xs:documentation>
+          <xs:documentation source="detailedDescription">The visibility was restricted by fog/mist.</xs:documentation>
+          <xs:documentation source="explanation">Fog: cloud at ground level, and occurs when air is cooled to its dew point and below, or when atmosperic moisture increases through evaporation from water that is warmer than the air. Visibility is below 1000m (ICAO Annex 3).
+
+Mist is microscopic water droplets suspended in the air. It casts a thin greyish veil over the landscape but reduces visibility to a lesser extent than fog. Visibility is over 1000m but do not exceed 5000m (ICAO Annex 3).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Haze</xs:documentation>
+          <xs:documentation source="detailedDescription">The visibility was restricted by haze.</xs:documentation>
+          <xs:documentation source="explanation">Haze consists of fine particles of dust and pollution suspended in the atmosphere and is distinguished from fog by its bluish or yellowish tinge.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Freezing fog</xs:documentation>
+          <xs:documentation source="detailedDescription">The visibility was restricted by freezing fog.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Light conditions</xs:documentation>
+          <xs:documentation source="detailedDescription">The visibility was restricted by light conditions.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Smoke</xs:documentation>
+          <xs:documentation source="detailedDescription">The visibility was restricted by smoke.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">The visibility was restricted by factors other than those listed above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The factors that restricted the visibility were not determined.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL165_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="97">
+        <xs:annotation>
+          <xs:documentation source="valueID">97</xs:documentation>
+          <xs:documentation source="description">Not applicable</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type is not applicable.</xs:documentation>
+          <xs:documentation source="explanation">i.e. there was no instrument approach</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">NDB</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was an non-directional beacon approach.</xs:documentation>
+          <xs:documentation source="explanation">NDBs are used as fixes for instrument approaches but not primary sources of navigation; except for sparsely populated areas.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="12">
+        <xs:annotation>
+          <xs:documentation source="valueID">12</xs:documentation>
+          <xs:documentation source="description">NDB/DME</xs:documentation>
+          <xs:documentation source="detailedDescription">NDB/DME</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9">
+        <xs:annotation>
+          <xs:documentation source="valueID">9</xs:documentation>
+          <xs:documentation source="description">ILS - back course</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was an instrument landing system-back course approach.</xs:documentation>
+          <xs:documentation source="explanation">Under conventional ILS a back course ILS refers to a type of approach where an aircraft follows a localiser which provides lateral (left or right) guidance along a straight track to the runway when weather conditions prohibit a pilot from relying solely on visual cues. Since a back course approach does not provide precision or glide slope (vertical) guidance, this type of approach is referred to as a "non-precision" approach. The difference between a localizer 'front course' and a back course is that on a back course the signal from the localizer transmitter is reversed with reference to aircraft position."</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">ILS-complete</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was an instrument landing system-complete approach.</xs:documentation>
+          <xs:documentation source="explanation">An ILS is an approach aid that employs two radio beams to provide pilots with vertical and horizontal guidance during the landing approach. The localizer provides azimuth guidance, while the glide-slope defines the correct vertical descent profile. Marker beacons and high intensity runways lights are also part of the ILS.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">ILS-localizer</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was an instrument landing system-localizer approach.</xs:documentation>
+          <xs:documentation source="explanation">An ILS is an approach aid employing two radio beams to provide pilots with vertical and horizontal guidance during the landing approach. The localizer provides azimuth guidance, while the glide-slope defines the correct vertical descent profile.
+Under conventional ILS localizer only ILS refers to a type of approach where an aircraft follows a localizer which provides lateral (left or right) guidance along a straight track to the runway when weather conditions prohibit a pilot from relying solely on visual cues."</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">MLS</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was an microwave landing system approach.</xs:documentation>
+          <xs:documentation source="explanation">An instrument approach using a microwave-based instrument approach system that offers a number of advantages such as the ability to fly segmented and curved precision approaches.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">PAR</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was precision approach radar approach.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">R-nav</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was an area navigation approach.</xs:documentation>
+          <xs:documentation source="explanation">An instrument approach using R-nav which is a method of navigation that permits aircraft operation on any desired flight path within the coverage of station-referenced navigation aids or within the limits of the capability of self-contained aids, or a combination of these.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">TACAN</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was a tactical air navigation system approach.</xs:documentation>
+          <xs:documentation source="explanation">An instrument approach using a TACAN which is a UHF radio navigation system that provides a pilot with relative bearing and distance to a beacon on the ground, a ship, or to specially equipped aircraft. TACAN is the primary tactical air navigation system for the military services ashore and afloat.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">VOR/DME</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was a very high frequency omni-directional radio range/distance measuring equipment approach.</xs:documentation>
+          <xs:documentation source="explanation">An instrument approach using a DME which is a combination of ground and airborne equipment which gives a continuous slant range distance-from-station readout by measuring time-lapse of a signal transmitted by the aircraft to the station and responded back coupled with a VOR beacon to enable aircraft flight crew to measure their position relative to that beacon.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">VOR/TVOR</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was a very high frequency omni-directional radio range/terminal VOR approach.</xs:documentation>
+          <xs:documentation source="explanation">A VOR is a radio navigation aid operating in the 108-118 MHz band. A VOR ground station transmits a two-phase directional signal through 360 deg. The aircraft's VOR receiver enables a pilot to identify his radial or bearing from/to the ground station.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">VORTAC</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was a VORTAC approach.</xs:documentation>
+          <xs:documentation source="explanation">An instrument approach using a combined VOR and TACAN.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="13">
+        <xs:annotation>
+          <xs:documentation source="valueID">13</xs:documentation>
+          <xs:documentation source="description">SRA</xs:documentation>
+          <xs:documentation source="detailedDescription">Surveillance Radar Approach</xs:documentation>
+          <xs:documentation source="explanation">Surveillance Radar Approach</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="14">
+        <xs:annotation>
+          <xs:documentation source="valueID">14</xs:documentation>
+          <xs:documentation source="description">GNSS</xs:documentation>
+          <xs:documentation source="detailedDescription">Global Navigational Satellite System</xs:documentation>
+          <xs:documentation source="explanation">GNSS (Global Navigation Satellite System) is a satellite system that is used to pinpoint the geographic location of a user's receiver anywhere in the world. Two GNSS systems are currently in operation: the United States' Global Positioning System (GPS) and the Russian Federation's Global Orbiting Navigation Satellite System (GLONASS). A third, Europe's Galileo, is slated to reach full operational capacity in 2008. Each of the GNSS systems employs a constellation of orbiting satellites working in conjunction with a network of ground stations.
+
+GNSS approach procedures: 7.2.3.1 Usually, flying a basic GNSS non-precision instrument approach procedure is very similar to a traditional approach. The differences include the navigational information displayed on the GNSS equipment control and display unit and the terminology used to describe some of  the features. Flying a basic GNSS approach is normally point-to-point navigation and independent of any ground based navaids, or as it is otherwise known, area navigation. 7.2.3.2 GNSS procedures utilize a straight line (TOTO) flight from waypoint to waypoint, as sequenced in the database., Slight differences between the published track and the track presented may occur. These differences are usually due to rounding of the track bearing and/or the application of magnetic variation.(ICAO PANS-OPS, Part I)
+
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">The instrument approach type was other than one of those listed above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of instrument approach used was not determined.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

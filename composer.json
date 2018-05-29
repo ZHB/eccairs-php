@@ -1,0 +1,19 @@
+{
+    "name": "zhb/eccairs-php",
+    "description": "Library to create ECCAIRS files from PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Huck",
+            "email": "vincent.huck.pro@gmail.com"
+        }
+    ],
+    "require": {
+        "jms/serializer": "^1.12",
+        "nelexa/zip": "^3.1"
+    },
+    "autoload": {
+        "psr-4": { "Zhb\\Eccairs\\": "lib/Eccairs" }
+    }
+}

@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1003_5_0_1_4">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="2000000">
+        <xs:annotation>
+          <xs:documentation source="valueID">2000000</xs:documentation>
+          <xs:documentation source="description">Aeronautical Information Services (AIS)</xs:documentation>
+          <xs:documentation source="detailedDescription">Aeronautical Information Services.</xs:documentation>
+          <xs:documentation source="explanation">A service established within the defined area of coverage responsible for the provision of aeronautical information/data necessary for the safety, regularity and efficiency of air navigation. (An 15)
+ (Definition added to An 15 as per Amdt 30, 2000/11/02.)
+ Other Def.: Personnel and facilities employed to provide information pertaining to the availability of air navigation services and their associated procedures necessary for the safety, regularity and efficiency of air navigation (i.e. AIP, AIC, NOTAM, etc.).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1000000">
+        <xs:annotation>
+          <xs:documentation source="valueID">1000000</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM)</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Traffic Management.</xs:documentation>
+          <xs:documentation source="explanation">The primary component of Ground-Based ATM is Air Traffic Services (ATS), and the adjunct components are Airspace Management (ASM) and Air Traffic Flow Management (ATFM)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1020000">
+        <xs:annotation>
+          <xs:documentation source="valueID">1020000</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Advisory service</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Traffic Advisory service.</xs:documentation>
+          <xs:documentation source="explanation">A service provided within advisory airspace to ensure separation, in so far as practical, between aircraft which are operating on IFR flight plans - form of Air traffic Service (ATS).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1020200">
+        <xs:annotation>
+          <xs:documentation source="valueID">1020200</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Advisory service - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic advisory service other</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1020100">
+        <xs:annotation>
+          <xs:documentation source="valueID">1020100</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Advisory service - Radar</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic advisory service radar.</xs:documentation>
+          <xs:documentation source="explanation">Term used to indicate a service provided directly by means of radar</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010000">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010000</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC)</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Traffic Control service.</xs:documentation>
+          <xs:documentation source="explanation">Air traffic control service
+ A service provided for the purpose of:
+ a) preventing collisions:#between aircraft and on the manoeuvring area between aircraft and obstructions and
+ b) expediting and maintaining an orderly flow of traffic 
+
+ Form of Air traffic Service (ATS)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010100">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010100</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Aerodrome</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerodrome Air Traffic Control service.</xs:documentation>
+          <xs:documentation source="explanation">Air traffic control service for aerodrome traffic: All traffic on the manoeuvring area of an aerodrome and all aircraft flying in the vicinity of an aerodrome.#Note.- An aircraft is in the vicinity of an aerodrome when it is in, entering or leaving an aerodrome traffic circuit. (ICAO 9713-Aerodrome traffic)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010104">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010104</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Aerodrome - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Traffic Control service other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010103">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010103</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Aerodrome - Procedural control</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Traffic Control service procedural control.</xs:documentation>
+          <xs:documentation source="explanation">Non-radar separation; procedural control.
+ The type of separation used when aircraft position information is derived from sources other than radar.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010102">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010102</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Aerodrome - Radar control</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Traffic Control service radar control</xs:documentation>
+          <xs:documentation source="explanation">Term used to indicate that radar derived information is employed directly in the provision of an air traffic control service.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010101">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010101</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Aerodrome - Radar service</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Traffic Control service radar.</xs:documentation>
+          <xs:documentation source="explanation">Term used to indicate a service provided directly by means of radar</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010200">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010200</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic approach control service.</xs:documentation>
+          <xs:documentation source="explanation">Air traffic control service for arriving or departing controlled flights. A unit established to provide air traffic control service to controlled flights arriving at, or departing from, one or more aerodromes. (ICAO 9713- Approach control office)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010204">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010204</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Approach - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic approach control service other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010203">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010203</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Approach - Procedural control</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic approach control service procedural control.</xs:documentation>
+          <xs:documentation source="explanation">Non-radar separation; procedural control.
+ The separation used when aircraft position information is derived from sources other than radar.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010202">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010202</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Approach - Radar control</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic approach control service radar control.</xs:documentation>
+          <xs:documentation source="explanation">Term used to indicate that radar derived information is employed directly in the provision of an air traffic control service.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010201">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010201</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Approach - Radar service</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic approach control service radar</xs:documentation>
+          <xs:documentation source="explanation">Term used to indicate a service provided directly by means of radar</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010300">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010300</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Area</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic area control service.</xs:documentation>
+          <xs:documentation source="explanation">Air traffic control service for controlled flights in control areas. Area control centre; ACC#A unit established to provide air traffic control service to controlled flights in control areas under its jurisdiction.(ICAO 9713)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010305">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010305</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Area - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic area control service other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010303">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010303</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Area - Procedural control</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic area control service procedural control</xs:documentation>
+          <xs:documentation source="explanation">Non-radar separation; procedural control.
+ The separation used when aircraft position information is derived from sources other than radar.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010302">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010302</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Area - Radar control</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic area control service radar control</xs:documentation>
+          <xs:documentation source="explanation">Term used to indicate that radar derived information is employed directly in the provision of an air traffic control service.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010301">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010301</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Area - Radar service</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic area control service radar </xs:documentation>
+          <xs:documentation source="explanation">Term used to indicate a service provided directly by means of radar</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010304">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010304</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Area - Other surveilance means</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic area control service other surveilance means.</xs:documentation>
+          <xs:documentation source="explanation">Means involving other means than radar or procedural service</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010400">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010400</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Oceanic area</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic oceanic area control service.</xs:documentation>
+          <xs:documentation source="explanation">Air traffic Control Service for controlled flights in areas over oceans</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010404">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010404</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Oceanic area - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic oceanic area control service other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010403">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010403</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Oceanic area - Procedural control</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic oceanic area control service procedural control.</xs:documentation>
+          <xs:documentation source="explanation">Non-radar separation; procedural control.
+ The separation used when aircraft position information is derived from sources other than radar.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010402">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010402</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Oceanic area - Radar control</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic oceanic area control service radar control.</xs:documentation>
+          <xs:documentation source="explanation">Term used to indicate that radar derived information is employed directly in the provision of an air traffic control service.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1010401">
+        <xs:annotation>
+          <xs:documentation source="valueID">1010401</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Control service (ATC) - Oceanic area - Radar service</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic oceanic area control service radar service.</xs:documentation>
+          <xs:documentation source="explanation">Term used to indicate a service provided directly by means of radar</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1050000">
+        <xs:annotation>
+          <xs:documentation source="valueID">1050000</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Air Traffic Flow and Capacity Management (ATFCM)</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Traffic Flow and Capacity Management.</xs:documentation>
+          <xs:documentation source="explanation">Is a generic term covering any management activity provided for the purpose of ensuring an optimum flow of traffic to or through areas during times when demand exceeds the available capacity of ATC system.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1060000">
+        <xs:annotation>
+          <xs:documentation source="valueID">1060000</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Airspace Management (ASM)</xs:documentation>
+          <xs:documentation source="detailedDescription">Airspace Management.</xs:documentation>
+          <xs:documentation source="explanation">Is a generic term covering any management activity provided for the purpose of achieving the most efficient use of airspace based on actual needs and, where possible, avoiding permanent airspace segregation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1040000">
+        <xs:annotation>
+          <xs:documentation source="valueID">1040000</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Alerting service (ALR)</xs:documentation>
+          <xs:documentation source="detailedDescription">Alerting service.</xs:documentation>
+          <xs:documentation source="explanation">A service provided to notify appropriate organisations regarding aircraft in need of search and rescue aid, and assist such organisations as required - form of Air traffic Service (ATS).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1030000">
+        <xs:annotation>
+          <xs:documentation source="valueID">1030000</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Flight Information Service (FIS)</xs:documentation>
+          <xs:documentation source="detailedDescription">Flight Information Service.</xs:documentation>
+          <xs:documentation source="explanation">A service provided for the purpose of giving advice and information useful for the safe and efficient conduct of flights - form of Air Traffic Services (ATS).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1030300">
+        <xs:annotation>
+          <xs:documentation source="valueID">1030300</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Flight Information Service (FIS) - Operator ground station</xs:documentation>
+          <xs:documentation source="detailedDescription">Operator ground station / FSS / AFIS</xs:documentation>
+          <xs:documentation source="explanation">Flight Information Service via an operator ground station also called Flight Service Station (FSS) in United States or Aerodrome Flight
+information Service (AFIS) in Europe. Aerodrome flight information service unit is a unit established to
+provide flight information service and alerting service for aerodrome traffic at AFIS aerodromes.
+EUROCONTROL Manual for Aerodrome Flight Information Service (AFIS) Ed1.0 17 June 2010&gt;</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1030100">
+        <xs:annotation>
+          <xs:documentation source="valueID">1030100</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Flight Information Service (FIS) - Broadcast</xs:documentation>
+          <xs:documentation source="detailedDescription">Flight Information Service broadcast.</xs:documentation>
+          <xs:documentation source="explanation">A transmission of information relating to air navigation that is not addressed to a specific station or stations</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1030400">
+        <xs:annotation>
+          <xs:documentation source="valueID">1030400</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Flight Information Service (FIS) - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Flight Information Service other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1030200">
+        <xs:annotation>
+          <xs:documentation source="valueID">1030200</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - Flight Information Service (FIS) - Radar</xs:documentation>
+          <xs:documentation source="detailedDescription">Flight Information Service radar.</xs:documentation>
+          <xs:documentation source="explanation">Term used to indicate a service provided directly by means of radar</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1070000">
+        <xs:annotation>
+          <xs:documentation source="valueID">1070000</xs:documentation>
+          <xs:documentation source="description">Air Traffic Management (ATM) - No service</xs:documentation>
+          <xs:documentation source="detailedDescription">No ATM service provided.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5000000">
+        <xs:annotation>
+          <xs:documentation source="valueID">5000000</xs:documentation>
+          <xs:documentation source="description">Communications, Navigation and Surveillance (CNS)</xs:documentation>
+          <xs:documentation source="detailedDescription">CNS: Communications, Navigation and Surveillance.</xs:documentation>
+          <xs:documentation source="explanation">Communications, navigation and surveillance (CNS) includes communication facilities, navigation services and surveillance systems. Communication facilities may be broadly classified under two main categories: aeronautical fixed service and aeronautical mobile service.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4000000">
+        <xs:annotation>
+          <xs:documentation source="valueID">4000000</xs:documentation>
+          <xs:documentation source="description">Meteorological services (MET)</xs:documentation>
+          <xs:documentation source="detailedDescription">Meteorological services.</xs:documentation>
+          <xs:documentation source="explanation">Meteorological services: those facilities and services that furnish aviation with meteorological forecasts, briefs and observations as well as SIGMET information, VOLMET broadcasting material and any other meteorological data provided by States for aeronautical use.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3000000">
+        <xs:annotation>
+          <xs:documentation source="valueID">3000000</xs:documentation>
+          <xs:documentation source="description">Search and Rescue services (SAR)</xs:documentation>
+          <xs:documentation source="detailedDescription">Search and Rescue services.</xs:documentation>
+          <xs:documentation source="explanation">Any permanent civil establishment of equipment and personnel maintained for the purposes of providing search and rescue services.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

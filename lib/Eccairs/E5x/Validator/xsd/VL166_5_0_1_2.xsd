@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL166_5_0_1_2">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">Tricycle</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a tricycle.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Tricycle - Tricycle, retractable</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was tricycle, retractable.</xs:documentation>
+          <xs:documentation source="explanation">Tricycle landing gear consists of a forward (nose) wheel and wheel assemblies located aft of the aircraft's centre of gravity. The nose gear is steerable by means of the rudder pedals. The landing gear can be retracted into the body (or wing). This includes landing gears in which the aircraft is, in addition to the tricycle gear, supported by a central body gear as in the MD11.
+
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Tricycle - Tricycle, fixed</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was tricycle, fixed.</xs:documentation>
+          <xs:documentation source="explanation">Tricycle landing gear consists of a forward (nose) wheel and two or more wheel assemblies located aft of the aircraft’s centre of gravity. The nose gear is steerable by means of the rudder pedals. It is fixed, i.e. it cannot be retracted into the body or wing.
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="101">
+        <xs:annotation>
+          <xs:documentation source="valueID">101</xs:documentation>
+          <xs:documentation source="description">Tailwheel</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a tail wheel.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Tailwheel - Tailwheel/tailskid, fixed</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a tailwheel/tailskid fixed.</xs:documentation>
+          <xs:documentation source="explanation">Tailwheel/tailskid fixed is a landing gear consisting of two wheel assemblies forward of the aircraft's centre of gravity and a smaller wheel assembly or skid aft of the centre of gravity. The landing gear cannot be retracted.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9">
+        <xs:annotation>
+          <xs:documentation source="valueID">9</xs:documentation>
+          <xs:documentation source="description">Tailwheel - Tailwheel/tailskid, retractable</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a tailwheel/tailskid retractable.</xs:documentation>
+          <xs:documentation source="explanation">Tailwheel/tailskid retractable is a landing gear consisting of retractable two wheel assemblies forward of the aircraft's centre of gravity and a smaller wheel assembly or skid aft of the centre of gravity, which may be retractable.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="102">
+        <xs:annotation>
+          <xs:documentation source="valueID">102</xs:documentation>
+          <xs:documentation source="description">Mono-wheel</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a mono-wheel.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">Mono-wheel - Mono-wheel/skid, fixed</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a mono-wheel/skid fixed.</xs:documentation>
+          <xs:documentation source="explanation">This term is used for a landing gear consisting of one centered wheel or skid. Additional supports may include smaller wheels or skids. The landing gear cannot be retracted.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">Mono-wheel - Mono-wheel, retractable</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a mono-wheel retractable.</xs:documentation>
+          <xs:documentation source="explanation">This term is used for a landing gear consisting of one retractable centered wheel. Additional supports may include smaller wheels or skids, which may be retractable.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Skid</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a skid.</xs:documentation>
+          <xs:documentation source="explanation">Skid is a landing gear that consists of a set of beams supporting the aircraft on the ground. Skids are usually found on helicopters.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Amphibious</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was amphibious.</xs:documentation>
+          <xs:documentation source="explanation">Amphibious is a landing gear that is designed to operate on water via the aircraft’s airframe or floats attached to the airframe and to operate on land via wheeled landing gear.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Hull/float equipped</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft used its hull/float for landings.</xs:documentation>
+          <xs:documentation source="explanation">This term is used for a landing gear that is designed to operate on water via the aircraft’s airframe or via floats attached to the airframe and does not include wheeled landing gear.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Ski</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was ski.</xs:documentation>
+          <xs:documentation source="explanation">Ski is a landing gear designed to accommodate operations on snow and ice.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="12">
+        <xs:annotation>
+          <xs:documentation source="valueID">12</xs:documentation>
+          <xs:documentation source="description">Quadricycle</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a quadricycle.</xs:documentation>
+          <xs:documentation source="explanation">This term is used for a landing gear that consists of four retractable wheel assemblies: two forward and two aft of the aircraft's centre of gravity.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="13">
+        <xs:annotation>
+          <xs:documentation source="valueID">13</xs:documentation>
+          <xs:documentation source="description">Tandem</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a tandem.</xs:documentation>
+          <xs:documentation source="explanation">This term is used for a landing gear that consists of retractable two wheel assemblies mounted on the aircraft centerline one behind the other. Additional supports may include smaller wheels or skids. Tandem landing gear is also known as bicycle landing gear.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was a other than one of those listed above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The landing gear type was unknown.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

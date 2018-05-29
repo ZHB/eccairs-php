@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1097_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Afrikaans </xs:documentation>
+          <xs:documentation source="detailedDescription">Afrikaans </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">af </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Albanian </xs:documentation>
+          <xs:documentation source="detailedDescription">Albanian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">sq </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Arabic </xs:documentation>
+          <xs:documentation source="detailedDescription">Arabic </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ar </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Armenian </xs:documentation>
+          <xs:documentation source="detailedDescription">Armenian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">hy </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Azerbaijani </xs:documentation>
+          <xs:documentation source="detailedDescription">Azerbaijani ; Azeri</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">az </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Basque </xs:documentation>
+          <xs:documentation source="detailedDescription">Basque </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">eu </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Belarusian </xs:documentation>
+          <xs:documentation source="detailedDescription">Belarusian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">be </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Bulgarian</xs:documentation>
+          <xs:documentation source="detailedDescription">Bulgarian</xs:documentation>
+          <xs:documentation source="explanation">The language was Bulgarian.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">bg </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9">
+        <xs:annotation>
+          <xs:documentation source="valueID">9</xs:documentation>
+          <xs:documentation source="description">Catalan</xs:documentation>
+          <xs:documentation source="detailedDescription">Catalan; Valencian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ca </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">Chinese </xs:documentation>
+          <xs:documentation source="detailedDescription">Chinese </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">zh </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">Croatian </xs:documentation>
+          <xs:documentation source="detailedDescription">Croatian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">hr </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="12">
+        <xs:annotation>
+          <xs:documentation source="valueID">12</xs:documentation>
+          <xs:documentation source="description">Czech</xs:documentation>
+          <xs:documentation source="detailedDescription">Czech</xs:documentation>
+          <xs:documentation source="explanation">The language was Czech.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">cs </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="13">
+        <xs:annotation>
+          <xs:documentation source="valueID">13</xs:documentation>
+          <xs:documentation source="description">Danish</xs:documentation>
+          <xs:documentation source="detailedDescription">Danish</xs:documentation>
+          <xs:documentation source="explanation">The language was Danish.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">da </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="14">
+        <xs:annotation>
+          <xs:documentation source="valueID">14</xs:documentation>
+          <xs:documentation source="description">Divehi</xs:documentation>
+          <xs:documentation source="detailedDescription">Divehi; Dhivehi; Maldivian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">dv </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="15">
+        <xs:annotation>
+          <xs:documentation source="valueID">15</xs:documentation>
+          <xs:documentation source="description">Dutch</xs:documentation>
+          <xs:documentation source="detailedDescription">Dutch; Flemish </xs:documentation>
+          <xs:documentation source="explanation">The language was Dutch.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">nl </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="16">
+        <xs:annotation>
+          <xs:documentation source="valueID">16</xs:documentation>
+          <xs:documentation source="description">English</xs:documentation>
+          <xs:documentation source="detailedDescription">English</xs:documentation>
+          <xs:documentation source="explanation">The language was English.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">en </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="17">
+        <xs:annotation>
+          <xs:documentation source="valueID">17</xs:documentation>
+          <xs:documentation source="description">Estonian</xs:documentation>
+          <xs:documentation source="detailedDescription">Estonian</xs:documentation>
+          <xs:documentation source="explanation">The language was Estonian.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">et </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="18">
+        <xs:annotation>
+          <xs:documentation source="valueID">18</xs:documentation>
+          <xs:documentation source="description">Faroese </xs:documentation>
+          <xs:documentation source="detailedDescription">Faroese </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">fo </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="19">
+        <xs:annotation>
+          <xs:documentation source="valueID">19</xs:documentation>
+          <xs:documentation source="description">Finnish</xs:documentation>
+          <xs:documentation source="detailedDescription">Finnish</xs:documentation>
+          <xs:documentation source="explanation">The language was Finnish.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">fi </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="20">
+        <xs:annotation>
+          <xs:documentation source="valueID">20</xs:documentation>
+          <xs:documentation source="description">French</xs:documentation>
+          <xs:documentation source="detailedDescription">French</xs:documentation>
+          <xs:documentation source="explanation">The language was French.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">fr </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="21">
+        <xs:annotation>
+          <xs:documentation source="valueID">21</xs:documentation>
+          <xs:documentation source="description">Galician </xs:documentation>
+          <xs:documentation source="detailedDescription">Galician </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">gl </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="22">
+        <xs:annotation>
+          <xs:documentation source="valueID">22</xs:documentation>
+          <xs:documentation source="description">Georgian </xs:documentation>
+          <xs:documentation source="detailedDescription">Georgian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ka </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="23">
+        <xs:annotation>
+          <xs:documentation source="valueID">23</xs:documentation>
+          <xs:documentation source="description">German</xs:documentation>
+          <xs:documentation source="detailedDescription">German</xs:documentation>
+          <xs:documentation source="explanation">The language was German.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">de </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="24">
+        <xs:annotation>
+          <xs:documentation source="valueID">24</xs:documentation>
+          <xs:documentation source="description">Greek</xs:documentation>
+          <xs:documentation source="detailedDescription">Greek</xs:documentation>
+          <xs:documentation source="explanation">The language was Greek.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">el </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="25">
+        <xs:annotation>
+          <xs:documentation source="valueID">25</xs:documentation>
+          <xs:documentation source="description">Gujarati </xs:documentation>
+          <xs:documentation source="detailedDescription">Gujarati </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">gu </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="26">
+        <xs:annotation>
+          <xs:documentation source="valueID">26</xs:documentation>
+          <xs:documentation source="description">Hebrew </xs:documentation>
+          <xs:documentation source="detailedDescription">Hebrew </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">he </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="27">
+        <xs:annotation>
+          <xs:documentation source="valueID">27</xs:documentation>
+          <xs:documentation source="description">Hindi </xs:documentation>
+          <xs:documentation source="detailedDescription">Hindi </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">hi </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="28">
+        <xs:annotation>
+          <xs:documentation source="valueID">28</xs:documentation>
+          <xs:documentation source="description">Hungarian</xs:documentation>
+          <xs:documentation source="detailedDescription">Hungarian</xs:documentation>
+          <xs:documentation source="explanation">The language was Hungarian.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">hu </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="29">
+        <xs:annotation>
+          <xs:documentation source="valueID">29</xs:documentation>
+          <xs:documentation source="description">Icelandic</xs:documentation>
+          <xs:documentation source="detailedDescription">Icelandic</xs:documentation>
+          <xs:documentation source="explanation">The language was Icelandic.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">is </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30">
+        <xs:annotation>
+          <xs:documentation source="valueID">30</xs:documentation>
+          <xs:documentation source="description">Indonesian </xs:documentation>
+          <xs:documentation source="detailedDescription">Indonesian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">id </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="31">
+        <xs:annotation>
+          <xs:documentation source="valueID">31</xs:documentation>
+          <xs:documentation source="description">Italian</xs:documentation>
+          <xs:documentation source="detailedDescription">Italian</xs:documentation>
+          <xs:documentation source="explanation">The language was Italian.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">it </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="32">
+        <xs:annotation>
+          <xs:documentation source="valueID">32</xs:documentation>
+          <xs:documentation source="description">Japanese </xs:documentation>
+          <xs:documentation source="detailedDescription">Japanese </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ja </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="33">
+        <xs:annotation>
+          <xs:documentation source="valueID">33</xs:documentation>
+          <xs:documentation source="description">Kannada </xs:documentation>
+          <xs:documentation source="detailedDescription">Kannada </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">kn </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="34">
+        <xs:annotation>
+          <xs:documentation source="valueID">34</xs:documentation>
+          <xs:documentation source="description">Kazakh </xs:documentation>
+          <xs:documentation source="detailedDescription">Kazakh </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">kk </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="35">
+        <xs:annotation>
+          <xs:documentation source="valueID">35</xs:documentation>
+          <xs:documentation source="description">Kirghiz</xs:documentation>
+          <xs:documentation source="detailedDescription">Kirghiz; Kyrgyz </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ky </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="36">
+        <xs:annotation>
+          <xs:documentation source="valueID">36</xs:documentation>
+          <xs:documentation source="description">Korean </xs:documentation>
+          <xs:documentation source="detailedDescription">Korean </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ko </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="37">
+        <xs:annotation>
+          <xs:documentation source="valueID">37</xs:documentation>
+          <xs:documentation source="description">Latvian</xs:documentation>
+          <xs:documentation source="detailedDescription">Latvian</xs:documentation>
+          <xs:documentation source="explanation">The language was Latvian.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">lv </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="38">
+        <xs:annotation>
+          <xs:documentation source="valueID">38</xs:documentation>
+          <xs:documentation source="description">Lithuanian</xs:documentation>
+          <xs:documentation source="detailedDescription">Lithuanian</xs:documentation>
+          <xs:documentation source="explanation">The language was Lithuanian.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">lt </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="39">
+        <xs:annotation>
+          <xs:documentation source="valueID">39</xs:documentation>
+          <xs:documentation source="description">Macedonian </xs:documentation>
+          <xs:documentation source="detailedDescription">Macedonian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">mk </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40">
+        <xs:annotation>
+          <xs:documentation source="valueID">40</xs:documentation>
+          <xs:documentation source="description">Malay </xs:documentation>
+          <xs:documentation source="detailedDescription">Malay </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ms </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="41">
+        <xs:annotation>
+          <xs:documentation source="valueID">41</xs:documentation>
+          <xs:documentation source="description">Marathi </xs:documentation>
+          <xs:documentation source="detailedDescription">Marathi </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">mr </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="42">
+        <xs:annotation>
+          <xs:documentation source="valueID">42</xs:documentation>
+          <xs:documentation source="description">Mongolian </xs:documentation>
+          <xs:documentation source="detailedDescription">Mongolian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">mn </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="43">
+        <xs:annotation>
+          <xs:documentation source="valueID">43</xs:documentation>
+          <xs:documentation source="description">Norwegian</xs:documentation>
+          <xs:documentation source="detailedDescription">Norwegian</xs:documentation>
+          <xs:documentation source="explanation">The language was Norwegian.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">no </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="44">
+        <xs:annotation>
+          <xs:documentation source="valueID">44</xs:documentation>
+          <xs:documentation source="description">Persian </xs:documentation>
+          <xs:documentation source="detailedDescription">Persian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">fa </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="45">
+        <xs:annotation>
+          <xs:documentation source="valueID">45</xs:documentation>
+          <xs:documentation source="description">Polish</xs:documentation>
+          <xs:documentation source="detailedDescription">Polish</xs:documentation>
+          <xs:documentation source="explanation">The language was Polish.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">pl </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="46">
+        <xs:annotation>
+          <xs:documentation source="valueID">46</xs:documentation>
+          <xs:documentation source="description">Portuguese</xs:documentation>
+          <xs:documentation source="detailedDescription">Portuguese</xs:documentation>
+          <xs:documentation source="explanation">The language was Portuguese.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">pt </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="47">
+        <xs:annotation>
+          <xs:documentation source="valueID">47</xs:documentation>
+          <xs:documentation source="description">Punjabi</xs:documentation>
+          <xs:documentation source="detailedDescription">Punjabi</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="48">
+        <xs:annotation>
+          <xs:documentation source="valueID">48</xs:documentation>
+          <xs:documentation source="description">Romanian</xs:documentation>
+          <xs:documentation source="detailedDescription">Romanian</xs:documentation>
+          <xs:documentation source="explanation">The language was Romanian.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ro </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="49">
+        <xs:annotation>
+          <xs:documentation source="valueID">49</xs:documentation>
+          <xs:documentation source="description">Russian </xs:documentation>
+          <xs:documentation source="detailedDescription">Russian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ru </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50">
+        <xs:annotation>
+          <xs:documentation source="valueID">50</xs:documentation>
+          <xs:documentation source="description">Sanskrit </xs:documentation>
+          <xs:documentation source="detailedDescription">Sanskrit </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">sa </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="51">
+        <xs:annotation>
+          <xs:documentation source="valueID">51</xs:documentation>
+          <xs:documentation source="description">Serbian </xs:documentation>
+          <xs:documentation source="detailedDescription">Serbian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">sr </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="52">
+        <xs:annotation>
+          <xs:documentation source="valueID">52</xs:documentation>
+          <xs:documentation source="description">Slovak</xs:documentation>
+          <xs:documentation source="detailedDescription">Slovak</xs:documentation>
+          <xs:documentation source="explanation">The language was Slovak.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">sk </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="53">
+        <xs:annotation>
+          <xs:documentation source="valueID">53</xs:documentation>
+          <xs:documentation source="description">Slovenian</xs:documentation>
+          <xs:documentation source="detailedDescription">Slovenian</xs:documentation>
+          <xs:documentation source="explanation">The language was Slovenian.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">sl </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="54">
+        <xs:annotation>
+          <xs:documentation source="valueID">54</xs:documentation>
+          <xs:documentation source="description">Spanish</xs:documentation>
+          <xs:documentation source="detailedDescription">Spanish; Castilian </xs:documentation>
+          <xs:documentation source="explanation">The language was Spanish.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">es </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="55">
+        <xs:annotation>
+          <xs:documentation source="valueID">55</xs:documentation>
+          <xs:documentation source="description">Swedish</xs:documentation>
+          <xs:documentation source="detailedDescription">Swedish</xs:documentation>
+          <xs:documentation source="explanation">The language was Swedish.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">sv </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="56">
+        <xs:annotation>
+          <xs:documentation source="valueID">56</xs:documentation>
+          <xs:documentation source="description">Tamil </xs:documentation>
+          <xs:documentation source="detailedDescription">Tamil </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ta </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="57">
+        <xs:annotation>
+          <xs:documentation source="valueID">57</xs:documentation>
+          <xs:documentation source="description">Tatar </xs:documentation>
+          <xs:documentation source="detailedDescription">Tatar </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">tt </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="58">
+        <xs:annotation>
+          <xs:documentation source="valueID">58</xs:documentation>
+          <xs:documentation source="description">Telugu </xs:documentation>
+          <xs:documentation source="detailedDescription">Telugu </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">te </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="59">
+        <xs:annotation>
+          <xs:documentation source="valueID">59</xs:documentation>
+          <xs:documentation source="description">Thai </xs:documentation>
+          <xs:documentation source="detailedDescription">Thai </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">th </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="60">
+        <xs:annotation>
+          <xs:documentation source="valueID">60</xs:documentation>
+          <xs:documentation source="description">Turkish</xs:documentation>
+          <xs:documentation source="detailedDescription">Turkish</xs:documentation>
+          <xs:documentation source="explanation">The language was Turkish.</xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">tr </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="61">
+        <xs:annotation>
+          <xs:documentation source="valueID">61</xs:documentation>
+          <xs:documentation source="description">Ukrainian </xs:documentation>
+          <xs:documentation source="detailedDescription">Ukrainian </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">uk </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="63">
+        <xs:annotation>
+          <xs:documentation source="valueID">63</xs:documentation>
+          <xs:documentation source="description">Urdu </xs:documentation>
+          <xs:documentation source="detailedDescription">Urdu </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">ur </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="64">
+        <xs:annotation>
+          <xs:documentation source="valueID">64</xs:documentation>
+          <xs:documentation source="description">Uzbek </xs:documentation>
+          <xs:documentation source="detailedDescription">Uzbek </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">uz </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="65">
+        <xs:annotation>
+          <xs:documentation source="valueID">65</xs:documentation>
+          <xs:documentation source="description">Vietnamese </xs:documentation>
+          <xs:documentation source="detailedDescription">Vietnamese </xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+          <xs:documentation source="Alias: ISO CODE ALPHA-2">vi </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="66">
+        <xs:annotation>
+          <xs:documentation source="valueID">66</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other</xs:documentation>
+          <xs:documentation source="explanation">The language was other than listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="62">
+        <xs:annotation>
+          <xs:documentation source="valueID">62</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown</xs:documentation>
+          <xs:documentation source="explanation">The language is unknown.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1028_5_0_1_2">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Structures</xs:documentation>
+          <xs:documentation source="detailedDescription">Structures.</xs:documentation>
+          <xs:documentation source="explanation">Structures were damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="6">
+        <xs:annotation>
+          <xs:documentation source="valueID">6</xs:documentation>
+          <xs:documentation source="description">Structures - Building/houses</xs:documentation>
+          <xs:documentation source="detailedDescription">Building, houses, farms, etc.</xs:documentation>
+          <xs:documentation source="explanation">A Building/house was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Structures - Hospital/medical centre</xs:documentation>
+          <xs:documentation source="detailedDescription">Hospital/medical centre.</xs:documentation>
+          <xs:documentation source="explanation">An hospital/medical centre was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="8">
+        <xs:annotation>
+          <xs:documentation source="valueID">8</xs:documentation>
+          <xs:documentation source="description">Structures - School/university</xs:documentation>
+          <xs:documentation source="detailedDescription">Educational institution school, university, kindergarten, etc.</xs:documentation>
+          <xs:documentation source="explanation">A school/university was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9">
+        <xs:annotation>
+          <xs:documentation source="valueID">9</xs:documentation>
+          <xs:documentation source="description">Structures - Residential area</xs:documentation>
+          <xs:documentation source="detailedDescription">Residential area, garden, street, golf-court, park, etc.</xs:documentation>
+          <xs:documentation source="explanation">A residential area was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">Structures - Industrial Building</xs:documentation>
+          <xs:documentation source="detailedDescription">Individual industrial building.</xs:documentation>
+          <xs:documentation source="explanation">An industrial building was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">Structures - Industrial area/park</xs:documentation>
+          <xs:documentation source="detailedDescription">Industrial area/park, an area with several industrial building.</xs:documentation>
+          <xs:documentation source="explanation">An industrial area/park was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="12">
+        <xs:annotation>
+          <xs:documentation source="valueID">12</xs:documentation>
+          <xs:documentation source="description">Structures - Powerlines/cables</xs:documentation>
+          <xs:documentation source="detailedDescription"> Powerlines, cables.</xs:documentation>
+          <xs:documentation source="explanation">A powerline/cable was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="13">
+        <xs:annotation>
+          <xs:documentation source="valueID">13</xs:documentation>
+          <xs:documentation source="description">Structures - Aerodrome facilities</xs:documentation>
+          <xs:documentation source="detailedDescription"> Aerodrome facilities.</xs:documentation>
+          <xs:documentation source="explanation"> Aerodrome facilities were damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="14">
+        <xs:annotation>
+          <xs:documentation source="valueID">14</xs:documentation>
+          <xs:documentation source="description">Structures - Fence/Pole</xs:documentation>
+          <xs:documentation source="detailedDescription"> Fence and poles.</xs:documentation>
+          <xs:documentation source="explanation">A fence/pole was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="15">
+        <xs:annotation>
+          <xs:documentation source="valueID">15</xs:documentation>
+          <xs:documentation source="description">Structures - Windturbine</xs:documentation>
+          <xs:documentation source="detailedDescription">Windturbine.</xs:documentation>
+          <xs:documentation source="explanation">A windturbine was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Objects</xs:documentation>
+          <xs:documentation source="detailedDescription">Objects.</xs:documentation>
+          <xs:documentation source="explanation">Objects other than structures were damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="16">
+        <xs:annotation>
+          <xs:documentation source="valueID">16</xs:documentation>
+          <xs:documentation source="description">Objects - Parked aircraft - unoccupied aircraft</xs:documentation>
+          <xs:documentation source="detailedDescription">Parked aircraft - unoccupied aircraft.</xs:documentation>
+          <xs:documentation source="explanation">A parked aircraft, without any person on board, was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="17">
+        <xs:annotation>
+          <xs:documentation source="valueID">17</xs:documentation>
+          <xs:documentation source="description">Objects - Vehicle – on aerodrome</xs:documentation>
+          <xs:documentation source="detailedDescription">Vehicle – on aerodrome : vehicle, car, bike, etc.</xs:documentation>
+          <xs:documentation source="explanation">A type of vehicle, on the aerodrome/airstrip, was damaged by impact. To cover damages on other vehicles, cars, bikes, etc.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="18">
+        <xs:annotation>
+          <xs:documentation source="valueID">18</xs:documentation>
+          <xs:documentation source="description">Objects - Vehicle – off aerodrome</xs:documentation>
+          <xs:documentation source="detailedDescription">Vehicle – off aerodrome.</xs:documentation>
+          <xs:documentation source="explanation">A type of vehicle, off the aerodrome/airstrip, was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="19">
+        <xs:annotation>
+          <xs:documentation source="valueID">19</xs:documentation>
+          <xs:documentation source="description">Objects - Crane</xs:documentation>
+          <xs:documentation source="detailedDescription">Crane.</xs:documentation>
+          <xs:documentation source="explanation">A crane was damaged by impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Environment</xs:documentation>
+          <xs:documentation source="detailedDescription">Environment.</xs:documentation>
+          <xs:documentation source="explanation">Any environmental damage resulting from the aircraft impact.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="20">
+        <xs:annotation>
+          <xs:documentation source="valueID">20</xs:documentation>
+          <xs:documentation source="description">Environment - Crop/vegetation</xs:documentation>
+          <xs:documentation source="detailedDescription">Crop/vegetation.</xs:documentation>
+          <xs:documentation source="explanation">To cover crop damage, e.g. environmental damage resulting
+from leaking/spilled aircraft fluids
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="21">
+        <xs:annotation>
+          <xs:documentation source="valueID">21</xs:documentation>
+          <xs:documentation source="description">None</xs:documentation>
+          <xs:documentation source="detailedDescription">None</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="5">
+        <xs:annotation>
+          <xs:documentation source="valueID">5</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation">Objects damaged by impact were other than those listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">The type of objects damaged by impact is unknown.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

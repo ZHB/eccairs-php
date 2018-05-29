@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL456_5_0_1_2">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Yes</xs:documentation>
+          <xs:documentation source="detailedDescription">Some third party damage occurred.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">Yes - Yes - by rotor / propeller wash / jet blast</xs:documentation>
+          <xs:documentation source="detailedDescription">Yes - by rotor / propeller wash / jet blast</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="101">
+        <xs:annotation>
+          <xs:documentation source="valueID">101</xs:documentation>
+          <xs:documentation source="description">Yes - Yes - by vortex</xs:documentation>
+          <xs:documentation source="detailedDescription">Yes - by vortex</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="102">
+        <xs:annotation>
+          <xs:documentation source="valueID">102</xs:documentation>
+          <xs:documentation source="description">Yes - Yes - by fire</xs:documentation>
+          <xs:documentation source="detailedDescription">Yes - by fire</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="103">
+        <xs:annotation>
+          <xs:documentation source="valueID">103</xs:documentation>
+          <xs:documentation source="description">Yes - Yes - by impact</xs:documentation>
+          <xs:documentation source="detailedDescription">Yes - by impact</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="104">
+        <xs:annotation>
+          <xs:documentation source="valueID">104</xs:documentation>
+          <xs:documentation source="description">Yes - Yes - by fuel / fluid leak</xs:documentation>
+          <xs:documentation source="detailedDescription">Yes - by fuel / fluid leak</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="105">
+        <xs:annotation>
+          <xs:documentation source="valueID">105</xs:documentation>
+          <xs:documentation source="description">Yes - Yes - by dispersed cargo</xs:documentation>
+          <xs:documentation source="detailedDescription">Yes - by dispersed cargo</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="106">
+        <xs:annotation>
+          <xs:documentation source="valueID">106</xs:documentation>
+          <xs:documentation source="description">Yes - Yes - by other</xs:documentation>
+          <xs:documentation source="detailedDescription">Yes - by other</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="107">
+        <xs:annotation>
+          <xs:documentation source="valueID">107</xs:documentation>
+          <xs:documentation source="description">Yes - Yes - by unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Yes - by unknown</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">No</xs:documentation>
+          <xs:documentation source="detailedDescription">No third party damage occurred.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The extent of the third party damage is not known.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

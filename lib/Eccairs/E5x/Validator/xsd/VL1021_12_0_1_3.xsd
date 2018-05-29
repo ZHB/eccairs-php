@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1021_12_0_1_3">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="9816">
+        <xs:annotation>
+          <xs:documentation source="valueID">9816</xs:documentation>
+          <xs:documentation source="description">ATM</xs:documentation>
+          <xs:documentation source="detailedDescription">Form related to ATM reporting</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">ATM - ACAS</xs:documentation>
+          <xs:documentation source="detailedDescription">Airborne Collision Avoidance System</xs:documentation>
+          <xs:documentation source="explanation">Eurocontrol: Notification and report by the aircraft commander to the air traffic services unit concerned, and the subsequent controller report, whenever an aircraft has manoeuvred in response to an ACAS advisory.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="101">
+        <xs:annotation>
+          <xs:documentation source="valueID">101</xs:documentation>
+          <xs:documentation source="description">ATM - ACAS - National</xs:documentation>
+          <xs:documentation source="detailedDescription">National</xs:documentation>
+          <xs:documentation source="explanation">Eurocontrol: A formal incident reporting system forming part of any National Mandatory ATM Safety Occurrence requirement for collection of information on actual or potential safety deficiencies.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="102">
+        <xs:annotation>
+          <xs:documentation source="valueID">102</xs:documentation>
+          <xs:documentation source="description">ATM - ACAS - SRC / JAR</xs:documentation>
+          <xs:documentation source="detailedDescription">Safety Regulation Commission / Joint Aviation Requirements.</xs:documentation>
+          <xs:documentation source="explanation">Reporting based on requirements of the Safety Regulation Group (SRG) or the Joint Aviation Requirements (JAR).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="200">
+        <xs:annotation>
+          <xs:documentation source="valueID">200</xs:documentation>
+          <xs:documentation source="description">ATM - AIRPROX</xs:documentation>
+          <xs:documentation source="detailedDescription">AIRPROX: The code word used in an air traffic incident report to designate unacceptable aircraft proximity.</xs:documentation>
+          <xs:documentation source="explanation">The code word used in an air traffic incident report to designate unacceptable aircraft proximity. ICAO Doc 9713. A situation in which, in the opinion of a pilot or air traffic services personnel, the distance between aircraft as well as their relative positions and speed have been such that the safety of the aircraft involved may have been compromised. An aircraft proximity is classified as follows:- Risk of collision. The risk classification of an aircraft proximity in which a serious risk of collision has existed.- Safety not assured. The risk classification of an aircraft proximity in which the safety of an aircraft may have been compromised.- No risk of collision. The risk classification of an aircraft proximity in which no risk of collision has existed.- Risk not determined. The risk classification of an aircraft proximity in which insufficient information was available to determine the risk involved, or inconclusive or conflicting evidence precluded such determination</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="201">
+        <xs:annotation>
+          <xs:documentation source="valueID">201</xs:documentation>
+          <xs:documentation source="description">ATM - AIRPROX - National</xs:documentation>
+          <xs:documentation source="detailedDescription">National</xs:documentation>
+          <xs:documentation source="explanation">Eurocontrol: A formal incident reporting system forming part of any National Mandatory ATM Safety Occurrence requirement for collection of information on actual or potential safety deficiencies.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="202">
+        <xs:annotation>
+          <xs:documentation source="valueID">202</xs:documentation>
+          <xs:documentation source="description">ATM - AIRPROX - SRC / JAR</xs:documentation>
+          <xs:documentation source="detailedDescription">Safety Regulation Commission / Joint Aviation Requirements.</xs:documentation>
+          <xs:documentation source="explanation">Reporting based on requirements of the Safety Regulation Group (SRG) or the Joint Aviation Requirements (JAR).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="300">
+        <xs:annotation>
+          <xs:documentation source="valueID">300</xs:documentation>
+          <xs:documentation source="description">ATM - APDSG</xs:documentation>
+          <xs:documentation source="detailedDescription">Air traffic management Procedures Development Sub-Group.</xs:documentation>
+          <xs:documentation source="explanation">A standardized form or procedure of reporting an ATM incident.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="301">
+        <xs:annotation>
+          <xs:documentation source="valueID">301</xs:documentation>
+          <xs:documentation source="description">ATM - APDSG - National</xs:documentation>
+          <xs:documentation source="detailedDescription">National</xs:documentation>
+          <xs:documentation source="explanation">Eurocontrol: A formal incident reporting system forming part of any National Mandatory ATM Safety Occurrence requirement for collection of information on actual or potential safety deficiencies.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="302">
+        <xs:annotation>
+          <xs:documentation source="valueID">302</xs:documentation>
+          <xs:documentation source="description">ATM - APDSG - SRC / JAR</xs:documentation>
+          <xs:documentation source="detailedDescription">Safety Regulation Commission / Joint Aviation Requirements.</xs:documentation>
+          <xs:documentation source="explanation">Reporting based on requirements of the Safety Regulation Group (SRG) or the Joint Aviation Requirements (JAR).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="400">
+        <xs:annotation>
+          <xs:documentation source="valueID">400</xs:documentation>
+          <xs:documentation source="description">ATM - ATIR</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Traffic Incident Report</xs:documentation>
+          <xs:documentation source="explanation">A standardized form or procedure of reporting an incident e.g. ICAO Doc 4444, Appendix 4, Air Traffic Incident Report.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="401">
+        <xs:annotation>
+          <xs:documentation source="valueID">401</xs:documentation>
+          <xs:documentation source="description">ATM - ATIR - National</xs:documentation>
+          <xs:documentation source="detailedDescription">National</xs:documentation>
+          <xs:documentation source="explanation">Eurocontrol: A formal incident reporting system forming part of any National Mandatory ATM Safety Occurrence requirement for collection of information on actual or potential safety deficiencies.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="402">
+        <xs:annotation>
+          <xs:documentation source="valueID">402</xs:documentation>
+          <xs:documentation source="description">ATM - ATIR - SRC / JAR</xs:documentation>
+          <xs:documentation source="detailedDescription">Safety Regulation Commission / Joint Aviation Requirements.</xs:documentation>
+          <xs:documentation source="explanation">Reporting based on requirements of the Safety Regulation Group (SRG) or the Joint Aviation Requirements (JAR).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9800">
+        <xs:annotation>
+          <xs:documentation source="valueID">9800</xs:documentation>
+          <xs:documentation source="description">ATM - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other ATM reporting form types</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9801">
+        <xs:annotation>
+          <xs:documentation source="valueID">9801</xs:documentation>
+          <xs:documentation source="description">ATM - Other - National</xs:documentation>
+          <xs:documentation source="detailedDescription">National</xs:documentation>
+          <xs:documentation source="explanation">Eurocontrol: A formal incident reporting system forming part of any National Mandatory ATM Safety Occurrence requirement for collection of information on actual or potential safety deficiencies.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9802">
+        <xs:annotation>
+          <xs:documentation source="valueID">9802</xs:documentation>
+          <xs:documentation source="description">ATM - Other - SRC / JAR</xs:documentation>
+          <xs:documentation source="detailedDescription">Safety Regulation Commission / Joint Aviation Requirements.</xs:documentation>
+          <xs:documentation source="explanation">Reporting based on requirements of the Safety Regulation Group (SRG) or the Joint Aviation Requirements (JAR).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9803">
+        <xs:annotation>
+          <xs:documentation source="valueID">9803</xs:documentation>
+          <xs:documentation source="description">EASA</xs:documentation>
+          <xs:documentation source="detailedDescription">EASA Forms</xs:documentation>
+          <xs:documentation source="explanation">Forms provided by the European Aviation Safety Agency.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9804">
+        <xs:annotation>
+          <xs:documentation source="valueID">9804</xs:documentation>
+          <xs:documentation source="description">EASA - Form 44</xs:documentation>
+          <xs:documentation source="detailedDescription">Form 44 (maintenance report)</xs:documentation>
+          <xs:documentation source="explanation">Reporting form for reporting technical occurrences.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9806">
+        <xs:annotation>
+          <xs:documentation source="valueID">9806</xs:documentation>
+          <xs:documentation source="description">EASA - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other</xs:documentation>
+          <xs:documentation source="explanation">Other EASA Form</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="500">
+        <xs:annotation>
+          <xs:documentation source="valueID">500</xs:documentation>
+          <xs:documentation source="description">ICAO </xs:documentation>
+          <xs:documentation source="detailedDescription">Form related to ICAO reporting</xs:documentation>
+          <xs:documentation source="explanation">ICAO - International Civil Aviation Organisation (ADREP forms, IBIS, Runway Incursion, Wake-vortex, etc.)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="501">
+        <xs:annotation>
+          <xs:documentation source="valueID">501</xs:documentation>
+          <xs:documentation source="description">ICAO  - Initial notification</xs:documentation>
+          <xs:documentation source="detailedDescription">Initial notification (Chapter 4 of Annex 13)</xs:documentation>
+          <xs:documentation source="explanation">Annex 13, Chapter 4, Standard 4.2: Format and content of the initial notification:
+
+	4.2    The notification shall be in plain language and contain as much of the following information as is readily available, but its dispatch shall not be delayed due to the lack of complete information:
+
+	a)	for accidents the identifying abbreviation ACCID, for serious incidents INCID;
+	b)	manufacturer, model, nationality and registration marks, and serial number of the aircraft;
+
+	c)	name of owner, operator and hirer, if any, of the aircraft;
+
+	d)	name of the pilot-in-command, and nationality of crew and passengers;
+
+	e)	date and time (local time or UTC) of the accident or serious incident;
+
+	f)	last point of departure and point of intended landing of the aircraft;
+
+	g)	position of the aircraft with reference to some easily defined geographical point and latitude and longitude;
+
+	h)	number of crew and passengers; aboard, killed and seriously injured; others, killed and seriously injured;
+
+	i)	description of the accident or serious incident and the extent of damage to the aircraft so far as is known;
+
+	j)	an indication to what extent the investigation will be conducted or is proposed to be delegated by the State of Occurrence;
+
+	k)	physical characteristics of the accident or serious incident area, as well as an indication of access difficulties or special requirements to reach the site;
+
+	l)	identification of the originating authority and means to contact the investigator-in-charge and the accident investigation authority of the State of Occurrence at any time; and
+
+	m)	presence and description of dangerous goods on board the aircraft.
+
+	Note 1.- The 4-letter designator 'YLYX' in association with an ICAO 4-letter location indicator forms the 8-letter addressee indicator for messages sent over the AFTN to authorities responsible for aircraft accident and serious incident investigations. For messages sent over the public telecommunication service the addressee indicator cannot be used and a postal or telegraphic address must be substituted.
+
+	The 8-letter addressee indicators and the corresponding postal and telegraphic addresses, when notified to ICAO, are published in the Designators for Aircraft Operating Agencies, Aeronautical Authorities and Services (Doc 8585).
+
+	Note 2.- The Manual of Aircraft Accident and Incident Investigation, Part I - Organization and Planning (Doc 9756) contains guidance material concerning the preparation of notification messages and the arrangements to be made for their prompt delivery to the addressee.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="502">
+        <xs:annotation>
+          <xs:documentation source="valueID">502</xs:documentation>
+          <xs:documentation source="description">ICAO  - Preliminary Report</xs:documentation>
+          <xs:documentation source="detailedDescription">ADREP Preliminary Report</xs:documentation>
+          <xs:documentation source="explanation">Preliminary factual information on the occurrence, including an initial sequence of events, a short narrative as well as factual information on the time, location of the occurence and details on the aircraft and their operation involved.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="503">
+        <xs:annotation>
+          <xs:documentation source="valueID">503</xs:documentation>
+          <xs:documentation source="description">ICAO  - Data Report</xs:documentation>
+          <xs:documentation source="detailedDescription">ADREP DATA Report</xs:documentation>
+          <xs:documentation source="explanation">The complete information on the occurrence, including the relevant background information, the sequence of events with factors, the narrative and information on safety recommendation made in conjunction with the occurrence.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="504">
+        <xs:annotation>
+          <xs:documentation source="valueID">504</xs:documentation>
+          <xs:documentation source="description">ICAO  - Final Report</xs:documentation>
+          <xs:documentation source="detailedDescription">The textual Final Report of the Occurrence</xs:documentation>
+          <xs:documentation source="explanation">See format of the Final report in Annex 13.  Note: This would be entered if such a Final report is at hand.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9805">
+        <xs:annotation>
+          <xs:documentation source="valueID">9805</xs:documentation>
+          <xs:documentation source="description">ICAO  - IBIS (Bird strike) reporting form</xs:documentation>
+          <xs:documentation source="detailedDescription">IBIS (Bird strike) reporting form</xs:documentation>
+          <xs:documentation source="explanation">The ICAO form to report bird strikes.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9807">
+        <xs:annotation>
+          <xs:documentation source="valueID">9807</xs:documentation>
+          <xs:documentation source="description">ICAO  - Wake-Vortex Report</xs:documentation>
+          <xs:documentation source="detailedDescription">Wake-Vortex reporting form</xs:documentation>
+          <xs:documentation source="explanation">Wake-Vortex reporting form.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9815">
+        <xs:annotation>
+          <xs:documentation source="valueID">9815</xs:documentation>
+          <xs:documentation source="description">ICAO  - Runway Incursion Report</xs:documentation>
+          <xs:documentation source="detailedDescription">Runway Incursion Report</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9817">
+        <xs:annotation>
+          <xs:documentation source="valueID">9817</xs:documentation>
+          <xs:documentation source="description">ICAO  - Runway Incursion Report - Initial Report</xs:documentation>
+          <xs:documentation source="detailedDescription">Runway Incursion Initial Report</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9818">
+        <xs:annotation>
+          <xs:documentation source="valueID">9818</xs:documentation>
+          <xs:documentation source="description">ICAO  - Runway Incursion Report - Final Report</xs:documentation>
+          <xs:documentation source="detailedDescription">Runway Incursion Final Report</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9820">
+        <xs:annotation>
+          <xs:documentation source="valueID">9820</xs:documentation>
+          <xs:documentation source="description">ICAO  - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other</xs:documentation>
+          <xs:documentation source="explanation">Other ICAO Form</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9819">
+        <xs:annotation>
+          <xs:documentation source="valueID">9819</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other Notification Forms</xs:documentation>
+          <xs:documentation source="explanation">Other national notification forms.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9808">
+        <xs:annotation>
+          <xs:documentation source="valueID">9808</xs:documentation>
+          <xs:documentation source="description">Other - ASR - Air Safety Report</xs:documentation>
+          <xs:documentation source="detailedDescription">Air Safety Report / Flight Safety Report</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9809">
+        <xs:annotation>
+          <xs:documentation source="valueID">9809</xs:documentation>
+          <xs:documentation source="description">Other - GHR - Ground Handling Report</xs:documentation>
+          <xs:documentation source="detailedDescription">GHR - Ground Handling Report</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9810">
+        <xs:annotation>
+          <xs:documentation source="valueID">9810</xs:documentation>
+          <xs:documentation source="description">Other - CSR - Cabin Safety Report</xs:documentation>
+          <xs:documentation source="detailedDescription">CSR - Cabin Safety Report</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9814">
+        <xs:annotation>
+          <xs:documentation source="valueID">9814</xs:documentation>
+          <xs:documentation source="description">Other - Aerodrome Report</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerodrome Report</xs:documentation>
+          <xs:documentation source="explanation">National Form to report aerodrome occurrences.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9813">
+        <xs:annotation>
+          <xs:documentation source="valueID">9813</xs:documentation>
+          <xs:documentation source="description">Other - Maintenance Report</xs:documentation>
+          <xs:documentation source="detailedDescription">Maintenance Report</xs:documentation>
+          <xs:documentation source="explanation">National Form to report maintenance occurrences.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9821">
+        <xs:annotation>
+          <xs:documentation source="valueID">9821</xs:documentation>
+          <xs:documentation source="description">Other - Bird Strike Report</xs:documentation>
+          <xs:documentation source="detailedDescription">Bird Strike Report</xs:documentation>
+          <xs:documentation source="explanation">National Form to report bird strike occurrences.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9811">
+        <xs:annotation>
+          <xs:documentation source="valueID">9811</xs:documentation>
+          <xs:documentation source="description">Other - Police Report</xs:documentation>
+          <xs:documentation source="detailedDescription">Police Report</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9812">
+        <xs:annotation>
+          <xs:documentation source="valueID">9812</xs:documentation>
+          <xs:documentation source="description">Other - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other</xs:documentation>
+          <xs:documentation source="explanation">National notification form other than the ones listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL299_5_0_1_2">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="106">
+        <xs:annotation>
+          <xs:documentation source="valueID">106</xs:documentation>
+          <xs:documentation source="description">Precipitations</xs:documentation>
+          <xs:documentation source="detailedDescription">Precipitations</xs:documentation>
+          <xs:documentation source="explanation">Precipitations</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Precipitations - Rain</xs:documentation>
+          <xs:documentation source="detailedDescription">The precipitation type was rain (RA).</xs:documentation>
+          <xs:documentation source="explanation">Rain is precipitation in the form of water droplets making a noticeable impact. Ranges in size from 1 to 5.5 mm.
+
+Rain shower: Liquid precipitation that stops and starts  suddenly and varies widely in intensity, and is gone in less than an hour.
+
+Freezing rain is the precipitation of supercooled raindrops.Freezing rain freezes on impact and forms a coat of ice on the ground and on the objects they strike. They occur when the air temperature is below zero Celsius near the ground but above zero Celsius higher up.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="7">
+        <xs:annotation>
+          <xs:documentation source="valueID">7</xs:documentation>
+          <xs:documentation source="description">Precipitations - Drizzle</xs:documentation>
+          <xs:documentation source="detailedDescription">The precipitation type was drizzle (DZ).</xs:documentation>
+          <xs:documentation source="explanation">Fairly uniform precipitation (rain) composed exclusively of very small water droplets (less than 0.5 mm in diameter) very close to one another.
+
+In drizzle, the water droplets are fine and minute--much smaller than in rain--and appear to float in the air.
+
+Freezing drizzle is the precipitation of supercooled raindrops.Freezing drizzle freezes on impact and forms a coat of ice on the ground and on the objects they strike. They occur when the air temperature is below zero Celsius near the ground but above zero Celsius higher up.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Precipitations - Snow</xs:documentation>
+          <xs:documentation source="detailedDescription">The precipitation type was snow (SN).</xs:documentation>
+          <xs:documentation source="explanation">Snow is precipitation in the form of feathery ice crystals or large agglomerations in the form of flakes. Snow is composed of millions of star-shaped hexagonal ice crystals. 
+
+When the term snow is used without qualification, it means precipitation of significant duration and extent. A flurry or snow shower is a snowfall that suddenly stops and starts and changes rapidly in intensity; the accumulation and extent of the snow are limited. A snow squall brings strong winds, flurries and poor visibility.
+
+Blowing snow is lifted by the wind from the earth's surface to a height of 2 m or more, whereas drifting snow is blown to a height of less than 2 m. A blizzard is a severe storm that lasts three or more hours, and brings low temperatures, strong winds and poor visibility due to blowing snow.
+
+Snow shower: Frozen precipitation in the form of snow, characterized by its sudden beginning and ending. It is reported as "SHSN" in an observation and on the METAR.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="16">
+        <xs:annotation>
+          <xs:documentation source="valueID">16</xs:documentation>
+          <xs:documentation source="description">Precipitations - Snow grains</xs:documentation>
+          <xs:documentation source="detailedDescription">The precipitation consisted of snow grains (SG).</xs:documentation>
+          <xs:documentation source="explanation">Snow grains are minute, white and opaque grains of ice. When they hit hard ground, they do not bounce or shatter. They usually fall in very small quantities, and never in the form of a shower.
+
+Snow is precipitation in the form of feathery ice crystals or large agglomerations in the form of flakes. Snow is composed of millions of star-shaped hexagonal ice crystals.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="4">
+        <xs:annotation>
+          <xs:documentation source="valueID">4</xs:documentation>
+          <xs:documentation source="description">Precipitations - Ice pellets</xs:documentation>
+          <xs:documentation source="detailedDescription">The precipitation type was ice pellets (PE).</xs:documentation>
+          <xs:documentation source="explanation">Ice pellets are tiny, translucent frozen raindrops or snowflakes, or snow encased in ice, which bounce and make a sound on contact with the ground. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Precipitations - Hail</xs:documentation>
+          <xs:documentation source="detailedDescription">The precipitation type was hail (GR).</xs:documentation>
+          <xs:documentation source="explanation">Hail is precipitation in the form of lumps of ice, larger than ice pellets, usually the size of peas or cherries but sometimes as large as oranges. Often associated with thunderstorms, hail forms when drafts carry raindrops upward into extremely cold regions of the atmosphere. There, the drops freeze and merge into lumps of ice. When the lumps become too heavy to be supported by the updraft, they fall to the ground at high speeds. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="19">
+        <xs:annotation>
+          <xs:documentation source="valueID">19</xs:documentation>
+          <xs:documentation source="description">Precipitations - Small hail/snow pellets</xs:documentation>
+          <xs:documentation source="detailedDescription">The precipitation consisted of small hail and/or snow pellets (GS).</xs:documentation>
+          <xs:documentation source="explanation">Snow pellets are brittle and easily crushed; when they fall on hard ground, they bounce and often break up. They always occur in showers and are often accompanied by snow flakes or rain drops, when the surface temperature is around zero Celsius.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="18">
+        <xs:annotation>
+          <xs:documentation source="valueID">18</xs:documentation>
+          <xs:documentation source="description">Precipitations - Ice crystals</xs:documentation>
+          <xs:documentation source="detailedDescription">The precipitation type was ice crystal (IC).</xs:documentation>
+          <xs:documentation source="explanation">Ice crystals are tiny sprinkles that sparkle in the sunshine like diamond dust and hang in the air.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="107">
+        <xs:annotation>
+          <xs:documentation source="valueID">107</xs:documentation>
+          <xs:documentation source="description">Obscurations</xs:documentation>
+          <xs:documentation source="detailedDescription">Obscurations</xs:documentation>
+          <xs:documentation source="explanation">Obscurations</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">Obscurations - Mist</xs:documentation>
+          <xs:documentation source="detailedDescription">The obscuration type was mist (BR).</xs:documentation>
+          <xs:documentation source="explanation">Mist is microscopic water droplets suspended in the air. It casts a thin greyish veil over the landscape but reduces visibility to a lesser extent than fog. Visibility is over 1000m but do not exceed 5000m (ICAO Annex 3).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="15">
+        <xs:annotation>
+          <xs:documentation source="valueID">15</xs:documentation>
+          <xs:documentation source="description">Obscurations - Smoke</xs:documentation>
+          <xs:documentation source="detailedDescription">The obscuration type was smoke (FU).</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="101">
+        <xs:annotation>
+          <xs:documentation source="valueID">101</xs:documentation>
+          <xs:documentation source="description">Obscurations - Fog</xs:documentation>
+          <xs:documentation source="detailedDescription">The obscuration type was fog (FG).</xs:documentation>
+          <xs:documentation source="explanation">Fog: cloud at ground level, and occurs when air is cooled to its dew point and below, or when atmosperic moisture increases through evaporation from water that is warmer than the air. Visibility is below 1000m (ICAO Annex 3).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="17">
+        <xs:annotation>
+          <xs:documentation source="valueID">17</xs:documentation>
+          <xs:documentation source="description">Obscurations - Haze</xs:documentation>
+          <xs:documentation source="detailedDescription">The obscuration type was haze (HZ).</xs:documentation>
+          <xs:documentation source="explanation">Haze consists of fine particles of dust and pollution suspended in the atmosphere, and is distinguished from fog by its bluish or yellowish tinge.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="103">
+        <xs:annotation>
+          <xs:documentation source="valueID">103</xs:documentation>
+          <xs:documentation source="description">Obscurations - Sand</xs:documentation>
+          <xs:documentation source="detailedDescription">The obscuration type was sand (SA).</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="104">
+        <xs:annotation>
+          <xs:documentation source="valueID">104</xs:documentation>
+          <xs:documentation source="description">Obscurations - Dust</xs:documentation>
+          <xs:documentation source="detailedDescription">The obscuration type was dust (DU).</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="102">
+        <xs:annotation>
+          <xs:documentation source="valueID">102</xs:documentation>
+          <xs:documentation source="description">Obscurations - Volcanic ash</xs:documentation>
+          <xs:documentation source="detailedDescription">The obscuration type was volcanic ash (VA).</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="108">
+        <xs:annotation>
+          <xs:documentation source="valueID">108</xs:documentation>
+          <xs:documentation source="description">Other phenomena</xs:documentation>
+          <xs:documentation source="detailedDescription">Other phenomena</xs:documentation>
+          <xs:documentation source="explanation">Other phenomena</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="20">
+        <xs:annotation>
+          <xs:documentation source="valueID">20</xs:documentation>
+          <xs:documentation source="description">Other phenomena - Dust/sand whirls</xs:documentation>
+          <xs:documentation source="detailedDescription">The weather phenomenon present was dust/sand whirls (PO).</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="11">
+        <xs:annotation>
+          <xs:documentation source="valueID">11</xs:documentation>
+          <xs:documentation source="description">Other phenomena - Squall</xs:documentation>
+          <xs:documentation source="detailedDescription">The weather phenomenon present was a squall (SQ).</xs:documentation>
+          <xs:documentation source="explanation">A line squall is a violent cold front characterized by a sudden drop in temperature, a rise in pressure, thunderstorms and especially severe vertical and other gusts.
+
+A squall comprises a rather sudden increase of the mean wind speed which lasts for several minutes at least before the mean wind returns to near its previous value. A squall may include many gusts.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="21">
+        <xs:annotation>
+          <xs:documentation source="valueID">21</xs:documentation>
+          <xs:documentation source="description">Other phenomena - Sandstorm</xs:documentation>
+          <xs:documentation source="detailedDescription">The weather phenomenon present was a sand storm (SS).</xs:documentation>
+          <xs:documentation source="explanation">A storm which carries large amounts of sand into the atmosphere. Ensemble of particles of sand energetically lifted to great heights by a strong and turbulent wind.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="14">
+        <xs:annotation>
+          <xs:documentation source="valueID">14</xs:documentation>
+          <xs:documentation source="description">Other phenomena - Duststorm</xs:documentation>
+          <xs:documentation source="detailedDescription">The weather phenomenon present was a dust storm (DS).</xs:documentation>
+          <xs:documentation source="explanation">Dust storm: A severe weather condition characterized by strong winds and dust-filled air over a large area.V Visibility is reduced to between 5/8ths and 5/16ths statute mile. It is reported as "DS" in an observation and on the METAR. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="105">
+        <xs:annotation>
+          <xs:documentation source="valueID">105</xs:documentation>
+          <xs:documentation source="description">Other phenomena - Funnel cloud</xs:documentation>
+          <xs:documentation source="detailedDescription">The weather phenomenon present was a funnel cloud (FC).</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10">
+        <xs:annotation>
+          <xs:documentation source="valueID">10</xs:documentation>
+          <xs:documentation source="description">Other phenomena - Tornado or waterspout</xs:documentation>
+          <xs:documentation source="detailedDescription">The weather phenomenon present was a tornado or waterspout (+FC).</xs:documentation>
+          <xs:documentation source="explanation">A tornado is a localized violent wind with such low pressure in the core as to explode structures in its path. The tornado is usually pendant beneath a cumulonimbus cloud. A tornado appears as a violent funnel-shaped wind vortex in the lower atmosphere with upward spiralling winds of high speeds. The tornado usually appears from a bulge in the base of a thunderstorm cloud. It has a typical width of tens to hundreds of metres and a lifespan of minutes to hours. In extent, it is one of the smallest of all storms, but in violence, it is among the world's most severe.
+
+Waterspout: A violently rotating column of air, usually a pendant to a cumulus or cumulonimbus cloud, over a body of water with its circulation reaching the water. In the summer and spring, these phenomena are usually "tornadoes over water" that have been generated by thunderstorms. In the fall months, these most often begin as "cold air funnels", being generated by a cold air mass passing over much warmer waters. Such waterspouts are generally much less intense than tornadoes and usually dissipate upon approaching shore. Waterspouts are most common over tropical or subtropical waters. The exact definition of waterspout is debatable. In most cases the term is reserved for small vortices over water that are not associated with storm-scale rotation (i.e., they are the water-based equivalent of landspouts). But there is sufficient justification for calling virtually any rotating column of air a waterspout if it is in contact with a water surface. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">The precipitation type was other than those listed above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of precipitation was not determined (UP).</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

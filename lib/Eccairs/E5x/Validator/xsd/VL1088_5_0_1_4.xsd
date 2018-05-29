@@ -1,0 +1,2548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1088_5_0_1_4">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="10000">
+        <xs:annotation>
+          <xs:documentation source="valueID">10000</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft</xs:documentation>
+          <xs:documentation source="detailedDescription">Powered Fixed-wing aircraft.</xs:documentation>
+          <xs:documentation source="explanation">This section covers flight phases specifically adopted for the operation of a powered fixed-wing aircraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10100">
+        <xs:annotation>
+          <xs:documentation source="valueID">10100</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Standing</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight prior to pushback or taxi, or after arrival, at the gate, ramp, or parking area, while the aircraft is stationary.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10101">
+        <xs:annotation>
+          <xs:documentation source="valueID">10101</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Standing - Standing : Engine(s) Not Operating</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Engine(s) Not Operating.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight, while the aircraft is standing and during which no aircraft engine is running.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10102">
+        <xs:annotation>
+          <xs:documentation source="valueID">10102</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Standing - Standing : Engine(s) Start-up</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Engine(s) Start-up.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight, while the aircraft is parked during which the first engine is started.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990899">
+        <xs:annotation>
+          <xs:documentation source="valueID">990899</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Standing - Standing : Engine(s) Run-up</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Engine(s) Run-up.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight after start-up, during which power is applied to engines, for a pre-flight engine performance test.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10103">
+        <xs:annotation>
+          <xs:documentation source="valueID">10103</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Standing - Standing : Engine(s) Operating</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Engine(s) Operating.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight following engine start-up, or after post-flight arrival at the destination.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10104">
+        <xs:annotation>
+          <xs:documentation source="valueID">10104</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Standing - Standing : Engine(s) Shut Down</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Engine(s) Shut Down.</xs:documentation>
+          <xs:documentation source="explanation">Engine shutdown is from the start of the shutdown sequence until the engine(s) cease rotation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10198">
+        <xs:annotation>
+          <xs:documentation source="valueID">10198</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Standing - Standing : Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Other.</xs:documentation>
+          <xs:documentation source="explanation">An event involving any standing phase of flight other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990921">
+        <xs:annotation>
+          <xs:documentation source="valueID">990921</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Tow</xs:documentation>
+          <xs:documentation source="detailedDescription">Tow</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10200">
+        <xs:annotation>
+          <xs:documentation source="valueID">10200</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which movement of an aircraft on the surface of an aerodrome under its own power occurs, excluding take-off and landing. ICAO Annex 2.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10201">
+        <xs:annotation>
+          <xs:documentation source="valueID">10201</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Pushback</xs:documentation>
+          <xs:documentation source="detailedDescription">Pushback</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight when an aircraft is moving in the gate, ramp, or parking area, not under its own power, but assisted by a tow vehicle [tug].
+Note: unassisted movement in the gate or ramp area is included in the taxiing phase.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990825">
+        <xs:annotation>
+          <xs:documentation source="valueID">990825</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Pushback - Assisted, Engine(s) Not Operating</xs:documentation>
+          <xs:documentation source="detailedDescription">Assisted, Engine(s) Not Operating.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight when an aircraft is moved in the gate, ramp, or parking area, not under its own power, during which no engine is running.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990826">
+        <xs:annotation>
+          <xs:documentation source="valueID">990826</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Pushback - Assisted, Engine(s) Start-up</xs:documentation>
+          <xs:documentation source="detailedDescription">Assisted, Engine(s) Start-up.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight when an aircraft is moved in the gate, ramp, or parking area, not under its own power, from the time of the first engine startup sequence until last engine startup sequence is completed.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990827">
+        <xs:annotation>
+          <xs:documentation source="valueID">990827</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Pushback - Assisted, Engine(s) Operating</xs:documentation>
+          <xs:documentation source="detailedDescription">Assisted, Engine(s) Operating.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight when an aircraft is moved in the gate, ramp, or parking area, not under its own power, after all engines have been started-up or before the shut-down sequence has been initiated.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990828">
+        <xs:annotation>
+          <xs:documentation source="valueID">990828</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Pushback - Assisted, Engine(s) Shutting Down</xs:documentation>
+          <xs:documentation source="detailedDescription">Assisted, Engine(s) Shutting Down.</xs:documentation>
+          <xs:documentation source="explanation">Engine shutdown is from the start of the shutdown sequence until the engine(s) cease rotation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990914">
+        <xs:annotation>
+          <xs:documentation source="valueID">990914</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Power back</xs:documentation>
+          <xs:documentation source="detailedDescription">Power back</xs:documentation>
+          <xs:documentation source="explanation">The aircraft is reversing under it's own power from the parking position.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10202">
+        <xs:annotation>
+          <xs:documentation source="valueID">10202</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Taxiing to/from runway</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxiing to/from runway.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight, after reaching the movement area, when the aircraft progresses under its own power to the departure runway, or post-flight moves under its own power after leaving the landing runway.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990829">
+        <xs:annotation>
+          <xs:documentation source="valueID">990829</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Taxiing to/from runway - Taxi to runway</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi to runway.</xs:documentation>
+          <xs:documentation source="explanation">Commences when the aircraft begins to move under its own power leaving the gate, ramp, apron, or parking area, and terminates upon reaching the runway.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990830">
+        <xs:annotation>
+          <xs:documentation source="valueID">990830</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Taxiing to/from runway - Taxi to take-off position</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi to take-off position.</xs:documentation>
+          <xs:documentation source="explanation">From entering the runway until reaching the take-off position.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990831">
+        <xs:annotation>
+          <xs:documentation source="valueID">990831</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Taxiing to/from runway - Taxi from runway</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi from runway.</xs:documentation>
+          <xs:documentation source="explanation">Begins upon exiting the landing runway and terminates upon arrival at the gate, ramp, apron, or parking area, when the aircraft ceases to move under its own power.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990832">
+        <xs:annotation>
+          <xs:documentation source="valueID">990832</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Taxiing to/from runway - Maintaining position</xs:documentation>
+          <xs:documentation source="detailedDescription">Maintaining position.</xs:documentation>
+          <xs:documentation source="explanation">Maintaining position at holding point.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990833">
+        <xs:annotation>
+          <xs:documentation source="valueID">990833</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - High speed taxi trial</xs:documentation>
+          <xs:documentation source="detailedDescription">High speed taxi trial.</xs:documentation>
+          <xs:documentation source="explanation">High speed taxi trial: taxiing on a runway/taxiway at high speed to test/check the aircraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10298">
+        <xs:annotation>
+          <xs:documentation source="valueID">10298</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Taxi - Taxiing: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxiing: Other.</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of taxiing other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10300">
+        <xs:annotation>
+          <xs:documentation source="valueID">10300</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the application of take-off power until reaching the first prescribed power reduction, or until reaching the VFR pattern or 1000 feet (300 metres) above runway end elevation, whichever comes first or the termination (abort) of the take-off.
+
+Note: this slightly differs from the previous definition where 1,500 feet (450 metres) above runway end elevation was specified.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10301">
+        <xs:annotation>
+          <xs:documentation source="valueID">10301</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Take-off - Take-off run</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off run.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the application of take-off power, through the take-off roll and rotation up to 35 feet [12 metres] above runway end elevation or until gear-up selection, whichever comes first.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10303">
+        <xs:annotation>
+          <xs:documentation source="valueID">10303</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Take-off - Rejected take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Rejected take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which any attempt is made to terminate a take-off between the application of take-off power, through rotation and up to 35 feet [or 12 metres] above the elevation of the runway end (from the point where the decision to abort has been taken until the aircraft begins to taxi from the runway).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10302">
+        <xs:annotation>
+          <xs:documentation source="valueID">10302</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Take-off - Initial climb</xs:documentation>
+          <xs:documentation source="detailedDescription">Initial climb.</xs:documentation>
+          <xs:documentation source="explanation">From the end of the Takeoff run sub-phase to the first prescribed power reduction, or until reaching 1000 feet above runway elevation or the VFR pattern, whichever comes first.
+
+Note: this slightly differs from the previous definition where 1,500 feet (450 metres) above runway elevation was specified.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10304">
+        <xs:annotation>
+          <xs:documentation source="valueID">10304</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Take-off - Climb into traffic pattern</xs:documentation>
+          <xs:documentation source="detailedDescription">Climb into traffic pattern.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from 35 feet [12 metres] above runway end elevation to the first prescribed power reduction on reaching the VFR pattern. Applies to pilot training in which the aircraft's climb phase is not intended to reach altitude.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10305">
+        <xs:annotation>
+          <xs:documentation source="valueID">10305</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Take-off - Emergency descent during take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent during take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an intentional descent is made, in response to an emergency, which occurs after rotation but before the first prescribed power reduction, on reaching 1000 feet (300 metres) or the VFR pattern, whichever comes first.
+
+Note: this slightly differs from the previous definition where reaching 1,500 feet (450 metres) was specified.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10306">
+        <xs:annotation>
+          <xs:documentation source="valueID">10306</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Take-off - Uncontrolled descent during take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent during take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which any uncontrolled descent occurs after rotation but before the first prescribed power reduction, on reaching 1000 feet (300 metres) or the VFR pattern, whichever comes first.
+
+Note: this slightly differs from the previous definition where reaching 1,500 feet (450 metres) was specified.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10398">
+        <xs:annotation>
+          <xs:documentation source="valueID">10398</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Take-off - Take-off: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off: Other.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which any event occurs during take-off, other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10400">
+        <xs:annotation>
+          <xs:documentation source="valueID">10400</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - En-route</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route.</xs:documentation>
+          <xs:documentation source="explanation">Instrument Flight Rules (IFR): From completion of Initial Climb through cruise altitude and completion of controlled descent to the Initial Approach Fix (IAF). 
+
+Visual Flight Rules (VFR): From completion of Initial Climb through cruise and controlled descent to the VFR pattern altitude or 1000 feet above runway elevation, whichever comes first.
+
+Note: this slightly differs from the previous definition where 1,500 feet (450 metres) above runway elevation was specified.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10401">
+        <xs:annotation>
+          <xs:documentation source="valueID">10401</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - En-route - Climb to cruising level or altitude</xs:documentation>
+          <xs:documentation source="detailedDescription">Climb to cruising level or altitude.</xs:documentation>
+          <xs:documentation source="explanation">Climb to Cruise:
+IFR: From completion of Initial Climb to arrival at initial assigned cruise altitude. 
+VFR: From completion of Initial Climb to initial cruise altitude.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10402">
+        <xs:annotation>
+          <xs:documentation source="valueID">10402</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - En-route - Cruise</xs:documentation>
+          <xs:documentation source="detailedDescription">Cruise.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the top of climb to cruise altitude, or flight level, to the start of the descent toward the destination aerodrome or landing site.
+Any level flight segment after arrival at initial cruise altitude until the start of descent to the destination.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10403">
+        <xs:annotation>
+          <xs:documentation source="valueID">10403</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - En-route - Change of cruise level</xs:documentation>
+          <xs:documentation source="detailedDescription">Change of cruise level..</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight during which the aircraft climbs, or descends, from one cruising flight level or altitude to the next cruising flight level or altitude.
+Any climb or descent during cruise after the initial climb to cruise, but before descent to the destination.
+
+Includes: cruise climb. An aeroplane cruising technique resulting in a net increase in altitude as the aeroplane mass decreases. ICAO DOC 4444</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10404">
+        <xs:annotation>
+          <xs:documentation source="valueID">10404</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - En-route - Normal descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Normal descent.</xs:documentation>
+          <xs:documentation source="explanation">Normal descent: 
+IFR: Descent from cruise to either Initial Approach Fix (IAF) or VFR pattern entry. 
+VFR: Descent from cruise to the VFR pattern entry or 1000 feet above the runway elevation, whichever comes first.
+
+Note: this slightly differs from the previous definition where 1,500 feet (450 metres) above the runway elevation was specified.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10405">
+        <xs:annotation>
+          <xs:documentation source="valueID">10405</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - En-route - Emergency descent en-route</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent en-route.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an intentionally rapid, or premature, descent is made en-route, in response to an in-flight emergency. The descent is controlled by the crew.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10406">
+        <xs:annotation>
+          <xs:documentation source="valueID">10406</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - En-route - Uncontrolled descent en-route</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent en-route.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the aircraft descends uncontrolled. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10407">
+        <xs:annotation>
+          <xs:documentation source="valueID">10407</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - En-route - En-route - holding</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route - holding.</xs:documentation>
+          <xs:documentation source="explanation">Execution of a predetermined maneuver (usually an oval race track pattern) which keeps the aircraft within a specified airspace while awaiting further clearance. 
+Note: descent during holding is also covered in this sub-phase. A holding procedure executed at the IAF is also included in this sub-phase.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10498">
+        <xs:annotation>
+          <xs:documentation source="valueID">10498</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - En-route - En-route: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route: Other.</xs:documentation>
+          <xs:documentation source="explanation">Any phase of flight en-route, other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10500">
+        <xs:annotation>
+          <xs:documentation source="valueID">10500</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Manoeuvring</xs:documentation>
+          <xs:documentation source="detailedDescription">Manoeuvring.</xs:documentation>
+          <xs:documentation source="explanation">An event involving a phase of flight in which planned low-level flight, or attitude, or planned abnormal attitude, or abnormal acceleration occurs.
+Low altitude/aerobatic flight operations</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10501">
+        <xs:annotation>
+          <xs:documentation source="valueID">10501</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Manoeuvring - Aerobatics</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerobatics.</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of flight in which manoeuvring into an abrupt change in attitude, abnormal attitude or abnormal acceleration occurs (usually associated with air shows and military flight).
+
+Any intentional maneuvering that exceeds 30 degrees of pitch attitude or 60 degrees of bank, or both, or abnormal acceleration.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10502">
+        <xs:annotation>
+          <xs:documentation source="valueID">10502</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Manoeuvring - Low flying</xs:documentation>
+          <xs:documentation source="detailedDescription">Low flying.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight made at a height below the normal minima, e.g. in preparation for, or during, observation work, demonstration, photography work, aerial application, training, sight seeing, ostentatious display, or other similar activity.
+
+Intentional low-altitude flight not connected with a landing or takeoff.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10503">
+        <xs:annotation>
+          <xs:documentation source="valueID">10503</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Manoeuvring - Emergency descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an intentionally rapid or premature descent, from a previously normal manoeuvre, is made in response to an in-flight emergency. The descent is controlled by the crew.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10504">
+        <xs:annotation>
+          <xs:documentation source="valueID">10504</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Manoeuvring - Uncontrolled descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an uncontrolled descent from a previously normal manoeuvre occurs. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10598">
+        <xs:annotation>
+          <xs:documentation source="valueID">10598</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Manoeuvring - Manoeuvring: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Manoeuvring: Other</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of manoeuvring flight other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10600">
+        <xs:annotation>
+          <xs:documentation source="valueID">10600</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the outer marker to the to the point of transition from nose-low to nose-high attitude immediately prior to the flare above the runway [IFR]; or [VFR] from 1000 feet (300 metres) above the runway end elevation or from the point of VFR pattern entry to the flare above the runway.
+
+Note: this slightly differs from the previous definition where 1,500 feet (450 metres) above the runway end elevation was specified.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10611">
+        <xs:annotation>
+          <xs:documentation source="valueID">10611</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Initial Approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Initial Approach</xs:documentation>
+          <xs:documentation source="explanation">Initial Approach (IFR): From the Initial Approach Fix (IAF) to the Final Approach Fix (FAF).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10601">
+        <xs:annotation>
+          <xs:documentation source="valueID">10601</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Intermediate approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Intermediate approach.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight between the middle approach fix and the final approach fix; or between the end of a reversal procedure or dead-reckoning track procedure and the final approach fix.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10602">
+        <xs:annotation>
+          <xs:documentation source="valueID">10602</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Final approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Final approach.</xs:documentation>
+          <xs:documentation source="explanation">Final approach. that part of an instrument approach procedure which commences at the specified final approach fix or point, or where such a fix or point is not specified,
+ 
+ a) at the end of the last procedure turn, base turn or inbound turn of a racetrack procedure, if specified; or
+ 
+ b) at the point of interception of the last track specified in the approach procedure; and ends at a point in the vicinity of an aerodrome from which:
+ 
+ 1) a landing can be made; or
+ 2) a missed approach procedure is initiated.
+
+ ICAO Annex 11</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10603">
+        <xs:annotation>
+          <xs:documentation source="valueID">10603</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Circuit pattern - downwind</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - downwind.</xs:documentation>
+          <xs:documentation source="explanation">The phase of VFR flight from 1000 feet above runway end elevation (300 metres) or the point of VFR pattern entry; commences at about 45 degrees from the threshold, continues parallel to the runway in the direction opposite to landing and terminates upon initiating the turn to base leg.
+
+Note: this slightly differs from the previous definition where 1,500 feet (450 metres) above runway end elevation was specified.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10604">
+        <xs:annotation>
+          <xs:documentation source="valueID">10604</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Circuit pattern - base leg</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - base leg.</xs:documentation>
+          <xs:documentation source="explanation">The phase of VFR flight from the start of the turn at end of downwind leg, then at 90 degrees to the landing runway until reaching the extended centre line off the approach end of the runway.
+ Base turn: a turn executed by the aircraft during the initial approach between the end of the outbound track and the beginning of the intermediate or final approach track. The tracks are not reciprocal.
+ Note: Base turns may be designated as being made either in level flight or while descending, according to the circumstances of each individual procedure.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10605">
+        <xs:annotation>
+          <xs:documentation source="valueID">10605</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Circuit pattern - final</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - final approach.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight between the start of the turn from base leg to a flight path along the extended runway centre line, to the runway.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990898">
+        <xs:annotation>
+          <xs:documentation source="valueID">990898</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Circuit pattern - crosswind</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - crosswind.</xs:documentation>
+          <xs:documentation source="explanation">A flight path of the VFR traffic pattern, which is perpendicular to the landing runway, crosses the departure end of the runway, and connects with the downwind leg.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10606">
+        <xs:annotation>
+          <xs:documentation source="valueID">10606</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Aborted approach before decision height</xs:documentation>
+          <xs:documentation source="detailedDescription">Aborted - interrupted approach (before reaching decision height).</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight where the pilot aborts the approach during an ILS or other precision approach involving an abnormally early turn on approach before reaching minimum decision altitude or decision height.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10607">
+        <xs:annotation>
+          <xs:documentation source="valueID">10607</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Missed approach or go-around</xs:documentation>
+          <xs:documentation source="detailedDescription">Missed approach or go-around.</xs:documentation>
+          <xs:documentation source="explanation">Missed Approach/Go-Around: From the first application of power after the crew elects to execute a missed approach or go-around until the aircraft re-enters the sequence for a VFR pattern (go-around) or until the aircraft reaches the IAF for another approach (IFR)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10608">
+        <xs:annotation>
+          <xs:documentation source="valueID">10608</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Emergency descent during approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent during approach.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an intentionally rapid or premature descent is made in response to an in-flight emergency during approach. The descent is controlled by the crew.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10609">
+        <xs:annotation>
+          <xs:documentation source="valueID">10609</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Uncontrolled descent during an approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent during an approach.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which a previously normal descent during an approach becomes uncontrolled.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10610">
+        <xs:annotation>
+          <xs:documentation source="valueID">10610</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Approach - holding</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach - holding.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which a pre-determined ad-hoc manoeuvre during the approach keeps the aircraft within a specified airspace awaiting further instructions.
+
+Note: a holding procedure executed at the IAF is included in the En-route phase.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10698">
+        <xs:annotation>
+          <xs:documentation source="valueID">10698</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Approach - Approach : Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach : Other.</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of flight, while on approach, in which an event other than one of the above occurs.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10700">
+        <xs:annotation>
+          <xs:documentation source="valueID">10700</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the point of transition from nose-low to nose-up attitude, immediately before landing (flare), through touchdown and until aircraft exits landing runway, comes to a stop or when power is applied for takeoff in the case of a touch-and-go landing, whichever occurs first.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10701">
+        <xs:annotation>
+          <xs:documentation source="valueID">10701</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Landing - Level off-touchdown</xs:documentation>
+          <xs:documentation source="detailedDescription">Level off-touchdown.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the point of transition from nose-low to nose-up attitude, just before landing, until touchdown.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10702">
+        <xs:annotation>
+          <xs:documentation source="valueID">10702</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Landing - Landing roll</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing roll.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from touchdown until the aircraft exits the landing runway or comes to a stop, whichever occurs first.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990918">
+        <xs:annotation>
+          <xs:documentation source="valueID">990918</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Landing - Landing roll - Landing roll - on runway</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing roll - on runway</xs:documentation>
+          <xs:documentation source="explanation">Landing roll - on runway: the part of the landing roll when the aircraft is on the runway.
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10708">
+        <xs:annotation>
+          <xs:documentation source="valueID">10708</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Landing - Landing roll - Landing roll - off runway</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing roll - off runway</xs:documentation>
+          <xs:documentation source="explanation">Landing roll - off runway: the part of the landing roll after the aircraft left the runway by excursion to the side or overrun the end of the runway. Also to be used when the aircraft has landed beside, in front of (undershoot) or behind the runway. The intent is to assist in better qualifying the related events, in particular in regards to any damages sustained.
+
+Added with 427 HF1 after April 2008. This implies that records compiled before that date do not contain this classification.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990920">
+        <xs:annotation>
+          <xs:documentation source="valueID">990920</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Landing - Landing aborted before touch-down</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing aborted before touch-down</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an attempt is made to get airborne before touchdown (successful or not).</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10703">
+        <xs:annotation>
+          <xs:documentation source="valueID">10703</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Landing - Landing aborted after touch-down</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing aborted after touch-down.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an attempt is made to get airborne after touchdown (successful or not). This does not include the take-off portion of a touch-and-go.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10706">
+        <xs:annotation>
+          <xs:documentation source="valueID">10706</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Landing - Emergency landing or off-runway landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency landing or off-runway landing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight where an intentional landing is made at a point other than a runway or normal landing site, in response to an in-flight emergency.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10798">
+        <xs:annotation>
+          <xs:documentation source="valueID">10798</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Landing - Landing: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing: Other.</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of flight while landing other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10800">
+        <xs:annotation>
+          <xs:documentation source="valueID">10800</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Post-impact</xs:documentation>
+          <xs:documentation source="detailedDescription">Post-impact.</xs:documentation>
+          <xs:documentation source="explanation">The phase, in an accident or incident sequence, after the aircraft has collided with the first object, place or person.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="19900">
+        <xs:annotation>
+          <xs:documentation source="valueID">19900</xs:documentation>
+          <xs:documentation source="description">Powered Fixed-wing aircraft - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">An event involving a phase of flight of the aircraft that is unknown or not recorded.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990824">
+        <xs:annotation>
+          <xs:documentation source="valueID">990824</xs:documentation>
+          <xs:documentation source="description">Helicopter</xs:documentation>
+          <xs:documentation source="detailedDescription">Helicopter.</xs:documentation>
+          <xs:documentation source="explanation">This section covers flight phases specifically adopted for the operation of helicopters.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990835">
+        <xs:annotation>
+          <xs:documentation source="valueID">990835</xs:documentation>
+          <xs:documentation source="description">Helicopter - Standing</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight prior to taxi, or after arrival, at the gate, ramp, landing or parking area, while the helicopter is stationary.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990844">
+        <xs:annotation>
+          <xs:documentation source="valueID">990844</xs:documentation>
+          <xs:documentation source="description">Helicopter - Standing - Standing : Engine(s) Not Operating</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Engine(s) Not Operating.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight when an helicopter is parked at the ramp, or parking area, during which no engine is running.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990845">
+        <xs:annotation>
+          <xs:documentation source="valueID">990845</xs:documentation>
+          <xs:documentation source="description">Helicopter - Standing - Standing : Engine(s) Start-up</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Engine(s) Start-up.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight, while the helicopter is parked during which the first engine is started.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990847">
+        <xs:annotation>
+          <xs:documentation source="valueID">990847</xs:documentation>
+          <xs:documentation source="description">Helicopter - Standing - Standing : Engine(s) Run-up</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Engine(s) Run-up.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight after start-up, during which power is applied to engines, for a pre-flight engine performance test.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990846">
+        <xs:annotation>
+          <xs:documentation source="valueID">990846</xs:documentation>
+          <xs:documentation source="description">Helicopter - Standing - Standing : Engine(s) Operating</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Engines operating.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight following engine start-up, or after post-flight arrival at the destination.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10105">
+        <xs:annotation>
+          <xs:documentation source="valueID">10105</xs:documentation>
+          <xs:documentation source="description">Helicopter - Standing - Standing : Rotors turning</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Rotors turning.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight when the helicopter is standing with its rotors turning prior to take-off or after landing.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990848">
+        <xs:annotation>
+          <xs:documentation source="valueID">990848</xs:documentation>
+          <xs:documentation source="description">Helicopter - Standing - Standing : Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing : Other.</xs:documentation>
+          <xs:documentation source="explanation">An event involving any standing phase of flight other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990922">
+        <xs:annotation>
+          <xs:documentation source="valueID">990922</xs:documentation>
+          <xs:documentation source="description">Helicopter - Tow</xs:documentation>
+          <xs:documentation source="detailedDescription">Tow</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990836">
+        <xs:annotation>
+          <xs:documentation source="valueID">990836</xs:documentation>
+          <xs:documentation source="description">Helicopter - Taxi</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi.</xs:documentation>
+          <xs:documentation source="explanation">Taxiing includes air taxiing for rotorcraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990849">
+        <xs:annotation>
+          <xs:documentation source="valueID">990849</xs:documentation>
+          <xs:documentation source="description">Helicopter - Taxi - Taxi to runway</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi to runway.</xs:documentation>
+          <xs:documentation source="explanation">Commences when the helicopter begins to move leaving the gate, ramp, apron, or parking area, and terminates upon reaching the runway.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990850">
+        <xs:annotation>
+          <xs:documentation source="valueID">990850</xs:documentation>
+          <xs:documentation source="description">Helicopter - Taxi - Taxi to take-off position</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi to take-off position.</xs:documentation>
+          <xs:documentation source="explanation">From entering the runway until reaching the take-off position.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990851">
+        <xs:annotation>
+          <xs:documentation source="valueID">990851</xs:documentation>
+          <xs:documentation source="description">Helicopter - Taxi - Taxi from runway</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi from runway.</xs:documentation>
+          <xs:documentation source="explanation">Begins upon exiting the landing runway and terminates upon arrival at the gate, ramp, apron, or parking area.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990852">
+        <xs:annotation>
+          <xs:documentation source="valueID">990852</xs:documentation>
+          <xs:documentation source="description">Helicopter - Taxi - Maintaining position</xs:documentation>
+          <xs:documentation source="detailedDescription">Maintaining position.</xs:documentation>
+          <xs:documentation source="explanation">Maintaining position at holding point.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10203">
+        <xs:annotation>
+          <xs:documentation source="valueID">10203</xs:documentation>
+          <xs:documentation source="description">Helicopter - Taxi - Air taxi/hover taxi</xs:documentation>
+          <xs:documentation source="detailedDescription">Air taxi/hover taxi.</xs:documentation>
+          <xs:documentation source="explanation">Air-taxiing: movement of a helicopter above the surface of an aerodrome, normally in ground effect and at a ground speed normally less than 37 km/h (20 kt). ICAO Annex 2.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990853">
+        <xs:annotation>
+          <xs:documentation source="valueID">990853</xs:documentation>
+          <xs:documentation source="description">Helicopter - Taxi - Taxi : Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi : Other.</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of taxiing other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990837">
+        <xs:annotation>
+          <xs:documentation source="valueID">990837</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the application of take-off power until reaching the first prescribed power reduction, or until reaching the VFR pattern or 1000 feet (300 metres) above runway end elevation, whichever comes first or the termination (abort) of the take-off.
+
+Note: this slightly differs from the previous definition where 1,500 feet (450 metres) above the runway end elevation was specified.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990854">
+        <xs:annotation>
+          <xs:documentation source="valueID">990854</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off - Running take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Running take-off.</xs:documentation>
+          <xs:documentation source="explanation">The take-off of an helicopter where the aircraft is accelerated on the surface until the speed is sufficient to establish a positive rate of climb condition.  </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10307">
+        <xs:annotation>
+          <xs:documentation source="valueID">10307</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off - Vertical take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Vertical take-off.</xs:documentation>
+          <xs:documentation source="explanation">Vertical-take-off for helicopters.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990860">
+        <xs:annotation>
+          <xs:documentation source="valueID">990860</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off - Vertical take-off with external load attached</xs:documentation>
+          <xs:documentation source="detailedDescription">Vertical take-off with external load attached.</xs:documentation>
+          <xs:documentation source="explanation">A vertical take-off where the helicopter has already an external load attached.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990856">
+        <xs:annotation>
+          <xs:documentation source="valueID">990856</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off - Rejected take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Rejected take-off.</xs:documentation>
+          <xs:documentation source="explanation">During take-off, from the point where the decision to abort has been taken until the helicopter begins to taxi from the runway.
+
+Landback during rotorcraft operations is considered a rejected takeoff.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990855">
+        <xs:annotation>
+          <xs:documentation source="valueID">990855</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off - Initial climb</xs:documentation>
+          <xs:documentation source="detailedDescription">Initial climb.</xs:documentation>
+          <xs:documentation source="explanation">From the end of the Take-off run sub-phase to the first prescribed power reduction, or until reaching 1000 feet above runway elevation or the VFR pattern, whichever comes first.
+
+Note: this slightly differs from the previous definition where 1,500 feet (450 metres) above runway elevation was specified.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990857">
+        <xs:annotation>
+          <xs:documentation source="valueID">990857</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off - Climb into traffic pattern</xs:documentation>
+          <xs:documentation source="detailedDescription">Climb into traffic pattern.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990858">
+        <xs:annotation>
+          <xs:documentation source="valueID">990858</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off - Emergency descent during take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent during take-off.</xs:documentation>
+          <xs:documentation source="explanation">A controlled descent during take-off phase in response to a perceived emergency situation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990859">
+        <xs:annotation>
+          <xs:documentation source="valueID">990859</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off - Uncontrolled descent during take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent during take-off.</xs:documentation>
+          <xs:documentation source="explanation">A descent during take-off phase in which the helicopter does not sustain controlled flight.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990861">
+        <xs:annotation>
+          <xs:documentation source="valueID">990861</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off - Hovering/transition from hover to forward flight</xs:documentation>
+          <xs:documentation source="detailedDescription">Hovering/transition from hover to forward flight.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990862">
+        <xs:annotation>
+          <xs:documentation source="valueID">990862</xs:documentation>
+          <xs:documentation source="description">Helicopter - Take-off - Take-off : Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off : Other.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which any event occurs during take-off, other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990838">
+        <xs:annotation>
+          <xs:documentation source="valueID">990838</xs:documentation>
+          <xs:documentation source="description">Helicopter - En-route</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990863">
+        <xs:annotation>
+          <xs:documentation source="valueID">990863</xs:documentation>
+          <xs:documentation source="description">Helicopter - En-route - Climb to cruising level or altitude</xs:documentation>
+          <xs:documentation source="detailedDescription">Climb to cruising level or altitude.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990864">
+        <xs:annotation>
+          <xs:documentation source="valueID">990864</xs:documentation>
+          <xs:documentation source="description">Helicopter - En-route - Cruise</xs:documentation>
+          <xs:documentation source="detailedDescription">Cruise.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990865">
+        <xs:annotation>
+          <xs:documentation source="valueID">990865</xs:documentation>
+          <xs:documentation source="description">Helicopter - En-route - Change of cruise level</xs:documentation>
+          <xs:documentation source="detailedDescription">Change of cruise level.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990866">
+        <xs:annotation>
+          <xs:documentation source="valueID">990866</xs:documentation>
+          <xs:documentation source="description">Helicopter - En-route - Normal descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Normal descent.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990867">
+        <xs:annotation>
+          <xs:documentation source="valueID">990867</xs:documentation>
+          <xs:documentation source="description">Helicopter - En-route - Emergency descent en-route</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent en-route.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990868">
+        <xs:annotation>
+          <xs:documentation source="valueID">990868</xs:documentation>
+          <xs:documentation source="description">Helicopter - En-route - Emergency autorotation en-route</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency autorotation en-route.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990869">
+        <xs:annotation>
+          <xs:documentation source="valueID">990869</xs:documentation>
+          <xs:documentation source="description">Helicopter - En-route - Uncontrolled descent en-route</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent en-route.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990870">
+        <xs:annotation>
+          <xs:documentation source="valueID">990870</xs:documentation>
+          <xs:documentation source="description">Helicopter - En-route - En-route - holding</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route - holding.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990871">
+        <xs:annotation>
+          <xs:documentation source="valueID">990871</xs:documentation>
+          <xs:documentation source="description">Helicopter - En-route - En-route : Other</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route : Other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990839">
+        <xs:annotation>
+          <xs:documentation source="valueID">990839</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring</xs:documentation>
+          <xs:documentation source="detailedDescription">Manoeuvring.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990872">
+        <xs:annotation>
+          <xs:documentation source="valueID">990872</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Aerobatics</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerobatics.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990873">
+        <xs:annotation>
+          <xs:documentation source="valueID">990873</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Low flying</xs:documentation>
+          <xs:documentation source="detailedDescription">Low flying.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990874">
+        <xs:annotation>
+          <xs:documentation source="valueID">990874</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Pick-up/positioning of external load</xs:documentation>
+          <xs:documentation source="detailedDescription">Pick-up/positioning of external load.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990875">
+        <xs:annotation>
+          <xs:documentation source="valueID">990875</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Emergency descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990877">
+        <xs:annotation>
+          <xs:documentation source="valueID">990877</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Uncontrolled descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10507">
+        <xs:annotation>
+          <xs:documentation source="valueID">10507</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Autorotative descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Autorotative descent.</xs:documentation>
+          <xs:documentation source="explanation">Autorotative descent.
+Autorotation:a rotorcraft flight condition in which the lifting rotor is driven entirely by action of the air when the rotorcraft is in motion.
+During powered flight, the rotor drag is overcome with engine power. When the engine fails, or is deliberately disengaged from the rotor system, some other force must be used to sustain rotor RPM so controlled flight can be continued to the ground. This force is generated by adjusting the collective pitch to allow a controlled descent. Airflow during helicopter descent provides the energy to overcome blade drag and turn the rotor. When the helicopter is descending in this manner, it is said to be in a state of autorotation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990876">
+        <xs:annotation>
+          <xs:documentation source="valueID">990876</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Autorotative descent - Emergency autorotation during manoeuvring</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency autorotation during manoeuvring.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990878">
+        <xs:annotation>
+          <xs:documentation source="valueID">990878</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Autorotative descent - Autorotation – practice</xs:documentation>
+          <xs:documentation source="detailedDescription">Autorotation – practice.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990879">
+        <xs:annotation>
+          <xs:documentation source="valueID">990879</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Hovering</xs:documentation>
+          <xs:documentation source="detailedDescription">Hovering.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10509">
+        <xs:annotation>
+          <xs:documentation source="valueID">10509</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Hovering - Hovering out of ground effect</xs:documentation>
+          <xs:documentation source="detailedDescription">Hovering out of ground effect.</xs:documentation>
+          <xs:documentation source="explanation">Hovering out of ground effect. The helicopter maintains a constant position at a selected point.Ground effect is a condition of improved performance encountered when operating near (within 1/2 rotor diameter) of the ground.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10508">
+        <xs:annotation>
+          <xs:documentation source="valueID">10508</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Hovering - Hovering in ground effect</xs:documentation>
+          <xs:documentation source="detailedDescription">Hovering in ground effect.</xs:documentation>
+          <xs:documentation source="explanation">Hovering in ground effect.Hover: The helicopter maintains a constant position at a selected point.
+Ground effect is a condition of improved performance encountered when operating near (within 1/2 rotor diameter) of the ground.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990880">
+        <xs:annotation>
+          <xs:documentation source="valueID">990880</xs:documentation>
+          <xs:documentation source="description">Helicopter - Manoeuvring - Manoeuvring : Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Manoeuvring : Other.</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of manoeuvring flight other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990840">
+        <xs:annotation>
+          <xs:documentation source="valueID">990840</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990881">
+        <xs:annotation>
+          <xs:documentation source="valueID">990881</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Transition forward flight to hover</xs:documentation>
+          <xs:documentation source="detailedDescription">Transition forward flight to hover.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990882">
+        <xs:annotation>
+          <xs:documentation source="valueID">990882</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Initial Approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Initial Approach.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990883">
+        <xs:annotation>
+          <xs:documentation source="valueID">990883</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Intermediate approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Intermediate approach.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990884">
+        <xs:annotation>
+          <xs:documentation source="valueID">990884</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Final approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Final approach.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990885">
+        <xs:annotation>
+          <xs:documentation source="valueID">990885</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Circuit pattern - downwind</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - downwind.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990886">
+        <xs:annotation>
+          <xs:documentation source="valueID">990886</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Circuit pattern - base leg</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - base leg.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990887">
+        <xs:annotation>
+          <xs:documentation source="valueID">990887</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Circuit pattern - final</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - final approach.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990915">
+        <xs:annotation>
+          <xs:documentation source="valueID">990915</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Circuit pattern - crosswind</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - crosswind</xs:documentation>
+          <xs:documentation source="explanation">A flight path of the VFR traffic pattern, which is perpendicular to the landing runway, crosses the departure end of the runway, and connects with the downwind leg.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990888">
+        <xs:annotation>
+          <xs:documentation source="valueID">990888</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Aborted approach before decision height</xs:documentation>
+          <xs:documentation source="detailedDescription">Aborted approach before decision height.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990889">
+        <xs:annotation>
+          <xs:documentation source="valueID">990889</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Missed approach or go-around</xs:documentation>
+          <xs:documentation source="detailedDescription">Missed approach or go-around.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990890">
+        <xs:annotation>
+          <xs:documentation source="valueID">990890</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Emergency descent during approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent during approach.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990891">
+        <xs:annotation>
+          <xs:documentation source="valueID">990891</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Emergency autorotation during approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency autorotation during approach.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990892">
+        <xs:annotation>
+          <xs:documentation source="valueID">990892</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Uncontrolled descent during an approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent during an approach.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990893">
+        <xs:annotation>
+          <xs:documentation source="valueID">990893</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Approach - holding</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach - holding.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990894">
+        <xs:annotation>
+          <xs:documentation source="valueID">990894</xs:documentation>
+          <xs:documentation source="description">Helicopter - Approach - Approach : Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach : Other.</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of flight, while on approach, in which an event other than one of the above occurs.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990841">
+        <xs:annotation>
+          <xs:documentation source="valueID">990841</xs:documentation>
+          <xs:documentation source="description">Helicopter - Landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10709">
+        <xs:annotation>
+          <xs:documentation source="valueID">10709</xs:documentation>
+          <xs:documentation source="description">Helicopter - Landing - Hovering - landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Transition from forward flight to hovering / hovering on landing</xs:documentation>
+          <xs:documentation source="explanation">Transition from forward flight to hovering / hovering on landing
+Hovering is a maneuver in which the helicopter is maintained in nearly motionless flight over a reference point at a constant altitude and on a constant heading.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990895">
+        <xs:annotation>
+          <xs:documentation source="valueID">990895</xs:documentation>
+          <xs:documentation source="description">Helicopter - Landing - Flare</xs:documentation>
+          <xs:documentation source="detailedDescription">Flare</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10707">
+        <xs:annotation>
+          <xs:documentation source="valueID">10707</xs:documentation>
+          <xs:documentation source="description">Helicopter - Landing - Vertical landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Vertical landing</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10704">
+        <xs:annotation>
+          <xs:documentation source="valueID">10704</xs:documentation>
+          <xs:documentation source="description">Helicopter - Landing - Run-on landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Run-on landing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the helicopter lands with power on.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="10705">
+        <xs:annotation>
+          <xs:documentation source="valueID">10705</xs:documentation>
+          <xs:documentation source="description">Helicopter - Landing - Autorotative landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Autorotative landing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight where the helicopter lands with no engine power being delivered to the aircraft's rotors, e.g. where the helicopter is manoeuvring in an emergency situation following an engine failure, with the intent to touch down.
+ 
+Autorotation: a rotorcraft flight condition in which the lifting rotor is driven entirely by action of the air when the rotorcraft is in motion.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990896">
+        <xs:annotation>
+          <xs:documentation source="valueID">990896</xs:documentation>
+          <xs:documentation source="description">Helicopter - Landing - Landing aborted after touch-down</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing aborted after touch-down.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990897">
+        <xs:annotation>
+          <xs:documentation source="valueID">990897</xs:documentation>
+          <xs:documentation source="description">Helicopter - Landing - Emergency landing or off-runway landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency landing or off-runway landing.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990901">
+        <xs:annotation>
+          <xs:documentation source="valueID">990901</xs:documentation>
+          <xs:documentation source="description">Helicopter - Landing - Landing - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">A phase of flight while landing other than one of the  landing phases above.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990842">
+        <xs:annotation>
+          <xs:documentation source="valueID">990842</xs:documentation>
+          <xs:documentation source="description">Helicopter - Post-impact</xs:documentation>
+          <xs:documentation source="detailedDescription">Post-impact.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990843">
+        <xs:annotation>
+          <xs:documentation source="valueID">990843</xs:documentation>
+          <xs:documentation source="description">Helicopter - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30000">
+        <xs:annotation>
+          <xs:documentation source="valueID">30000</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider</xs:documentation>
+          <xs:documentation source="detailedDescription">Sailplane/Glider.</xs:documentation>
+          <xs:documentation source="explanation">This section covers flight phases specifically adopted for the operation of gliders. The ADREP accident and incident reporting system does not record occurrences involving gliders or sailplanes. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30100">
+        <xs:annotation>
+          <xs:documentation source="valueID">30100</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Standing</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight involving the sailplane or glider when it is stationary with or without wings level.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30101">
+        <xs:annotation>
+          <xs:documentation source="valueID">30101</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Standing - Standing - tow/winch wire attached</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing - tow/winch wire attached.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight involving the sailplane or glider when it is stationary with, or without, wings level with the tow cable attached.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30102">
+        <xs:annotation>
+          <xs:documentation source="valueID">30102</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Standing - Standing - after landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing - after landing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight involving the sailplane or glider when it is stationary with, or without, wings level after landing.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30109">
+        <xs:annotation>
+          <xs:documentation source="valueID">30109</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Standing - Standing - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing - Other.</xs:documentation>
+          <xs:documentation source="explanation">Any phase of flight involving the sailplane or glider when it is stationary with or without wings level other than one of the phases above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990923">
+        <xs:annotation>
+          <xs:documentation source="valueID">990923</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Tow</xs:documentation>
+          <xs:documentation source="detailedDescription">Tow</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990924">
+        <xs:annotation>
+          <xs:documentation source="valueID">990924</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Taxi</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990925">
+        <xs:annotation>
+          <xs:documentation source="valueID">990925</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Taxi - Taxi to runway</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi to runway.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990926">
+        <xs:annotation>
+          <xs:documentation source="valueID">990926</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Taxi - Taxi to take-off position</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi to take-off position.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990927">
+        <xs:annotation>
+          <xs:documentation source="valueID">990927</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Taxi - Taxi from runway</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi from runway.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990928">
+        <xs:annotation>
+          <xs:documentation source="valueID">990928</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Taxi - Maintaining position</xs:documentation>
+          <xs:documentation source="detailedDescription">Maintaining position.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990929">
+        <xs:annotation>
+          <xs:documentation source="valueID">990929</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Taxi - Air taxi/hover taxi</xs:documentation>
+          <xs:documentation source="detailedDescription">Air taxi/hover taxi.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990930">
+        <xs:annotation>
+          <xs:documentation source="valueID">990930</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Taxi - Taxi : Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi : Other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30300">
+        <xs:annotation>
+          <xs:documentation source="valueID">30300</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the application of take-off power, [powered gliders] or pull from the tow, until reaching 1,500 feet (450 metres) above runway end elevation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30301">
+        <xs:annotation>
+          <xs:documentation source="valueID">30301</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Take-off run</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off run.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the application of take-off power, [powered gliders] or pull from the tow, until a positive rate of climb is established.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30302">
+        <xs:annotation>
+          <xs:documentation source="valueID">30302</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Take-off - initial climb</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off - initial climb.</xs:documentation>
+          <xs:documentation source="explanation">For self-launching gliders: The phase of flight from the point where the aircraft ended the take-off run, until reaching 1,500 feet (450 metres) above runway end elevation. 
+Note: for aircraft under tow / aircraft launched using a winch specific phases are provided.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30303">
+        <xs:annotation>
+          <xs:documentation source="valueID">30303</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Rejected take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Rejected take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the moment that a decision has been taken to discontinue the take-off until the aircraft is stationary, wings level or not</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30304">
+        <xs:annotation>
+          <xs:documentation source="valueID">30304</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Emergency descent during take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent during take-off</xs:documentation>
+          <xs:documentation source="explanation">emergency descent during take-off</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30305">
+        <xs:annotation>
+          <xs:documentation source="valueID">30305</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Uncontrolled descent during take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent during take-off</xs:documentation>
+          <xs:documentation source="explanation">Uncontrolled descent during take-off, e.g. after control was lost during the inital climb.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30398">
+        <xs:annotation>
+          <xs:documentation source="valueID">30398</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Take-off: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off: Other.</xs:documentation>
+          <xs:documentation source="explanation">Any other sub-phase of the take-off not mentioned in the details above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990801">
+        <xs:annotation>
+          <xs:documentation source="valueID">990801</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Winch launch</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off - Winch launch.</xs:documentation>
+          <xs:documentation source="explanation">A take-off where the glider is tugged up to release altitude by a winch.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990803">
+        <xs:annotation>
+          <xs:documentation source="valueID">990803</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Winch launch - Take-off run</xs:documentation>
+          <xs:documentation source="detailedDescription">Winch-launch - Take-off run</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the application of pull by a winch, until a positive rate of climb is established.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990804">
+        <xs:annotation>
+          <xs:documentation source="valueID">990804</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Winch launch - Initital climb</xs:documentation>
+          <xs:documentation source="detailedDescription">Winch-launch - Initital climb</xs:documentation>
+          <xs:documentation source="explanation">From the end of the take-off run  to release of the winch cable.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990805">
+        <xs:annotation>
+          <xs:documentation source="valueID">990805</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Winch launch - Rope release</xs:documentation>
+          <xs:documentation source="detailedDescription">Winch-launch - Rope release</xs:documentation>
+          <xs:documentation source="explanation">The point during climb where the towing rope has automatically been released, or manually released by the glider.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990806">
+        <xs:annotation>
+          <xs:documentation source="valueID">990806</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Winch launch - Rejected take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Winch-launch - rejected take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the moment that a decision has been taken to discontinue the take-off , while beeing towed by a winch, until the aircraft is stationary , wings level or not</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990807">
+        <xs:annotation>
+          <xs:documentation source="valueID">990807</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Winch launch - Uncontrolled descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Winch launch - Uncontrolled descent during take-off</xs:documentation>
+          <xs:documentation source="explanation">Uncontrolled descent during take-off, e.g. after control was lost during the climb, while beeing towed by a winch.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990902">
+        <xs:annotation>
+          <xs:documentation source="valueID">990902</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Winch launch - Take-off - winch-launch: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off - winch-launch: Other</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990802">
+        <xs:annotation>
+          <xs:documentation source="valueID">990802</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Aircraft tow</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off - Aircraft tow.</xs:documentation>
+          <xs:documentation source="explanation">A take-off where the glider is tugged up to release altitude by a towing aircraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990808">
+        <xs:annotation>
+          <xs:documentation source="valueID">990808</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Aircraft tow - Take-off run</xs:documentation>
+          <xs:documentation source="detailedDescription">Aircraft tow - Take-off run</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the application of pull from the towing aircraft, until a positive rate of climb is established.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990809">
+        <xs:annotation>
+          <xs:documentation source="valueID">990809</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Aircraft tow - Initital climb</xs:documentation>
+          <xs:documentation source="detailedDescription">Aircraft tow - Initital climb</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the point where the aircraft ended the take-off run, until the release of the rope.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990810">
+        <xs:annotation>
+          <xs:documentation source="valueID">990810</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Aircraft tow - Rope release</xs:documentation>
+          <xs:documentation source="detailedDescription">Aircraft tow - Rope release</xs:documentation>
+          <xs:documentation source="explanation">The point during climb where the towing rope has automatically been released, or manually released by the glider.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990811">
+        <xs:annotation>
+          <xs:documentation source="valueID">990811</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Aircraft tow - Rejected take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Aircraft tow - rejected take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the moment that a decision has been taken to discontinue the take-off , while beeing towed by a winch, until the aircraft is stationary , wings level or not</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990812">
+        <xs:annotation>
+          <xs:documentation source="valueID">990812</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Aircraft tow - Uncontrolled descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Aircraft tow - Uncontrolled descent</xs:documentation>
+          <xs:documentation source="explanation">Uncontrolled descent during take-off, e.g. after control was lost during the climb, while beeing towed by an aircraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990919">
+        <xs:annotation>
+          <xs:documentation source="valueID">990919</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Take-off - Aircraft tow - Take-off - aircraft tow: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off - aircraft tow: Other</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30400">
+        <xs:annotation>
+          <xs:documentation source="valueID">30400</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route.</xs:documentation>
+          <xs:documentation source="explanation">From completion of Initial Climb through cruise and controlled descent to the VFR pattern altitude or 1000 feet above runway elevation, whichever comes first.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30401">
+        <xs:annotation>
+          <xs:documentation source="valueID">30401</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route - Slope lift</xs:documentation>
+          <xs:documentation source="detailedDescription">Slope lift.</xs:documentation>
+          <xs:documentation source="explanation">Upward air current generated when a mass of air moves towards an up-sloping hill, allowing a glider to gain altitude on the windward side.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30402">
+        <xs:annotation>
+          <xs:documentation source="valueID">30402</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route - Thermal lift</xs:documentation>
+          <xs:documentation source="detailedDescription">Thermal lift.</xs:documentation>
+          <xs:documentation source="explanation">Upward air current generated when a mass of air is heated near the earth surface, allowing a glider to gain altitude.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30403">
+        <xs:annotation>
+          <xs:documentation source="valueID">30403</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route - Wave lift</xs:documentation>
+          <xs:documentation source="detailedDescription">Wave lift.</xs:documentation>
+          <xs:documentation source="explanation">Upward air current generated when a mass of air ondulates after passing over a mountain range, allowing a glider to gain altitude on the climbing air wave element, usually recognizable by a cloud on top.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30404">
+        <xs:annotation>
+          <xs:documentation source="valueID">30404</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route - Cloud flying</xs:documentation>
+          <xs:documentation source="detailedDescription">Cloud flying.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight where the aircraft flies inside clouds (IMC conditions), to gain altitude in upward currents and occasionaly to descend through a cloud layer.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30505">
+        <xs:annotation>
+          <xs:documentation source="valueID">30505</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route - In search of lift</xs:documentation>
+          <xs:documentation source="detailedDescription">In search of lift.</xs:documentation>
+          <xs:documentation source="explanation">En-route portion of flight when a glider travels from a lifting area to another area where the pilot expects to find lifting conditions.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30506">
+        <xs:annotation>
+          <xs:documentation source="valueID">30506</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route - Normal descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Normal descent.</xs:documentation>
+          <xs:documentation source="explanation">Descent from cruise to the airfield pattern entry or 1000 feet above the runway elevation, whichever comes first</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30405">
+        <xs:annotation>
+          <xs:documentation source="valueID">30405</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route - Ferry towing</xs:documentation>
+          <xs:documentation source="detailedDescription">Ferry towing.</xs:documentation>
+          <xs:documentation source="explanation">En-route phase of a flight performed under tow from take-off to the vicinity of the destination, usually with the intention of re-locating the glider to a different base.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30407">
+        <xs:annotation>
+          <xs:documentation source="valueID">30407</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route - Emergency descent en route</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent en route</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an intentionally rapid, or premature, descent is made en-route, in response to an in-flight emergency. The descent is controlled by the crew.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30408">
+        <xs:annotation>
+          <xs:documentation source="valueID">30408</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route - Uncontrolled descent en route</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent en route</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the aircraft descends uncontrolled from an en-route phase.. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30498">
+        <xs:annotation>
+          <xs:documentation source="valueID">30498</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - En-route - En-route - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route - Other.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight en-route that is not described in the details above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30600">
+        <xs:annotation>
+          <xs:documentation source="valueID">30600</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in descent starting when the aircraft entered the landing pattern or 1.000 ft altitude AGL, whichever comes first.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30406">
+        <xs:annotation>
+          <xs:documentation source="valueID">30406</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Approach - Final glide - goal run</xs:documentation>
+          <xs:documentation source="detailedDescription">Final glide - goal run.</xs:documentation>
+          <xs:documentation source="explanation">Final approach at high speed to a runway taking advantage of ground effect conditions to arrive in the minimum possible amount of time (used in competition)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30601">
+        <xs:annotation>
+          <xs:documentation source="valueID">30601</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Approach - Circuit pattern - downwind</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - downwind.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in approach where the aircraft follows the aerodrome pattern and performs a circuit leg paralel to the runway in an heading opposite to the one in landing </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30602">
+        <xs:annotation>
+          <xs:documentation source="valueID">30602</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Approach - Circuit pattern - base leg</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - base leg.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in approach where the aircraft follows the aerodrome pattern and performs a circuit leg perpendicular to the runway before reaching the runway extension line.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30603">
+        <xs:annotation>
+          <xs:documentation source="valueID">30603</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Approach - Circuit pattern - final</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - final approach.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in approach where the aircraft follows the aerodrome pattern and performs a circuit leg aligned with the runway for landing.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990916">
+        <xs:annotation>
+          <xs:documentation source="valueID">990916</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Approach - Circuit pattern - crosswind</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - crosswind</xs:documentation>
+          <xs:documentation source="explanation">A flight path of the VFR traffic pattern, which is perpendicular to the landing runway, crosses the departure end of the runway, and connects with the downwind leg.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30604">
+        <xs:annotation>
+          <xs:documentation source="valueID">30604</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Approach - Emergency descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight during the approach in which an intentional descent is made, in response to an emergency</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30605">
+        <xs:annotation>
+          <xs:documentation source="valueID">30605</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Approach - Uncontrolled descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight during the approach in which the aircraft descends uncontrolled. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30698">
+        <xs:annotation>
+          <xs:documentation source="valueID">30698</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Approach - Approach: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach: Other.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in approach not described by another approach explanation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30700">
+        <xs:annotation>
+          <xs:documentation source="valueID">30700</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the point of transition from nose-low to nose-level attitude, immediately before landing (flare), through touchdown and until aircraft exits the landing runway or comes to a stop.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30701">
+        <xs:annotation>
+          <xs:documentation source="valueID">30701</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Landing - Level-off/touchdown</xs:documentation>
+          <xs:documentation source="detailedDescription">Level-off/touchdown.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the point of transition from nose-low to nose-level attitude, immediately before landing (flare), until the landing gear makes permanent contact with the ground.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30702">
+        <xs:annotation>
+          <xs:documentation source="valueID">30702</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Landing - Landing roll</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing roll.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the point when the landing gear makes permanent contact with the ground, until the aircraft exits the landing runway or comes to a stop.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30703">
+        <xs:annotation>
+          <xs:documentation source="valueID">30703</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Landing - Landing after failed launch</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing after failed launch.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the point where the towing operation was interrupted until the aircraft exits the landing runway or comes to a stop.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990813">
+        <xs:annotation>
+          <xs:documentation source="valueID">990813</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Landing - Off-field landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Off-field landing.</xs:documentation>
+          <xs:documentation source="explanation">For landing off the landing field which did not involve an emergency.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30704">
+        <xs:annotation>
+          <xs:documentation source="valueID">30704</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Landing - Emergency landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency landing.</xs:documentation>
+          <xs:documentation source="explanation">Emergency landing - an emergency landing other than a landing after failed launch. To be used in cases when the specifics of the landing sub phases are not relevant as a result of the nature of the emergency.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30798">
+        <xs:annotation>
+          <xs:documentation source="valueID">30798</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Landing - Landing: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing: Other.</xs:documentation>
+          <xs:documentation source="explanation">Any other phase during landing</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="30800">
+        <xs:annotation>
+          <xs:documentation source="valueID">30800</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Post-impact</xs:documentation>
+          <xs:documentation source="detailedDescription">Post-impact.</xs:documentation>
+          <xs:documentation source="explanation">The phase, in an accident or incident sequence, after the sailplane, or glider, has collided with the first object, place or person.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="39900">
+        <xs:annotation>
+          <xs:documentation source="valueID">39900</xs:documentation>
+          <xs:documentation source="description">Sailplane/Glider - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight of the sailplane or glider is unknown or not recorded.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40000">
+        <xs:annotation>
+          <xs:documentation source="valueID">40000</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider</xs:documentation>
+          <xs:documentation source="detailedDescription">Hang/Para-glider.</xs:documentation>
+          <xs:documentation source="explanation">This section covers flight phases specifically adopted for the operation of hang and para-gliders. They are not used by ICAO but provided to permit exchange of related data between States.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40100">
+        <xs:annotation>
+          <xs:documentation source="valueID">40100</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Standing</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight where the pilot stands in the same place while preparing for flight (stabilizing the aircraft, facing or opposing the wind, etc)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40101">
+        <xs:annotation>
+          <xs:documentation source="valueID">40101</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Standing - Ground check</xs:documentation>
+          <xs:documentation source="detailedDescription">Ground check.</xs:documentation>
+          <xs:documentation source="explanation">The preparation for flight during standing by checking the equipment, the enviroment, etc.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40198">
+        <xs:annotation>
+          <xs:documentation source="valueID">40198</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Standing - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation">Any other phase during standing.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40300">
+        <xs:annotation>
+          <xs:documentation source="valueID">40300</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from starting to move into the wind until the the moment were the pilot looses contact with the ground. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40301">
+        <xs:annotation>
+          <xs:documentation source="valueID">40301</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Take-off - Foot launch</xs:documentation>
+          <xs:documentation source="detailedDescription">Foot launch.</xs:documentation>
+          <xs:documentation source="explanation">A take-off where the pilot obtains flying speed by running into the wind or jumping from an elevated location</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40302">
+        <xs:annotation>
+          <xs:documentation source="valueID">40302</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Take-off - Winch launch</xs:documentation>
+          <xs:documentation source="detailedDescription">Winch launch.</xs:documentation>
+          <xs:documentation source="explanation">A take-off where the Hang/Para-glider is tugged into release altitude by a winch.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40303">
+        <xs:annotation>
+          <xs:documentation source="valueID">40303</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Take-off - Aerotow launch</xs:documentation>
+          <xs:documentation source="detailedDescription">Aerotow launch</xs:documentation>
+          <xs:documentation source="explanation">A take-off where the Hang/Para-glider is tugged into release altitude by another aircraft.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40304">
+        <xs:annotation>
+          <xs:documentation source="valueID">40304</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Take-off - Aborted launch</xs:documentation>
+          <xs:documentation source="detailedDescription">Aborted launch.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the moment that a decision has been taken to discontinue the take-off, until the aircraft is stationary </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40305">
+        <xs:annotation>
+          <xs:documentation source="valueID">40305</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Take-off - Initial climb</xs:documentation>
+          <xs:documentation source="detailedDescription">Initial climb</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the point where the aircraft ended the take-off, until the moment where an height of 15 m (50 ft) above the lauching point is reached.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40306">
+        <xs:annotation>
+          <xs:documentation source="valueID">40306</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Take-off - Uncontrolled descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent in the take-off phase</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the aircraft descends uncontrolled from a take-off flight phase. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40398">
+        <xs:annotation>
+          <xs:documentation source="valueID">40398</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Take-off - Take-off: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off: Other</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of flight while climbing other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40500">
+        <xs:annotation>
+          <xs:documentation source="valueID">40500</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - En-route</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route.</xs:documentation>
+          <xs:documentation source="explanation">Phase of flight from completion of Initial Climb through cruise and controlled descent to the VFR pattern altitude or 100 feet above landing point elevation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40501">
+        <xs:annotation>
+          <xs:documentation source="valueID">40501</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - En-route - Slope lift</xs:documentation>
+          <xs:documentation source="detailedDescription">Slope lift.</xs:documentation>
+          <xs:documentation source="explanation">Upward air current generated when a mass of air moves towards an up-sloping hill, allowing a glider to gain altitude.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40502">
+        <xs:annotation>
+          <xs:documentation source="valueID">40502</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - En-route - Thermal lift</xs:documentation>
+          <xs:documentation source="detailedDescription">Thermal lift.</xs:documentation>
+          <xs:documentation source="explanation">Upward air current generated when a mass of air is heated near the earth surface, allowing a glider to gain altitude.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990814">
+        <xs:annotation>
+          <xs:documentation source="valueID">990814</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - En-route - Normal descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Normal descent.</xs:documentation>
+          <xs:documentation source="explanation">Descent from cruise to pattern altitude or 100 feet above landing point, whichever comes first</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40503">
+        <xs:annotation>
+          <xs:documentation source="valueID">40503</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - En-route - Emergency descent en route</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent en route</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an intentional descent is made, in response to an emergency</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40504">
+        <xs:annotation>
+          <xs:documentation source="valueID">40504</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - En-route - Uncontrolled descent en route</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent en route</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the aircraft descends uncontrolled. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40598">
+        <xs:annotation>
+          <xs:documentation source="valueID">40598</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - En-route - En-route: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route: Other</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of flight while en-route other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40600">
+        <xs:annotation>
+          <xs:documentation source="valueID">40600</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in descent starting when the aircraft entered the landing pattern or 100 ft altitude AGL, whichever comes first.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40601">
+        <xs:annotation>
+          <xs:documentation source="valueID">40601</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Approach - Circuit pattern - downwind</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - downwind.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in approach where the aircraft follows the flight site/aerodrome pattern and performs a circuit leg paralel to the landing direction in an heading opposite to the one in landing </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40602">
+        <xs:annotation>
+          <xs:documentation source="valueID">40602</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Approach - Circuit pattern - base leg</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - base leg.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in approach where the aircraft follows the flightsite/aerodrome pattern and performs a circuit leg perpendicular to the landing direction before reaching the runway extension line.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40604">
+        <xs:annotation>
+          <xs:documentation source="valueID">40604</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Approach - Circuit pattern - final</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - final approach.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in approach where the aircraft follows the flight site/aerodrome pattern and performs a circuit leg aligned with the landing direction.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990917">
+        <xs:annotation>
+          <xs:documentation source="valueID">990917</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Approach - Circuit pattern - crosswind</xs:documentation>
+          <xs:documentation source="detailedDescription">Circuit pattern - crosswind</xs:documentation>
+          <xs:documentation source="explanation">A flight path of the VFR traffic pattern, which is perpendicular to the landing runway, crosses the departure end of the runway, and connects with the downwind leg.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990815">
+        <xs:annotation>
+          <xs:documentation source="valueID">990815</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Approach - Straight in</xs:documentation>
+          <xs:documentation source="detailedDescription">Straight in.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in approach where the aircraft trajectory is directly pointed at the intended landing point.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40605">
+        <xs:annotation>
+          <xs:documentation source="valueID">40605</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Approach - Emergency descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Emergency descent</xs:documentation>
+          <xs:documentation source="explanation">The phase of flightduing an approach in which an intentional descent is made, in response to an emergency</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40606">
+        <xs:annotation>
+          <xs:documentation source="valueID">40606</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Approach - Uncontrolled descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight during an approach in which the aircraft descends uncontrolled. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40698">
+        <xs:annotation>
+          <xs:documentation source="valueID">40698</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Approach - Approach: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach: Other</xs:documentation>
+          <xs:documentation source="explanation">Any other phase during approach</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40700">
+        <xs:annotation>
+          <xs:documentation source="valueID">40700</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the end of approach, immediately before landing (flare), through touchdown and until aircraft exits the landing runway or comes to a stop.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40701">
+        <xs:annotation>
+          <xs:documentation source="valueID">40701</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Landing - Level-off-touchdown</xs:documentation>
+          <xs:documentation source="detailedDescription">Level-off-touchdown.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the point of transition from nose-low to nose-level attitude, immediately before landing (flare), until the landing gear makes permanent contact with the ground.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40798">
+        <xs:annotation>
+          <xs:documentation source="valueID">40798</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Landing - Landing: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing: Other</xs:documentation>
+          <xs:documentation source="explanation">A phase of landing other than level-off- touch down</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990900">
+        <xs:annotation>
+          <xs:documentation source="valueID">990900</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Landing - Off-field landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Off-field landing</xs:documentation>
+          <xs:documentation source="explanation">Landing outside an area designated for landing</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="40800">
+        <xs:annotation>
+          <xs:documentation source="valueID">40800</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Post-impact</xs:documentation>
+          <xs:documentation source="detailedDescription">Post-impact.</xs:documentation>
+          <xs:documentation source="explanation">The phase, in an accident or incident sequence, after the hang glider, or para glider, has collided with the first object, place or person.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="49900">
+        <xs:annotation>
+          <xs:documentation source="valueID">49900</xs:documentation>
+          <xs:documentation source="description">Hang/Para-glider - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight of the hang glider, or paraglider, is unknown or not recorded.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50000">
+        <xs:annotation>
+          <xs:documentation source="valueID">50000</xs:documentation>
+          <xs:documentation source="description">Balloon</xs:documentation>
+          <xs:documentation source="detailedDescription">Balloon.</xs:documentation>
+          <xs:documentation source="explanation">This section covers flight phases specifically adopted for the operation of balloons. The ADREP accident and incident reporting system does not record occurrences involving balloons.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50100">
+        <xs:annotation>
+          <xs:documentation source="valueID">50100</xs:documentation>
+          <xs:documentation source="description">Balloon - Standing</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight prior to take-off while the ballon is stationary on the groiund.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50101">
+        <xs:annotation>
+          <xs:documentation source="valueID">50101</xs:documentation>
+          <xs:documentation source="description">Balloon - Standing - Assembly &amp; checking</xs:documentation>
+          <xs:documentation source="detailedDescription">Assembly and checking (ground check).</xs:documentation>
+          <xs:documentation source="explanation">The preparation for flight during standing by checking the equipment, the enviroment, etc.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50102">
+        <xs:annotation>
+          <xs:documentation source="valueID">50102</xs:documentation>
+          <xs:documentation source="description">Balloon - Standing - Cold air ventilation</xs:documentation>
+          <xs:documentation source="detailedDescription">Cold air ventilation.</xs:documentation>
+          <xs:documentation source="explanation">The initial inflation of the envelope using cold air supplied by a fan</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50103">
+        <xs:annotation>
+          <xs:documentation source="valueID">50103</xs:documentation>
+          <xs:documentation source="description">Balloon - Standing - Hot air inflating</xs:documentation>
+          <xs:documentation source="detailedDescription">Hot air inflating.</xs:documentation>
+          <xs:documentation source="explanation">The final phase of inflation of the envelope using air heated by a flame form the burners </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50104">
+        <xs:annotation>
+          <xs:documentation source="valueID">50104</xs:documentation>
+          <xs:documentation source="description">Balloon - Standing - Valve control test</xs:documentation>
+          <xs:documentation source="detailedDescription">Valve control test ("parachute test").</xs:documentation>
+          <xs:documentation source="explanation">The phase in standing when the opening and closing of the top envelope valve</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50198">
+        <xs:annotation>
+          <xs:documentation source="valueID">50198</xs:documentation>
+          <xs:documentation source="description">Balloon - Standing - Standing: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Any other phase of flight before take-off.</xs:documentation>
+          <xs:documentation source="explanation">Any other phase of flight in standing other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50300">
+        <xs:annotation>
+          <xs:documentation source="valueID">50300</xs:documentation>
+          <xs:documentation source="description">Balloon - Take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight where buoyancy is increased over the weight of the ballon to provide ascension</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50301">
+        <xs:annotation>
+          <xs:documentation source="valueID">50301</xs:documentation>
+          <xs:documentation source="description">Balloon - Take-off - Weighting</xs:documentation>
+          <xs:documentation source="detailedDescription">Weighting.</xs:documentation>
+          <xs:documentation source="explanation">The determination of neutral buoyancy of a balloon by taking weight off at launch.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50302">
+        <xs:annotation>
+          <xs:documentation source="valueID">50302</xs:documentation>
+          <xs:documentation source="description">Balloon - Take-off - Let-go</xs:documentation>
+          <xs:documentation source="detailedDescription">Let-go.</xs:documentation>
+          <xs:documentation source="explanation">The release of the ballon from tie-down to the ground or objects, vehicles, etc on the ground.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50303">
+        <xs:annotation>
+          <xs:documentation source="valueID">50303</xs:documentation>
+          <xs:documentation source="description">Balloon - Take-off - Initial climb</xs:documentation>
+          <xs:documentation source="detailedDescription">Initial climb.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight were a ballon is steadilly rising from the gound up to an elevation over the launching point of 90m (300 ft) </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50398">
+        <xs:annotation>
+          <xs:documentation source="valueID">50398</xs:documentation>
+          <xs:documentation source="description">Balloon - Take-off - Take-off: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off: Other</xs:documentation>
+          <xs:documentation source="explanation">Any phase of flight while in take-off other than one of the above</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50400">
+        <xs:annotation>
+          <xs:documentation source="valueID">50400</xs:documentation>
+          <xs:documentation source="description">Balloon - En-route</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from completion of Initial Climb through cruise and controlled descent approach altitude or 300 feet above intended landing point elevation</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50401">
+        <xs:annotation>
+          <xs:documentation source="valueID">50401</xs:documentation>
+          <xs:documentation source="description">Balloon - En-route - Stabilized climb</xs:documentation>
+          <xs:documentation source="detailedDescription">Stabilized climb.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight were a ballon is steadilly rising from the end of initial climb to intended altitude level </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50402">
+        <xs:annotation>
+          <xs:documentation source="valueID">50402</xs:documentation>
+          <xs:documentation source="description">Balloon - En-route - Level flight</xs:documentation>
+          <xs:documentation source="detailedDescription">Level flight.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight were a ballon is translating at a steady altitude level </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50403">
+        <xs:annotation>
+          <xs:documentation source="valueID">50403</xs:documentation>
+          <xs:documentation source="description">Balloon - En-route - Stabilized descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Stabilized descent.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight were a ballon is steadilly descending beteewn two altitude levels </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50404">
+        <xs:annotation>
+          <xs:documentation source="valueID">50404</xs:documentation>
+          <xs:documentation source="description">Balloon - En-route - En-route: Emergency descent</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route: Emergency descent</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an intentional descent is made, in response to an emergency</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50405">
+        <xs:annotation>
+          <xs:documentation source="valueID">50405</xs:documentation>
+          <xs:documentation source="description">Balloon - En-route - En-route: Uncontrolled descent</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route: Uncontrolled descent</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the ballon descends uncontrolled.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50498">
+        <xs:annotation>
+          <xs:documentation source="valueID">50498</xs:documentation>
+          <xs:documentation source="description">Balloon - En-route - En-route: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route: Other</xs:documentation>
+          <xs:documentation source="explanation">An event involving any phase of flight while en-route other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50600">
+        <xs:annotation>
+          <xs:documentation source="valueID">50600</xs:documentation>
+          <xs:documentation source="description">Balloon - Approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in descent starting when the ballon is descending continuously or by altitude steps aiming at a choosen landing area.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50601">
+        <xs:annotation>
+          <xs:documentation source="valueID">50601</xs:documentation>
+          <xs:documentation source="description">Balloon - Approach - Final approach - normal</xs:documentation>
+          <xs:documentation source="detailedDescription">Final approach - normal (using planned glide slope).</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight aiming at a chosen landing point, in ground proximity when the ballon is being controlled to decrease progressively the rate of descent and to avoid obstacles in the landing area..</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50602">
+        <xs:annotation>
+          <xs:documentation source="valueID">50602</xs:documentation>
+          <xs:documentation source="description">Balloon - Approach - Approach: Emergency descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach: Emergency descent.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which an intentional descent is made, in response to an emergency during an approach</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50603">
+        <xs:annotation>
+          <xs:documentation source="valueID">50603</xs:documentation>
+          <xs:documentation source="description">Balloon - Approach - Approach: Uncontrolled descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach: Uncontrolled descent</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in which the ballon descends uncontrolled during an approach.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50708">
+        <xs:annotation>
+          <xs:documentation source="valueID">50708</xs:documentation>
+          <xs:documentation source="description">Balloon - Approach - Go-around</xs:documentation>
+          <xs:documentation source="detailedDescription">Go-around.</xs:documentation>
+          <xs:documentation source="explanation">A climb initiated when on approach to prevent a landing</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50698">
+        <xs:annotation>
+          <xs:documentation source="valueID">50698</xs:documentation>
+          <xs:documentation source="description">Balloon - Approach - Approach: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach: Other</xs:documentation>
+          <xs:documentation source="explanation">Any phase of flight during an approach other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50700">
+        <xs:annotation>
+          <xs:documentation source="valueID">50700</xs:documentation>
+          <xs:documentation source="description">Balloon - Landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight from the end of approach, immediately before landing (flare), through touchdown and until the ballon stops horizontal motion.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50701">
+        <xs:annotation>
+          <xs:documentation source="valueID">50701</xs:documentation>
+          <xs:documentation source="description">Balloon - Landing - Flare</xs:documentation>
+          <xs:documentation source="detailedDescription">Flare.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight before landing, wherein the balloon’s descent is reduced to a path nearly parallel  to the landing surface.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50702">
+        <xs:annotation>
+          <xs:documentation source="valueID">50702</xs:documentation>
+          <xs:documentation source="description">Balloon - Landing - Touch-down</xs:documentation>
+          <xs:documentation source="detailedDescription">Touch-down.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight in landing when the ballon makes contact with the ground surface </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50703">
+        <xs:annotation>
+          <xs:documentation source="valueID">50703</xs:documentation>
+          <xs:documentation source="description">Balloon - Landing - Tumbling</xs:documentation>
+          <xs:documentation source="detailedDescription">Tumbling</xs:documentation>
+          <xs:documentation source="explanation">The phase of landing during which the basket capsizes or overturns.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50704">
+        <xs:annotation>
+          <xs:documentation source="valueID">50704</xs:documentation>
+          <xs:documentation source="description">Balloon - Landing - Dragging</xs:documentation>
+          <xs:documentation source="detailedDescription">Dragging.</xs:documentation>
+          <xs:documentation source="explanation">The phase of landing during which the basket is dragged along the ground.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50705">
+        <xs:annotation>
+          <xs:documentation source="valueID">50705</xs:documentation>
+          <xs:documentation source="description">Balloon - Landing - Tear-away panels or valve opening</xs:documentation>
+          <xs:documentation source="detailedDescription">Tear-away panels or valve opening.</xs:documentation>
+          <xs:documentation source="explanation">The phase of landing during which the tear-way panels or deflations valves are opened and the envelope is rapidly deflating.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50706">
+        <xs:annotation>
+          <xs:documentation source="valueID">50706</xs:documentation>
+          <xs:documentation source="description">Balloon - Landing - Pilot light extinction</xs:documentation>
+          <xs:documentation source="detailedDescription">Pilot light extinction.</xs:documentation>
+          <xs:documentation source="explanation">The pahse during which the flame used to light the main burners' flame is extinguished</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50707">
+        <xs:annotation>
+          <xs:documentation source="valueID">50707</xs:documentation>
+          <xs:documentation source="description">Balloon - Landing - Deflating</xs:documentation>
+          <xs:documentation source="detailedDescription">Deflating.</xs:documentation>
+          <xs:documentation source="explanation">The phase during which the envelope is deflated / emptied. </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50798">
+        <xs:annotation>
+          <xs:documentation source="valueID">50798</xs:documentation>
+          <xs:documentation source="description">Balloon - Landing - Landing: Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing: Other</xs:documentation>
+          <xs:documentation source="explanation">Any phase of flight while landing other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="50800">
+        <xs:annotation>
+          <xs:documentation source="valueID">50800</xs:documentation>
+          <xs:documentation source="description">Balloon - Post-impact</xs:documentation>
+          <xs:documentation source="detailedDescription">Post-impact.</xs:documentation>
+          <xs:documentation source="explanation">The phase, in an accident or incident sequence, after the balloon has collided with the first object, place or person.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="59900">
+        <xs:annotation>
+          <xs:documentation source="valueID">59900</xs:documentation>
+          <xs:documentation source="description">Balloon - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">The phase of flight of the balloon is unknown or not recorded.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990903">
+        <xs:annotation>
+          <xs:documentation source="valueID">990903</xs:documentation>
+          <xs:documentation source="description">Parachuting</xs:documentation>
+          <xs:documentation source="detailedDescription">Parachuting</xs:documentation>
+          <xs:documentation source="explanation">The phases of flight encountred during parachuting.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990904">
+        <xs:annotation>
+          <xs:documentation source="valueID">990904</xs:documentation>
+          <xs:documentation source="description">Parachuting - Pre-flight preparation</xs:documentation>
+          <xs:documentation source="detailedDescription">Pre-flight preparation</xs:documentation>
+          <xs:documentation source="explanation">The phase during which the equipment id prepared and checked before the jump.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990905">
+        <xs:annotation>
+          <xs:documentation source="valueID">990905</xs:documentation>
+          <xs:documentation source="description">Parachuting - Leaving the aircraft</xs:documentation>
+          <xs:documentation source="detailedDescription">Leaving the aircraft</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990906">
+        <xs:annotation>
+          <xs:documentation source="valueID">990906</xs:documentation>
+          <xs:documentation source="description">Parachuting - Free falling</xs:documentation>
+          <xs:documentation source="detailedDescription">Free falling</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990907">
+        <xs:annotation>
+          <xs:documentation source="valueID">990907</xs:documentation>
+          <xs:documentation source="description">Parachuting - Parachute opening</xs:documentation>
+          <xs:documentation source="detailedDescription">Parachute opening</xs:documentation>
+          <xs:documentation source="explanation">The phase during which the parachute opens.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990908">
+        <xs:annotation>
+          <xs:documentation source="valueID">990908</xs:documentation>
+          <xs:documentation source="description">Parachuting - Descend with parachute open</xs:documentation>
+          <xs:documentation source="detailedDescription">Descend with parachute open</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990913">
+        <xs:annotation>
+          <xs:documentation source="valueID">990913</xs:documentation>
+          <xs:documentation source="description">Parachuting - Uncontrolled descent</xs:documentation>
+          <xs:documentation source="detailedDescription">Uncontrolled descent</xs:documentation>
+          <xs:documentation source="explanation">Any descent not under the control of the parachutist, e.g. when the parachute did not/did not completely open, lines got entangled etc.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990909">
+        <xs:annotation>
+          <xs:documentation source="valueID">990909</xs:documentation>
+          <xs:documentation source="description">Parachuting - Approach/landing preparation</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach/landing preparation</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990910">
+        <xs:annotation>
+          <xs:documentation source="valueID">990910</xs:documentation>
+          <xs:documentation source="description">Parachuting - Landing </xs:documentation>
+          <xs:documentation source="detailedDescription">Landing</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990911">
+        <xs:annotation>
+          <xs:documentation source="valueID">990911</xs:documentation>
+          <xs:documentation source="description">Parachuting - Post landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Post landing</xs:documentation>
+          <xs:documentation source="explanation">The phase after the parachutist has made contact with the ground.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990912">
+        <xs:annotation>
+          <xs:documentation source="valueID">990912</xs:documentation>
+          <xs:documentation source="description">Parachuting - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other</xs:documentation>
+          <xs:documentation source="explanation">Any other flight phase during parachuting.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990816">
+        <xs:annotation>
+          <xs:documentation source="valueID">990816</xs:documentation>
+          <xs:documentation source="description">Maintenance phases</xs:documentation>
+          <xs:documentation source="detailedDescription">Maintenance phases.</xs:documentation>
+          <xs:documentation source="explanation">This section covers flight phases specifically adopted for the maintenance phases.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990817">
+        <xs:annotation>
+          <xs:documentation source="valueID">990817</xs:documentation>
+          <xs:documentation source="description">Maintenance phases - Aircraft repair</xs:documentation>
+          <xs:documentation source="detailedDescription">Aircraft repair.</xs:documentation>
+          <xs:documentation source="explanation">During maintenance that was perfomed to restore a type-certificated product to "condition for safe operation." </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990818">
+        <xs:annotation>
+          <xs:documentation source="valueID">990818</xs:documentation>
+          <xs:documentation source="description">Maintenance phases - Aircraft modification</xs:documentation>
+          <xs:documentation source="detailedDescription">Aircraft modification.</xs:documentation>
+          <xs:documentation source="explanation">During maintenance that was performed to adds to and/or removes from the type-certificated product's configuration</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990819">
+        <xs:annotation>
+          <xs:documentation source="valueID">990819</xs:documentation>
+          <xs:documentation source="description">Maintenance phases - Scheduled maintenance</xs:documentation>
+          <xs:documentation source="detailedDescription">Scheduled maintenance.</xs:documentation>
+          <xs:documentation source="explanation">During maintenance that was performed on a regular basis, usually based on hours or cycles performed, or on time periods</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990820">
+        <xs:annotation>
+          <xs:documentation source="valueID">990820</xs:documentation>
+          <xs:documentation source="description">Maintenance phases - Non-scheduled maintenance</xs:documentation>
+          <xs:documentation source="detailedDescription">Non-scheduled maintenance.</xs:documentation>
+          <xs:documentation source="explanation">Maintenance performed whenever found to be necessary when detecting a fault or when so determined by an authority or a manufacturer </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990821">
+        <xs:annotation>
+          <xs:documentation source="valueID">990821</xs:documentation>
+          <xs:documentation source="description">Maintenance phases - Non-scheduled maintenance - Air worthiness directive</xs:documentation>
+          <xs:documentation source="detailedDescription">Air worthiness directive.</xs:documentation>
+          <xs:documentation source="explanation">During the execution of an air worthiness directive: An airworthiness directive is a document issued or adopted by the a Civil Aviation Authority  which mandates actions to be performed on an aircraft to restore an acceptable level of safety, when evidence shows that the safety level may otherwise be compromised on all aircraft or aircraft parts using the same design</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990822">
+        <xs:annotation>
+          <xs:documentation source="valueID">990822</xs:documentation>
+          <xs:documentation source="description">Maintenance phases - Non-scheduled maintenance - Service bulletin</xs:documentation>
+          <xs:documentation source="detailedDescription">Service bulletin.</xs:documentation>
+          <xs:documentation source="explanation">An instruction issued by an aircraft or product manufacturer that recommends a certain type of inspection, the replacing of certain components, performing maintenance in a specific manner or limiting operations under specified conditions. A SB may became mandatory if so determined by a Civil Aviation Authority (for instance through an Airworthiness Directive)</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990823">
+        <xs:annotation>
+          <xs:documentation source="valueID">990823</xs:documentation>
+          <xs:documentation source="description">Maintenance phases - Non-scheduled maintenance - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation">During any other maintenance other than one of the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990000">
+        <xs:annotation>
+          <xs:documentation source="valueID">990000</xs:documentation>
+          <xs:documentation source="description">Unknown aircraft category</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown aircraft category</xs:documentation>
+          <xs:documentation source="explanation">The type of aircraft involved in the phase of flight is unknown or not recorded.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990100">
+        <xs:annotation>
+          <xs:documentation source="valueID">990100</xs:documentation>
+          <xs:documentation source="description">Unknown aircraft category - Standing</xs:documentation>
+          <xs:documentation source="detailedDescription">Standing.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990200">
+        <xs:annotation>
+          <xs:documentation source="valueID">990200</xs:documentation>
+          <xs:documentation source="description">Unknown aircraft category - Taxi</xs:documentation>
+          <xs:documentation source="detailedDescription">Taxi.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990300">
+        <xs:annotation>
+          <xs:documentation source="valueID">990300</xs:documentation>
+          <xs:documentation source="description">Unknown aircraft category - Take-off</xs:documentation>
+          <xs:documentation source="detailedDescription">Take-off.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990400">
+        <xs:annotation>
+          <xs:documentation source="valueID">990400</xs:documentation>
+          <xs:documentation source="description">Unknown aircraft category - En-route</xs:documentation>
+          <xs:documentation source="detailedDescription">En-route.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990500">
+        <xs:annotation>
+          <xs:documentation source="valueID">990500</xs:documentation>
+          <xs:documentation source="description">Unknown aircraft category - Manoeuvring</xs:documentation>
+          <xs:documentation source="detailedDescription">Manoeuvring.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990600">
+        <xs:annotation>
+          <xs:documentation source="valueID">990600</xs:documentation>
+          <xs:documentation source="description">Unknown aircraft category - Approach</xs:documentation>
+          <xs:documentation source="detailedDescription">Approach.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990700">
+        <xs:annotation>
+          <xs:documentation source="valueID">990700</xs:documentation>
+          <xs:documentation source="description">Unknown aircraft category - Landing</xs:documentation>
+          <xs:documentation source="detailedDescription">Landing.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="990800">
+        <xs:annotation>
+          <xs:documentation source="valueID">990800</xs:documentation>
+          <xs:documentation source="description">Unknown aircraft category - Post-impact</xs:documentation>
+          <xs:documentation source="detailedDescription">Post-impact.</xs:documentation>
+          <xs:documentation source="explanation">The phase, in an accident or incident sequence, after the unknown type of aircraft has collided with the first object, place or person.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

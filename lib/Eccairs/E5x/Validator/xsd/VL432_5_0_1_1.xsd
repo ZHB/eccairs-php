@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL432_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Destroyed</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft was destroyed in the accident.</xs:documentation>
+          <xs:documentation source="explanation">Damage sustained by an aircraft in an accident is considered as ‘destroyed’ when the main structural elements and/or systems are substantially damaged to the extent that it would be impractical to return the aircraft to an airworthy condition.
+
+ Notes:
+1-  This differs from the definition of a hull loss which reads: The aircraft is damaged beyond economical repair. A determination of "Hull loss" is thus not the result of a technical evaluation but may result from economic considerations.
+2. This guidance refers only to damage associated with an aircraft accident, as defined by Annex 13.
+3. A classification of ‘destroyed’ is usually associated with a hull loss, meaning that the aircraft is damaged beyond economical repair. However, an aircraft may be repaired for other reasons—such as historical value. Therefore, a technical determination of damage classification destroyed should not be affected by the owner/operator decision whether to repair or rebuild an accident aircraft.
+4. Occurrences where the aircraft damage during the operation of an aircraft, as per Annex 13, is coded as ‘destroyed’ shall be classified as an ‘accident’.
+
+Examples:
+1. Damage to an aircraft where the structure is deformed, crushed, demolished, corroded or consumed by fire to such an extent that the make and model is not readily distinguishable without viewing its written documents, data plate, or insignia; or
+2. Most of the structural parts are damaged and need to be replaced or repaired; or
+3. Keel beam damage that exceeds Structural Repair Manual (SRM); or
+4. Fuselage broken in two or more sections, exceeding the Structural Repair Manual (SRM); or 
+5. Multi-site damage locations that exceed the Structural Repair Manual (SRM), such as:
+   a. Engine separation, resulting in keel beam damage or 
+        requiring rig of reference
+    b. Wing separated or broken 
+    c. Empennage separated or broken
+6. Primary aircraft structure is submerged in salt water for 24 hours or longer.
+7. An aircraft missing or completely inaccessible at the time of the investigation should be considered ‘destroyed’ until determined otherwise.
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Substantial</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft sustained substantial damage in the accident.</xs:documentation>
+          <xs:documentation source="explanation">The aircraft sustained damage or structural failure which:
+ - adversely affected the structural strength, performance or flight characteristics of the aircraft and
+ - would normally require major repair or replacement of the affected component, except for engine failure or damage, when the damage is limited to the engine, its cowlings or accessories; or for damage limited to propellers, wing tips, antennas, tyres, brakes, fairings, small dents or puncture holes in the aircraft skin. ICAO Annex 13.
+Major repair: a repair
+- (1) That, if improperly done, might appreciably affect weight, balance, structural strength, performance, powerplant operation, flight characteristics, or other qualities affecting airworthiness; or
+-  (2) That is not done according to accepted practices or cannot be done by elementary operations.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Minor</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft sustained minor damage in the occurrence.</xs:documentation>
+          <xs:documentation source="explanation">Minor damage: The aircraft can be rendered airworthy by simple repairs or replacement and an extensive inspection is not necessary.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">None</xs:documentation>
+          <xs:documentation source="detailedDescription">The aircraft sustained no damage in the occurrence.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The extent of the damage that the aircraft sustained in the occurrence is not known.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

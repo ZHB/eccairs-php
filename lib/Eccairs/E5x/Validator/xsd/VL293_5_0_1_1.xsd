@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL293_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="97">
+        <xs:annotation>
+          <xs:documentation source="valueID">97</xs:documentation>
+          <xs:documentation source="description">None</xs:documentation>
+          <xs:documentation source="detailedDescription">No turbulence was experienced.</xs:documentation>
+          <xs:documentation source="explanation">No turbulence was experienced.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Light</xs:documentation>
+          <xs:documentation source="detailedDescription">Light turbulence was experienced.</xs:documentation>
+          <xs:documentation source="explanation">Light turbulence is that turbulence in which cabin crew can move about the aircraft without losing their balance. Turbulence that momentarily causes slight, erratic changes in altitude or attitude (this could be reported as 'light turbulence'), or turbulence that causes slight, rapid and somewhat rhythmic bumpiness without appreciable changes in altitude or attitude (this could be reported as 'light chop').</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Moderate</xs:documentation>
+          <xs:documentation source="detailedDescription">Moderate turbulence was experienced.</xs:documentation>
+          <xs:documentation source="explanation">Moderate turbulence is that in which cabin crew need to use handholds to move about the cabin and meal service must be discontinued.
+Moderate turbulence - similar to light turbulence, but greater intensity. Changes in altitude/attitude occur. Aircraft remains in control at all times. Variations in indicated air speed. 
+Turbulence that causes changes in altitude or attitude, but in which the aircraft remains in control at all times, and that usually causes variations in indicated airspeed (IAS) (this could be reported as 'moderate turbulence'), or turbulence that causes rapid bumps or jolts without appreciable changes in aircraft
+altitude or attitude (this could be reported as 'moderate chop').</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Severe</xs:documentation>
+          <xs:documentation source="detailedDescription">Severe turbulence was experienced.</xs:documentation>
+          <xs:documentation source="explanation">Severe Turbulence : Turbulence which causes loose objects to move around the cabin and causes brief periods where effective control of the aircraft is impossible. It may cause damage to aircraft structures. 
+Also:Turbulence that causes large, abrupt changes in altitude or attitude. It usually causes large variations in indicated airspeed (IAS). Aircraft may be momentarily
+out of control.
+Extreme turbulence is defined as causing structural damage and prolonged loss of control of the aircraft.
+Severe and extreme turbulence can occur in convective activity (thunderstorms). 
+Clear Air Turbulence (CAT) can occur in conjunction with the Jet Stream or in association with mountainous terrain over which high speed winds are moving.
+
+</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The intensity of the turbulence experienced is unknown.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

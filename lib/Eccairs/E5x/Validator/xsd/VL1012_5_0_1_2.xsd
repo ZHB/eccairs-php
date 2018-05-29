@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL1012_5_0_1_2">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="100">
+        <xs:annotation>
+          <xs:documentation source="valueID">100</xs:documentation>
+          <xs:documentation source="description">Aeroplane pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Aeroplane pilot.</xs:documentation>
+          <xs:documentation source="explanation">Licenses relating to aeroplane pilot operation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="104">
+        <xs:annotation>
+          <xs:documentation source="valueID">104</xs:documentation>
+          <xs:documentation source="description">Aeroplane pilot - Airline transport pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Airline transport pilot.</xs:documentation>
+          <xs:documentation source="explanation">The holder of an airline transport pilot license - aeroplane may exercise all the privileges of the holder of a PPL and CPL - aeroplane and act as pilot-in-command and co-pilot in aeroplanes in air transport. ICAO Annex 1 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="102">
+        <xs:annotation>
+          <xs:documentation source="valueID">102</xs:documentation>
+          <xs:documentation source="description">Aeroplane pilot - Commercial pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Commercial pilot.</xs:documentation>
+          <xs:documentation source="explanation">The holder of a commercial pilot license - aeroplane may exercise all the privileges of the holder of a PPL - aeroplane, act as the pilot-in-command in any aeroplane engaged in operations other than commercial air transport; act as pilot-in-command in commercial air transport in any aeroplane certificated for single pilot operation and act as co-pilot in commercial air transport in aeroplanes required to be operated with a co-pilot. ICAO Annex 1</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="101">
+        <xs:annotation>
+          <xs:documentation source="valueID">101</xs:documentation>
+          <xs:documentation source="description">Aeroplane pilot - Private pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Private pilot.</xs:documentation>
+          <xs:documentation source="explanation">The holder of a private pilot license - aeroplane may act, but not for remuneration, as the pilot-in-command or co-pilot of any aeroplane engaged in non-revenue flights.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="105">
+        <xs:annotation>
+          <xs:documentation source="valueID">105</xs:documentation>
+          <xs:documentation source="description">Aeroplane pilot - Student pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Student pilot.</xs:documentation>
+          <xs:documentation source="explanation">A student pilot license is not defined by ICAO although such a license is issued by member States.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="197">
+        <xs:annotation>
+          <xs:documentation source="valueID">197</xs:documentation>
+          <xs:documentation source="description">Aeroplane pilot - None</xs:documentation>
+          <xs:documentation source="detailedDescription">None.</xs:documentation>
+          <xs:documentation source="explanation">The person involved was not licensed for the particular activity in which he/she was involved.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="198">
+        <xs:annotation>
+          <xs:documentation source="valueID">198</xs:documentation>
+          <xs:documentation source="description">Aeroplane pilot - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of license for the particular activity in which he/she was involved other than one of those listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="199">
+        <xs:annotation>
+          <xs:documentation source="valueID">199</xs:documentation>
+          <xs:documentation source="description">Aeroplane pilot - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">The type of license held by the person involved for the particular activity in which he/she was involved is not known.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="500">
+        <xs:annotation>
+          <xs:documentation source="valueID">500</xs:documentation>
+          <xs:documentation source="description">Helicopter pilots</xs:documentation>
+          <xs:documentation source="detailedDescription">Helicopter pilots.</xs:documentation>
+          <xs:documentation source="explanation">Licenses relating to helicopter pilot operation.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="504">
+        <xs:annotation>
+          <xs:documentation source="valueID">504</xs:documentation>
+          <xs:documentation source="description">Helicopter pilots - Airline transport pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Airline transport pilot - Helicopter.</xs:documentation>
+          <xs:documentation source="explanation">The holder of an airline transport pilot license - helicopter may exercise all the privileges of the holder of a PPL-H and CPL-H and act as pilot-in-command and co-pilot in helicopters in air transport. ICAO Annex 1 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="502">
+        <xs:annotation>
+          <xs:documentation source="valueID">502</xs:documentation>
+          <xs:documentation source="description">Helicopter pilots - Commercial pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Commercial pilot - helicopter.</xs:documentation>
+          <xs:documentation source="explanation">The holder of a commercial pilot license - aeroplane may exercise all the privileges of the holder of a PPL-H, act as the pilot-in-command in any helicopter engaged in operations other than commercial air transport; act as pilot-in-command in commercial air transport in any helicopter certificated for single pilot operation and act as co-pilot in commercial air transport in helicopters required to be operated with a co-pilot.ICAO Annex 1</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="501">
+        <xs:annotation>
+          <xs:documentation source="valueID">501</xs:documentation>
+          <xs:documentation source="description">Helicopter pilots - Private pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Private pilot - helicopter.</xs:documentation>
+          <xs:documentation source="explanation">The holder of a private pilot license - helicopter may act, but not for remuneration, as the pilot-in-command or co-pilot of any helicopter engaged in non-revenue flights. ICAO Annex 1 </xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="505">
+        <xs:annotation>
+          <xs:documentation source="valueID">505</xs:documentation>
+          <xs:documentation source="description">Helicopter pilots - Student pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Student pilot.</xs:documentation>
+          <xs:documentation source="explanation">A student pilot license - helicopter is not defined by ICAO although such a license is issued by member States.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="597">
+        <xs:annotation>
+          <xs:documentation source="valueID">597</xs:documentation>
+          <xs:documentation source="description">Helicopter pilots - None</xs:documentation>
+          <xs:documentation source="detailedDescription">None.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="598">
+        <xs:annotation>
+          <xs:documentation source="valueID">598</xs:documentation>
+          <xs:documentation source="description">Helicopter pilots - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of license for the particular activity in which he/she was involved other than one of those listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="599">
+        <xs:annotation>
+          <xs:documentation source="valueID">599</xs:documentation>
+          <xs:documentation source="description">Helicopter pilots - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">The type of license held by the person involved for the particular activity in which he/she was involved is not known.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="400">
+        <xs:annotation>
+          <xs:documentation source="valueID">400</xs:documentation>
+          <xs:documentation source="description">Glider pilots</xs:documentation>
+          <xs:documentation source="detailedDescription">Glider pilots.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="404">
+        <xs:annotation>
+          <xs:documentation source="valueID">404</xs:documentation>
+          <xs:documentation source="description">Glider pilots - Airline transport pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Airline transport pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="402">
+        <xs:annotation>
+          <xs:documentation source="valueID">402</xs:documentation>
+          <xs:documentation source="description">Glider pilots - Commercial pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Commercial pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="401">
+        <xs:annotation>
+          <xs:documentation source="valueID">401</xs:documentation>
+          <xs:documentation source="description">Glider pilots - Private pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Private pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="405">
+        <xs:annotation>
+          <xs:documentation source="valueID">405</xs:documentation>
+          <xs:documentation source="description">Glider pilots - Student pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Student pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="497">
+        <xs:annotation>
+          <xs:documentation source="valueID">497</xs:documentation>
+          <xs:documentation source="description">Glider pilots - None</xs:documentation>
+          <xs:documentation source="detailedDescription">None.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="498">
+        <xs:annotation>
+          <xs:documentation source="valueID">498</xs:documentation>
+          <xs:documentation source="description">Glider pilots - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="499">
+        <xs:annotation>
+          <xs:documentation source="valueID">499</xs:documentation>
+          <xs:documentation source="description">Glider pilots - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="200">
+        <xs:annotation>
+          <xs:documentation source="valueID">200</xs:documentation>
+          <xs:documentation source="description">Balloon pilots</xs:documentation>
+          <xs:documentation source="detailedDescription">Balloon pilots.</xs:documentation>
+          <xs:documentation source="explanation">This data record does not include occurrences involving balloons so this section is not in use.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="204">
+        <xs:annotation>
+          <xs:documentation source="valueID">204</xs:documentation>
+          <xs:documentation source="description">Balloon pilots - Airline transport pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Airline transport pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="202">
+        <xs:annotation>
+          <xs:documentation source="valueID">202</xs:documentation>
+          <xs:documentation source="description">Balloon pilots - Commercial pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Commercial pilot.</xs:documentation>
+          <xs:documentation source="explanation">T</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="201">
+        <xs:annotation>
+          <xs:documentation source="valueID">201</xs:documentation>
+          <xs:documentation source="description">Balloon pilots - Private pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Private pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="205">
+        <xs:annotation>
+          <xs:documentation source="valueID">205</xs:documentation>
+          <xs:documentation source="description">Balloon pilots - Student pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Student pilot.</xs:documentation>
+          <xs:documentation source="explanation">T</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="297">
+        <xs:annotation>
+          <xs:documentation source="valueID">297</xs:documentation>
+          <xs:documentation source="description">Balloon pilots - None</xs:documentation>
+          <xs:documentation source="detailedDescription">None.</xs:documentation>
+          <xs:documentation source="explanation">This data record does not include occurrences involving balloons so this section is not in use.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="298">
+        <xs:annotation>
+          <xs:documentation source="valueID">298</xs:documentation>
+          <xs:documentation source="description">Balloon pilots - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation">This data record does not include occurrences involving balloons so this section is not in use.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="299">
+        <xs:annotation>
+          <xs:documentation source="valueID">299</xs:documentation>
+          <xs:documentation source="description">Balloon pilots - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">This data record does not include occurrences involving balloons so this section is not in use.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="300">
+        <xs:annotation>
+          <xs:documentation source="valueID">300</xs:documentation>
+          <xs:documentation source="description">Dirigible pilots</xs:documentation>
+          <xs:documentation source="detailedDescription">Dirigible pilots.</xs:documentation>
+          <xs:documentation source="explanation">This data record does not include occurrences involving dirigibles so this section is not in use.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="304">
+        <xs:annotation>
+          <xs:documentation source="valueID">304</xs:documentation>
+          <xs:documentation source="description">Dirigible pilots - Airline transport pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Airline transport pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="302">
+        <xs:annotation>
+          <xs:documentation source="valueID">302</xs:documentation>
+          <xs:documentation source="description">Dirigible pilots - Commercial pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Commercial pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="301">
+        <xs:annotation>
+          <xs:documentation source="valueID">301</xs:documentation>
+          <xs:documentation source="description">Dirigible pilots - Private pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Private pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="305">
+        <xs:annotation>
+          <xs:documentation source="valueID">305</xs:documentation>
+          <xs:documentation source="description">Dirigible pilots - Student pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Student pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="397">
+        <xs:annotation>
+          <xs:documentation source="valueID">397</xs:documentation>
+          <xs:documentation source="description">Dirigible pilots - None</xs:documentation>
+          <xs:documentation source="detailedDescription">None.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="398">
+        <xs:annotation>
+          <xs:documentation source="valueID">398</xs:documentation>
+          <xs:documentation source="description">Dirigible pilots - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="399">
+        <xs:annotation>
+          <xs:documentation source="valueID">399</xs:documentation>
+          <xs:documentation source="description">Dirigible pilots - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="600">
+        <xs:annotation>
+          <xs:documentation source="valueID">600</xs:documentation>
+          <xs:documentation source="description">Microlight pilots</xs:documentation>
+          <xs:documentation source="detailedDescription">Microlight pilots.</xs:documentation>
+          <xs:documentation source="explanation">Micro-light operations are not regulated by ICAO and no ICAO definitions are available.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="604">
+        <xs:annotation>
+          <xs:documentation source="valueID">604</xs:documentation>
+          <xs:documentation source="description">Microlight pilots - Airline transport pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Airline transport pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="602">
+        <xs:annotation>
+          <xs:documentation source="valueID">602</xs:documentation>
+          <xs:documentation source="description">Microlight pilots - Commercial pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Commercial pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="601">
+        <xs:annotation>
+          <xs:documentation source="valueID">601</xs:documentation>
+          <xs:documentation source="description">Microlight pilots - Private pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Private pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="605">
+        <xs:annotation>
+          <xs:documentation source="valueID">605</xs:documentation>
+          <xs:documentation source="description">Microlight pilots - Student pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Student pilot.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="697">
+        <xs:annotation>
+          <xs:documentation source="valueID">697</xs:documentation>
+          <xs:documentation source="description">Microlight pilots - None</xs:documentation>
+          <xs:documentation source="detailedDescription">None.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="698">
+        <xs:annotation>
+          <xs:documentation source="valueID">698</xs:documentation>
+          <xs:documentation source="description">Microlight pilots - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation"></xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="699">
+        <xs:annotation>
+          <xs:documentation source="valueID">699</xs:documentation>
+          <xs:documentation source="description">Microlight pilots - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">This data record does not include occurrences involving microlight aircraft so this section is not in use.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9700">
+        <xs:annotation>
+          <xs:documentation source="valueID">9700</xs:documentation>
+          <xs:documentation source="description">None</xs:documentation>
+          <xs:documentation source="detailedDescription">None.</xs:documentation>
+          <xs:documentation source="explanation">This data record does not include occurrences involving microlight aircraft so this section is not in use.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9800">
+        <xs:annotation>
+          <xs:documentation source="valueID">9800</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of license for the particular activity in which he/she was involved other than one of those listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9804">
+        <xs:annotation>
+          <xs:documentation source="valueID">9804</xs:documentation>
+          <xs:documentation source="description">Other - Airline transport pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Airline transport pilot.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of ATPL for the particular activity in which he/she was involved other than one of those listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9802">
+        <xs:annotation>
+          <xs:documentation source="valueID">9802</xs:documentation>
+          <xs:documentation source="description">Other - Commercial pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Commercial pilot.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of CPL for the particular activity in which he/she was involved other than one of those listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9801">
+        <xs:annotation>
+          <xs:documentation source="valueID">9801</xs:documentation>
+          <xs:documentation source="description">Other - Private pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Private pilot.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of PPL for the particular activity in which he/she was involved other than one of those listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9805">
+        <xs:annotation>
+          <xs:documentation source="valueID">9805</xs:documentation>
+          <xs:documentation source="description">Other - Student pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Student pilot.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of SPL for the particular activity in which he/she was involved other than one of those listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9897">
+        <xs:annotation>
+          <xs:documentation source="valueID">9897</xs:documentation>
+          <xs:documentation source="description">Other - None</xs:documentation>
+          <xs:documentation source="detailedDescription">None.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had no type of license for the particular activity in which he/she was involved.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9898">
+        <xs:annotation>
+          <xs:documentation source="valueID">9898</xs:documentation>
+          <xs:documentation source="description">Other - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of license for the particular activity in which he/she was involved other than one of those listed above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9899">
+        <xs:annotation>
+          <xs:documentation source="valueID">9899</xs:documentation>
+          <xs:documentation source="description">Other - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of license for the particular activity in which he/she was involved but it is not known what other type of license this was.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9900">
+        <xs:annotation>
+          <xs:documentation source="valueID">9900</xs:documentation>
+          <xs:documentation source="description">Unknown types of pilot licenses.</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown types of pilot licenses.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of license for the particular activity in which he/she was involved but it is not known what type of license this was.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9904">
+        <xs:annotation>
+          <xs:documentation source="valueID">9904</xs:documentation>
+          <xs:documentation source="description">Unknown types of pilot licenses. - Airline transport pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Airline transport pilot.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of ATPL for the particular activity in which he/she was involved but it is not known what other type of license this was.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9902">
+        <xs:annotation>
+          <xs:documentation source="valueID">9902</xs:documentation>
+          <xs:documentation source="description">Unknown types of pilot licenses. - Commercial pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Commercial pilot.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of CPL for the particular activity in which he/she was involved but it is not known what other type of license this was.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9901">
+        <xs:annotation>
+          <xs:documentation source="valueID">9901</xs:documentation>
+          <xs:documentation source="description">Unknown types of pilot licenses. - Private pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Private pilot.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of PPL for the particular activity in which he/she was involved but it is not known what other type of license this was.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9905">
+        <xs:annotation>
+          <xs:documentation source="valueID">9905</xs:documentation>
+          <xs:documentation source="description">Unknown types of pilot licenses. - Student pilot</xs:documentation>
+          <xs:documentation source="detailedDescription">Student pilot.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of SPL for the particular activity in which he/she was involved but it is not known what other type of license this was.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9997">
+        <xs:annotation>
+          <xs:documentation source="valueID">9997</xs:documentation>
+          <xs:documentation source="description">Unknown types of pilot licenses. - None</xs:documentation>
+          <xs:documentation source="detailedDescription">None.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had no type of license for the particular activity in which he/she was involved.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9998">
+        <xs:annotation>
+          <xs:documentation source="valueID">9998</xs:documentation>
+          <xs:documentation source="description">Unknown types of pilot licenses. - Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Other.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had a type of license, other than those listed above, for the particular activity in which he/she was involved but it is not known what other type of license this was.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="9999">
+        <xs:annotation>
+          <xs:documentation source="valueID">9999</xs:documentation>
+          <xs:documentation source="description">Unknown types of pilot licenses. - Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">Unknown.</xs:documentation>
+          <xs:documentation source="explanation">The person involved had an unknown type of license for the particular activity in which he/she was involved.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

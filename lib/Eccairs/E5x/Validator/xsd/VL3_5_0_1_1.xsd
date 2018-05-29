@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://eccairsportal.jrc.ec.europa.eu/ECCAIRS5_dataBridge.xsd" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation source="Project generated with Taxonomy">ECCAIRS Aviation</xs:documentation>
+    <xs:documentation source="Taxonomy Version">3.4.0.1</xs:documentation>
+    <xs:documentation source="Domain">RIT</xs:documentation>
+    <xs:documentation source="Version">1.0.0.0</xs:documentation>
+    <xs:documentation source="Generation date">29/09/2015 16:01:53</xs:documentation>
+  </xs:annotation>
+  <xs:simpleType name="VL3_5_0_1_1">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="3">
+        <xs:annotation>
+          <xs:documentation source="valueID">3</xs:documentation>
+          <xs:documentation source="description">Confined area</xs:documentation>
+          <xs:documentation source="detailedDescription">A helicopter landing area which is confined.</xs:documentation>
+          <xs:documentation source="explanation">A helicopter landing area surface whether natural or artificial which is bounded, limited, restricted, restrained, shut up or enclosed in a manner which affects the landings and take-offs.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="2">
+        <xs:annotation>
+          <xs:documentation source="valueID">2</xs:documentation>
+          <xs:documentation source="description">Pinnacle</xs:documentation>
+          <xs:documentation source="detailedDescription">Peak or a rock used as helicopter landing area.</xs:documentation>
+          <xs:documentation source="explanation">Any natural peaked formation, e.g. a lofty rock or stone pointed at the top, a peak or a rock projecting out of the sea, which forms the helicopter landing area surface whether natural or artificial.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="1">
+        <xs:annotation>
+          <xs:documentation source="valueID">1</xs:documentation>
+          <xs:documentation source="description">Sloping</xs:documentation>
+          <xs:documentation source="detailedDescription">The helicopter landing area surface was sloping.</xs:documentation>
+          <xs:documentation source="explanation">The helicopter landing area surface had a gradient, either natural or artificial.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="98">
+        <xs:annotation>
+          <xs:documentation source="valueID">98</xs:documentation>
+          <xs:documentation source="description">Other</xs:documentation>
+          <xs:documentation source="detailedDescription">Any other type of helicopter landing area.</xs:documentation>
+          <xs:documentation source="explanation">A helicopter landing area configuration other than the above.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="99">
+        <xs:annotation>
+          <xs:documentation source="valueID">99</xs:documentation>
+          <xs:documentation source="description">Unknown</xs:documentation>
+          <xs:documentation source="detailedDescription">The type of helicopter landing area was unknown.</xs:documentation>
+          <xs:documentation source="explanation">A helicopter landing area configuration that has not been determined.</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
