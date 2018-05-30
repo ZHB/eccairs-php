@@ -20,28 +20,44 @@ class Eccairs
     private $set;
 
     /**
+     * @var bool
+     */
+    private $validateAgainstXsd;
+
+    /**
+     * @var Zipper
+     */
+    private $zipper;
+
+    /**
      * Eccairs constructor.
      */
-    public function __construct(Set $set)
+    public function __construct(Set $set, $validateAgainstXsd = true)
     {
         $this->set = $set;
+        $this->validateAgainstXsd = $validateAgainstXsd;
+
+        $this->zipper = new Zipper($this->getXml());
+    }
+
+    public function addFile($filePath)
+    {
+        $this->zipper->addFile($filePath);
     }
 
     public function e5xAsAttachment()
     {
-        $zipper = new Zipper($this->getXml());
-
-        $zipper->compress();
+        $this->zipper->compress();
     }
 
     /**
      * @return string
      */
-    public function getXml($validate = true): string
+    public function getXml(): string
     {
         $xml = $this->getSerializer()->serialize($this->set, 'xml');
 
-        if ($validate) {
+        if ($this->validateAgainstXsd) {
             $validator = new Validator();
             if (!$validator->isValid($xml)) {
                 throw new E5xNotValidFormatException();

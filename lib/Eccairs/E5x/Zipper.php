@@ -13,20 +13,30 @@ class Zipper
      */
     private $xml;
 
+    /**
+     * @var ZipFile
+     */
+    private $zip;
+
     public function __construct(string $xml)
     {
         $this->xml = $xml;
+
+        $this->zip = new ZipFile();
+    }
+
+    public function addFile($filePath)
+    {
+        $this->zip->addFile($filePath, $this->getFileName().'/'.basename($filePath));
     }
 
     public function compress()
     {
         $fileName = $this->getFileName();
 
-        $zip = new ZipFile();
-        $zip->addFromString($fileName.'.xml', $this->xml);
-
-        $zip->outputAsAttachment($fileName.self::OUTPUT_EXT);
-        $zip->close();
+        $this->zip->addFromString($fileName.'.xml', $this->xml);
+        $this->zip->outputAsAttachment($fileName.self::OUTPUT_EXT);
+        $this->zip->close();
     }
 
     private function getFileName()

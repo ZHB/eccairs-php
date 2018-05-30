@@ -4,7 +4,8 @@ namespace Zhb\Eccairs\Model;
 
 use JMS\Serializer\Annotation as Serializer;
 
-class Attribute
+
+class Attribute implements AttributeInterface
 {
     const TEXT_ENCODING_STRING = 'xs:string';
 

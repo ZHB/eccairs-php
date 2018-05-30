@@ -3,6 +3,8 @@
 namespace Zhb\Eccairs\Model;
 
 use JMS\Serializer\Annotation as Serializer;
+use JMS\Serializer\EventDispatcher\ObjectEvent;
+
 
 abstract class AbstractEntity
 {
@@ -16,9 +18,11 @@ abstract class AbstractEntity
     /**
      * @var array
      *
+     * @Serializer\Type("array<Zhb\Eccairs\Model\AttributeInterface>")
      * @Serializer\XmlKeyValuePairs()
+     * @Serializer\SerializedName("ATTRIBUTES")
      */
-    protected $ATTRIBUTES = [];
+    protected $attributes = [];
 
     /**
      * @var array
@@ -55,7 +59,7 @@ abstract class AbstractEntity
      */
     public function getAttributes(): array
     {
-        return $this->ATTRIBUTES;
+        return $this->attributes;
     }
 
     /**
@@ -63,6 +67,6 @@ abstract class AbstractEntity
      */
     public function setAttributes(array $attributes)
     {
-        $this->ATTRIBUTES = $attributes;
+        $this->attributes = $attributes;
     }
 }
