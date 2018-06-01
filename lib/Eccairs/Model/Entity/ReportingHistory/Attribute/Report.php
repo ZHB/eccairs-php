@@ -21,8 +21,11 @@ class Report implements AttributeInterface
      * @param string $fileName
      * @param string $description
      */
-    public function __construct(string $fileName, string $description)
+    public function __construct(string $fileName, string $description = null)
     {
+        $fileName = basename($fileName);
+        $description = $description ?: preg_replace('/\\.[^.\\s]{3,4}$/', '', $fileName);;
+
         $this->value = [
             [
                 'name' => 'FileName',
