@@ -27,6 +27,10 @@ class Zipper
 
     public function addFile($filePath)
     {
+        if (!file_exists($filePath)) {
+            return;
+        }
+
         $this->zip->addFile($filePath, $this->getFileName().'/'.basename($filePath));
     }
 
