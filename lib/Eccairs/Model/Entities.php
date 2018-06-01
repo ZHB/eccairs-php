@@ -4,13 +4,15 @@ namespace Zhb\Eccairs\Model;
 
 use JMS\Serializer\Annotation as Serializer;
 
-class Occurrence
+
+class Entities implements AttributeInterface
 {
-    private $name = 'Occurrence';
+    /**
+     * @var string
+     */
+    private $name = 'ENTITIES';
 
-    private $attributes = ['entityId' => '24'];
-
-    private $value;
+    private $value = [];
 
     /**
      * @return string
@@ -29,17 +31,17 @@ class Occurrence
     }
 
     /**
-     * @return mixed
+     * @return array
      */
-    public function getValue()
+    public function getValue(): array
     {
         return $this->value;
     }
 
     /**
-     * @param mixed $value
+     * @param array $value
      */
-    public function setValue($value)
+    public function setValue(array $value)
     {
         $this->value = $value;
     }

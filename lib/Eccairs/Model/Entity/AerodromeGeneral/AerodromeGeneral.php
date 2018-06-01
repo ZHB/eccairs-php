@@ -1,14 +1,18 @@
 <?php
 
-namespace Zhb\Eccairs\Model;
+namespace Zhb\Eccairs\Model\Entity\AerodromeGeneral;
+
 
 use JMS\Serializer\Annotation as Serializer;
+use Zhb\Eccairs\Model\AbstractEntity;
 
-class Occurrence
+class AerodromeGeneral extends AbstractEntity
 {
-    private $name = 'Occurrence';
+    private $name = 'Aerodrome_General';
 
-    private $attributes = ['entityId' => '24'];
+    private $attributes = [
+        'entityId' => '1',
+    ];
 
     private $value;
 
@@ -26,6 +30,22 @@ class Occurrence
     public function setName(string $name)
     {
         $this->name = $name;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAttributes()
+    {
+        return $this->attributes;
+    }
+
+    /**
+     * @param mixed $attributes
+     */
+    public function setAttributes($attributes)
+    {
+        $this->attributes = $attributes;
     }
 
     /**

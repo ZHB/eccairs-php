@@ -57,7 +57,7 @@ $occurrence->setEntities([
 $set = new Set();
 $set->setOccurrence($occurrence);
 
-$eccairs = new Eccairs($set, true);
+$eccairs = new Eccairs($set, false);
 $eccairs->addFile('./Attachment_1.jpg');
 $eccairs->addFile('./Attachment_2.jpg');
 
