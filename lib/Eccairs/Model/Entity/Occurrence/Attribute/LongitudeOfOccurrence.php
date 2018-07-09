@@ -21,11 +21,6 @@ class LongitudeOfOccurrence implements AttributeInterface
 
     private $value;
 
-    /**
-     * LongitudeOfOccurrence constructor.
-     *
-     * @param float $value
-     */
     public function __construct(string $value)
     {
         $this->value = $value;

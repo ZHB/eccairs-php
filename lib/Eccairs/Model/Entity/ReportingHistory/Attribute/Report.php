@@ -22,12 +22,6 @@ class Report implements AttributeInterface
         'Description' => '',
     ];
 
-    /**
-     * Report constructor.
-     *
-     * @param string $fileName
-     * @param string $description
-     */
     public function __construct(string $fileName, string $description = null)
     {
         $fileName = basename($fileName);

@@ -21,11 +21,6 @@ class LatitudeOfOccurrence implements AttributeInterface
 
     private $value;
 
-    /**
-     * LatitudeOfOccurrence constructor.
-     *
-     * @param string $value
-     */
     public function __construct(string $value)
     {
         $this->value = $value;

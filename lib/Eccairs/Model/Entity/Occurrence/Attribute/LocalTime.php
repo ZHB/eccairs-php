@@ -21,11 +21,6 @@ class LocalTime implements AttributeInterface
 
     private $value;
 
-    /**
-     * UtcTime constructor.
-     *
-     * @param string $value
-     */
     public function __construct(string $value)
     {
         $this->value = $value;

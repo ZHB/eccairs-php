@@ -18,7 +18,12 @@ abstract class AbstractEntity
         $this->value = new Attributes();
     }
 
-    public function addAttribute(AttributeInterface $attribute)
+    /**
+     * @param AttributeInterface $attribute
+     *
+     * @return AbstractEntity
+     */
+    public function addAttribute(AttributeInterface $attribute): self
     {
         $this->value->addAttribute($attribute);
 

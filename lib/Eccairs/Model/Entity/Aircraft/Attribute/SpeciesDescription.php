@@ -21,11 +21,6 @@ class SpeciesDescription implements AttributeInterface
 
     private $value;
 
-    /**
-     * SpeciesDescription constructor.
-     *
-     * @param int $value
-     */
     public function __construct(int $value)
     {
         $this->value = $value;

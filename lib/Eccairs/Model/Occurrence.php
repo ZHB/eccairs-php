@@ -27,7 +27,7 @@ class Occurrence
         $this->attr = new Attributes();
     }
 
-    public function addAttribute($attr)
+    public function addAttribute(AttributeInterface $attr): self
     {
         $this->attr->addAttribute($attr);
 
@@ -46,9 +46,13 @@ class Occurrence
 
     /**
      * @param string $name
+     *
+     * @return Occurrence
      */
-    public function setName(string $name)
+    public function setName(string $name): self
     {
         $this->name = $name;
+
+        return $this;
     }
 }

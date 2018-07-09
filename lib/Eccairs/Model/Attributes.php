@@ -25,10 +25,14 @@ class Attributes implements AttributeInterface
 
     /**
      * @param string $name
+     *
+     * @return Attributes
      */
-    public function setName(string $name)
+    public function setName(string $name): self
     {
         $this->name = $name;
+
+        return $this;
     }
 
     /**
@@ -41,9 +45,13 @@ class Attributes implements AttributeInterface
 
     /**
      * @param AttributeInterface $attribute
+     *
+     * @return Attributes
      */
-    public function addAttribute(AttributeInterface $attribute)
+    public function addAttribute(AttributeInterface $attribute): self
     {
         $this->value[] = $attribute;
+
+        return $this;
     }
 }

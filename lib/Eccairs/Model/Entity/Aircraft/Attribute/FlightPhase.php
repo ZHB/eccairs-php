@@ -21,11 +21,6 @@ class FlightPhase implements AttributeInterface
 
     private $value;
 
-    /**
-     * AerodromeLatitude constructor.
-     *
-     * @param int $value
-     */
     public function __construct(int $value)
     {
         $this->value = $value;

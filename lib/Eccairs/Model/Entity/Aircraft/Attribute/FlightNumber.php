@@ -21,11 +21,6 @@ class FlightNumber implements AttributeInterface
 
     private $value;
 
-    /**
-     * AerodromeLatitude constructor.
-     *
-     * @param int $value
-     */
     public function __construct($value)
     {
         $this->value = mb_strtoupper($value);

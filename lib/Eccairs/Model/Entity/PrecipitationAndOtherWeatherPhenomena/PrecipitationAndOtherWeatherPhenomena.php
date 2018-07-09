@@ -16,7 +16,6 @@ class PrecipitationAndOtherWeatherPhenomena extends AbstractEntity
     private $name = 'Precipitation_And_Other_Weather_Phenomena';
 
     private $attributes = [
-        //'ID' => 'ID64ff25bf5de74af9b5385f44c0721b0a',
         'entityId' => '28',
     ];
 
@@ -32,17 +31,13 @@ class PrecipitationAndOtherWeatherPhenomena extends AbstractEntity
 
     /**
      * @param string $name
+     *
+     * @return PrecipitationAndOtherWeatherPhenomena
      */
-    public function setName(string $name)
+    public function setName(string $name): self
     {
         $this->name = $name;
-    }
 
-    /**
-     * @return mixed
-     */
-    public function getAttributes()
-    {
-        return $this->attributes;
+        return $this;
     }
 }

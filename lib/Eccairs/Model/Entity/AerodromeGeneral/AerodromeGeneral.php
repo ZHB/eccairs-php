@@ -31,25 +31,13 @@ class AerodromeGeneral extends AbstractEntity
 
     /**
      * @param string $name
+     *
+     * @return AerodromeGeneral
      */
-    public function setName(string $name)
+    public function setName(string $name): self
     {
         $this->name = $name;
-    }
 
-    /**
-     * @return mixed
-     */
-    public function getAttributes()
-    {
-        return $this->attributes;
-    }
-
-    /**
-     * @param mixed $attributes
-     */
-    public function setAttributes($attributes)
-    {
-        $this->attributes = $attributes;
+        return $this;
     }
 }

@@ -18,7 +18,7 @@ class Entities implements AttributeInterface
 
     private $value = [];
 
-    public function addEntity($entity)
+    public function addEntity(AbstractEntity $entity): self
     {
         $this->value[] = $entity;
 
@@ -35,9 +35,13 @@ class Entities implements AttributeInterface
 
     /**
      * @param string $name
+     *
+     * @return Entities
      */
-    public function setName(string $name)
+    public function setName(string $name): self
     {
         $this->name = $name;
+
+        return $this;
     }
 }
