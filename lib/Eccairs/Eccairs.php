@@ -32,10 +32,7 @@ class Eccairs
      */
     private $zipper;
 
-    /**
-     * Eccairs constructor.
-     */
-    public function __construct(Occurrence $occurrence, $validateAgainstXsd = true)
+    public function __construct(Occurrence $occurrence, bool $validateAgainstXsd = true)
     {
         $this->occurrence = $occurrence;
         $this->validateAgainstXsd = $validateAgainstXsd;
@@ -43,7 +40,7 @@ class Eccairs
         $this->zipper = new Zipper($this->getXml());
     }
 
-    public function addFile($filePath)
+    public function addFile(string $filePath)
     {
         $this->zipper->addFile($filePath);
     }
