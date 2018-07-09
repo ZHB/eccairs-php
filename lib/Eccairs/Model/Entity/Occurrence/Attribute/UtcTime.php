@@ -21,7 +21,7 @@ class UtcTime implements AttributeInterface
 
     private $value;
 
-    public function __construct(string $value)
+    public function __construct(string $value = null)
     {
         $this->value = $value;
     }

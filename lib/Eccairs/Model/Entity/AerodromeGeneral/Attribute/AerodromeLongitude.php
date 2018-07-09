@@ -21,7 +21,7 @@ class AerodromeLongitude implements AttributeInterface
 
     private $value;
 
-    public function __construct(?float $value)
+    public function __construct(float $value = null)
     {
         $this->value = round($value, 7);
     }

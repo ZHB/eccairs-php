@@ -21,7 +21,7 @@ class BirdsWildlifeStruck implements AttributeInterface
 
     private $value;
 
-    public function __construct(int $value)
+    public function __construct(int $value = null)
     {
         $this->value = $this->toEccairsValue($value);
     }
