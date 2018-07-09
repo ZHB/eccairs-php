@@ -21,8 +21,12 @@ class LatitudeOfOccurrence implements AttributeInterface
 
     private $value;
 
-    public function __construct(float $value = null)
+    public function __construct(float $value)
     {
+        if (null === $value) {
+            return;
+        }
+
         $this->value = $value;
     }
 }

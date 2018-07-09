@@ -21,7 +21,7 @@ class FlightPhase implements AttributeInterface
 
     private $value;
 
-    public function __construct(int $value = null)
+    public function __construct(int $value)
     {
         $this->value = $value;
     }

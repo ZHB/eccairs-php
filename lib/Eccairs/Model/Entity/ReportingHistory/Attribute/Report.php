@@ -22,7 +22,7 @@ class Report implements AttributeInterface
         'Description' => '',
     ];
 
-    public function __construct(string $fileName = null, string $description = null)
+    public function __construct(string $fileName, string $description = null)
     {
         $fileName = basename($fileName);
         $description = $description ?: preg_replace('/\\.[^.\\s]{3,4}$/', '', $fileName);
