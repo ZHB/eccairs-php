@@ -21,7 +21,7 @@ class FlightNumber implements AttributeInterface
 
     private $value;
 
-    public function __construct($value)
+    public function __construct($value = null)
     {
         $this->value = mb_strtoupper($value);
     }
