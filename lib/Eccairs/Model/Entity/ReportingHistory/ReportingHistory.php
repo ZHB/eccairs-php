@@ -1,7 +1,13 @@
 <?php
 
-namespace Zhb\Eccairs\Model\Entity\ReportingHistory;
+/*
+ * (c) ZHB <vincent.huck.pro@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
+namespace Zhb\Eccairs\Model\Entity\ReportingHistory;
 
 use Zhb\Eccairs\Model\AbstractEntity;
 
@@ -14,7 +20,7 @@ class ReportingHistory extends AbstractEntity
         'entityId' => '53',
     ];
 
-    private $value;
+    protected $value;
 
     /**
      * @return string
@@ -38,21 +44,5 @@ class ReportingHistory extends AbstractEntity
     public function getAttributes()
     {
         return $this->attributes;
-    }
-
-    /**
-     * @param mixed $attributes
-     */
-    public function setAttributes($attributes)
-    {
-        $this->attributes = $attributes;
-    }
-
-    /**
-     * @param mixed $value
-     */
-    public function setValue($value)
-    {
-        $this->value = $value;
     }
 }

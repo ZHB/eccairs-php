@@ -1,12 +1,19 @@
 <?php
 
+/*
+ * (c) ZHB <vincent.huck.pro@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 use Zhb\Eccairs\Eccairs;
 use Zhb\Eccairs\FieldMapping;
-use Zhb\Eccairs\Model\Attributes;
 use Zhb\Eccairs\Model\Entities;
 use Zhb\Eccairs\Model\Entity\AerodromeGeneral\AerodromeGeneral;
 use Zhb\Eccairs\Model\Entity\AerodromeGeneral\Attribute\AerodromeLatitude;
 use Zhb\Eccairs\Model\Entity\AerodromeGeneral\Attribute\AerodromeLongitude;
+use Zhb\Eccairs\Model\Entity\AerodromeGeneral\Attribute\LocationIndicator;
 use Zhb\Eccairs\Model\Entity\Aircraft\Aircraft;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\AircraftRegistration;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\BirdsWildlifeStruck;
@@ -15,6 +22,7 @@ use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\FlightPhase;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\PartsDamaged;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\SpeciesDescription;
 use Zhb\Eccairs\Model\Entity\Occurrence\Attribute\LatitudeOfOccurrence;
+use Zhb\Eccairs\Model\Entity\Occurrence\Attribute\LocalTime;
 use Zhb\Eccairs\Model\Entity\Occurrence\Attribute\LongitudeOfOccurrence;
 use Zhb\Eccairs\Model\Entity\Occurrence\Attribute\UtcDate;
 use Zhb\Eccairs\Model\Entity\Occurrence\Attribute\UtcTime;
@@ -25,77 +33,69 @@ use Zhb\Eccairs\Model\Entity\ReportingHistory\Attribute\ReportIdentification;
 use Zhb\Eccairs\Model\Entity\ReportingHistory\ReportingHistory;
 use Zhb\Eccairs\Model\Occurrence;
 
-
-require_once __DIR__ . '/../vendor/autoload.php';
-
-/**
- * AerodromeGeneral
- */
-$aerodromeGeneralAttributes = new Attributes();
-$aerodromeGeneralAttributes->addAttribute(new AerodromeLatitude('46.25252'));
-$aerodromeGeneralAttributes->addAttribute(new AerodromeLongitude('7.2564'));
-
-$aerodromeGeneral = new AerodromeGeneral();
-$aerodromeGeneral->setValue([$aerodromeGeneralAttributes]);
+require_once __DIR__.'/../vendor/autoload.php';
 
 /**
- * Aircraft
+ * AerodromeGeneral.
  */
-$aircraftAttributes = new Attributes();
-$aircraftAttributes->addAttribute(new FlightNumber('585452'));
-$aircraftAttributes->addAttribute(new FlightPhase('6'));
-$aircraftAttributes->addAttribute(new AircraftRegistration('HB-KKJ'));
-$aircraftAttributes->addAttribute(new PartsDamaged('6'));
-$aircraftAttributes->addAttribute(new SpeciesDescription('1131'));
-$aircraftAttributes->addAttribute(new BirdsWildlifeStruck('2'));
-
-$aircraft = new Aircraft();
-$aircraft->setValue([$aircraftAttributes]);
+$aerodromeGeneral = (new AerodromeGeneral())
+    ->addAttribute(new AerodromeLatitude(46.25252))
+    ->addAttribute(new AerodromeLongitude(7.2564))
+    ->addAttribute(new LocationIndicator(188034))
+;
 
 /**
- * PrecipitationAndOtherWeatherPhenomena
+ * Aircraft.
  */
-$precipitationAndOtherWeatherPhenomenaAttributes = new Attributes();
-$precipitationAndOtherWeatherPhenomenaAttributes->addAttribute(new PhenomenonType(FieldMapping::map('sunny', FieldMapping::$phenomenonTypes)));
-
-$precipitationAndOtherWeatherPhenomena = new PrecipitationAndOtherWeatherPhenomena();
-$precipitationAndOtherWeatherPhenomena->setValue([$precipitationAndOtherWeatherPhenomenaAttributes]);
+$aircraft = (new Aircraft())
+    ->addAttribute(new FlightNumber('555'))
+    ->addAttribute(new FlightPhase('6'))
+    ->addAttribute(new AircraftRegistration('A55'))
+    ->addAttribute(new PartsDamaged('6'))
+    ->addAttribute(new SpeciesDescription('1131'))
+    ->addAttribute(new BirdsWildlifeStruck(50))
+;
 
 /**
- * ReportingHistory
+ * PrecipitationAndOtherWeatherPhenomena.
  */
-$reportingHistoryAttributes = new Attributes();
-$reportingHistoryAttributes->addAttribute(new ReportIdentification('025-2016'));
-$reportingHistoryAttributes->addAttribute(new Report('./Attachment_1.jpg', 'Desc'));
-$reportingHistoryAttributes->addAttribute(new Report('./Attachment_2.jpg'));
-//$reportingHistoryAttributes->addAttribute(new FlightPhase('67));
-
-$reportingHistory = new ReportingHistory();
-$reportingHistory->setValue([$reportingHistoryAttributes]);
+$precipitationAndOtherWeatherPhenomena = (new PrecipitationAndOtherWeatherPhenomena())
+    ->addAttribute(new PhenomenonType(FieldMapping::map('sunny', FieldMapping::$phenomenonTypes)))
+;
 
 /**
- * Occurrence
+ * ReportingHistory.
  */
-$occurrenceAttributes = new Attributes();
-$occurrenceAttributes->addAttribute(new LatitudeOfOccurrence('46.3333'));
-$occurrenceAttributes->addAttribute(new LongitudeOfOccurrence('46.3333'));
-$occurrenceAttributes->addAttribute(new UtcDate('2016-10-19'));
-$occurrenceAttributes->addAttribute(new UtcTime('09:00:00'));
+$reportingHistory = (new ReportingHistory())
+    ->addAttribute(new ReportIdentification('025-2016'))
+    ->addAttribute(new Report('./Attachment_1.jpg', 'Desc'))
+    ->addAttribute(new Report('./Attachment_2.jpg'))
+;
 
-$occurrenceEntities = new Entities();
-$occurrenceEntities->setValue([
-    $aerodromeGeneral,
-    $aircraft,
-    $precipitationAndOtherWeatherPhenomena,
-    $reportingHistory,
-]);
+/**
+ * Occurrence.
+ */
+$entities = (new Entities())
+    ->addEntity($aerodromeGeneral)
+    ->addEntity($aircraft)
+    ->addEntity($precipitationAndOtherWeatherPhenomena)
+    ->addEntity($reportingHistory)
+;
 
-$occurrence = new Occurrence();
-$occurrence->setValue([$occurrenceAttributes, $occurrenceEntities]);
+$occurrence = (new Occurrence($entities))
+    ->addAttribute(new LatitudeOfOccurrence('46.3333'))
+    ->addAttribute(new LongitudeOfOccurrence('46.3333'))
+    ->addAttribute(new LocalTime('07:00:00'))
+    ->addAttribute(new UtcDate('2016-10-19'))
+    ->addAttribute(new UtcTime('09:00:00'))
+;
 
-$eccairs = new Eccairs($occurrence, true);
+$eccairs = new Eccairs($occurrence, $validateAgainstXsd = true);
 $eccairs->addFile('./Attachment_1.jpg');
 $eccairs->addFile('./Attachment_2.jpg');
 
-//echo $eccairs->getXml();
-$eccairs->e5xAsAttachment();
+// exports E5x as attachment
+// $eccairs->e5xAsAttachment();
+
+// or print the output to the browser
+echo $eccairs->getXml();

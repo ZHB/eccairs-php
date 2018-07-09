@@ -1,5 +1,12 @@
 <?php
 
+/*
+ * (c) ZHB <vincent.huck.pro@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Zhb\Eccairs;
 
 use Zhb\Eccairs\Exception\MissingMappingFieldException;
@@ -8,11 +15,14 @@ final class FieldMapping
 {
     // Flight_Phases : VL121_5_0_1_1.xsd
     public static $flightPhases = [
+        'standing' => 1,
+        'taxiway' => 2,
+        'take-off' => 3,
+        'en-route' => 4,
         'approach' => 6,
         'landing' => 7,
-        'take-off' => 3,
+        'tow' => 100,
         'flight-phase-unknown' => 99,
-        'taxiway' => 2,
     ];
 
     // Phenomenon_Type : VL299_5_0_1_2.xsd
@@ -24,20 +34,26 @@ final class FieldMapping
         'very-cloudy-intermittent-rain' => 1,
         'very-cloudy-intermittent-snow' => 3,
         'very-cloudy-stormy' => 98,
-        'stratus-or-fog' => 107,
+        'stratus-or-fog' => 101,
     ];
 
     // Parts_Damaged : VL1040_12_0_1_1.xsd
     public static $PartsDamaged = [
-        'wing-edge' => 9,
-        'fuselage' => 11,
-        'propellers-rotor' => 8,
-        'windshield' => 2,
-        'tail-rudder' => 13,
         'radome' => 1,
-        'turbine-engine' => 15, // Other
+        'windshield' => 2,
+        'nose-ex-radome-windshield' => 3,
+        'engine-1' => 4,
+        'engine-2' => 5,
+        'engine-3' => 6,
+        'engine-4' => 7,
+        'propellers' => 8,
+        'wing' => 9,
+        'rotor' => 10,
+        'fuselage' => 11,
         'landing-gear' => 12,
-        'undefined' => 15, // Other
+        'tail-rudder' => 13,
+        'lights' => 14,
+        'other-undefined' => 15, // Other
     ];
 
     public static function map($field, $fields)

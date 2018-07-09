@@ -1,9 +1,14 @@
 <?php
 
+/*
+ * (c) ZHB <vincent.huck.pro@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Zhb\Eccairs\Model\Entity\PrecipitationAndOtherWeatherPhenomena;
 
-
-use JMS\Serializer\Annotation as Serializer;
 use Zhb\Eccairs\Model\AbstractEntity;
 
 class PrecipitationAndOtherWeatherPhenomena extends AbstractEntity
@@ -15,7 +20,7 @@ class PrecipitationAndOtherWeatherPhenomena extends AbstractEntity
         'entityId' => '28',
     ];
 
-    private $value;
+    protected $value;
 
     /**
      * @return string
@@ -39,21 +44,5 @@ class PrecipitationAndOtherWeatherPhenomena extends AbstractEntity
     public function getAttributes()
     {
         return $this->attributes;
-    }
-
-    /**
-     * @param mixed $attributes
-     */
-    public function setAttributes($attributes)
-    {
-        $this->attributes = $attributes;
-    }
-
-    /**
-     * @param mixed $value
-     */
-    public function setValue($value)
-    {
-        $this->value = $value;
     }
 }

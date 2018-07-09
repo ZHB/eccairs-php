@@ -1,9 +1,14 @@
 <?php
 
+/*
+ * (c) ZHB <vincent.huck.pro@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Zhb\Eccairs\Model\Entity\AerodromeGeneral;
 
-
-use JMS\Serializer\Annotation as Serializer;
 use Zhb\Eccairs\Model\AbstractEntity;
 
 class AerodromeGeneral extends AbstractEntity
@@ -14,7 +19,7 @@ class AerodromeGeneral extends AbstractEntity
         'entityId' => '1',
     ];
 
-    private $value;
+    protected $value;
 
     /**
      * @return string
@@ -46,21 +51,5 @@ class AerodromeGeneral extends AbstractEntity
     public function setAttributes($attributes)
     {
         $this->attributes = $attributes;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getValue()
-    {
-        return $this->value;
-    }
-
-    /**
-     * @param mixed $value
-     */
-    public function setValue($value)
-    {
-        $this->value = $value;
     }
 }

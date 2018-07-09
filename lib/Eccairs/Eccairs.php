@@ -1,9 +1,16 @@
 <?php
 
+/*
+ * (c) ZHB <vincent.huck.pro@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Zhb\Eccairs;
 
 use Sabre\Xml\Service;
-use \Zhb\Eccairs\E5x\Validator\Validator;
+use Zhb\Eccairs\E5x\Validator\Validator;
 use Zhb\Eccairs\E5x\Zipper;
 use Zhb\Eccairs\Exception\E5xNotValidFormatException;
 use Zhb\Eccairs\Model\Occurrence;
@@ -60,8 +67,8 @@ class Eccairs
 
         $xml = $xmlService->write(
             'SET',
-            function($writer) {
-                $writer->writeAttribute('TaxonomyName','ECCAIRS Aviation');
+            function ($writer) {
+                $writer->writeAttribute('TaxonomyName', 'ECCAIRS Aviation');
                 $writer->writeAttribute('TaxonomyVersion', '3.4.0.1');
                 $writer->writeAttribute('Domain', 'RIT');
                 $writer->writeAttribute('Version', '1.0.0.0');
@@ -79,7 +86,8 @@ class Eccairs
         return $xml;
     }
 
-    private function objectToArray($obj) {
+    private function objectToArray($obj)
+    {
         if (is_object($obj)) {
             $obj = (array) $this->dismount($obj);
         }
@@ -96,7 +104,8 @@ class Eccairs
         return $new;
     }
 
-    private function dismount($object) {
+    private function dismount($object)
+    {
         $reflectionClass = new \ReflectionClass(get_class($object));
         $array = [];
 

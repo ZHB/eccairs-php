@@ -1,9 +1,13 @@
 <?php
 
+/*
+ * (c) ZHB <vincent.huck.pro@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Zhb\Eccairs\Model;
-
-use JMS\Serializer\Annotation as Serializer;
-
 
 class Entities implements AttributeInterface
 {
@@ -13,6 +17,13 @@ class Entities implements AttributeInterface
     private $name = 'ENTITIES';
 
     private $value = [];
+
+    public function addEntity($entity)
+    {
+        $this->value[] = $entity;
+
+        return $this;
+    }
 
     /**
      * @return string
@@ -28,21 +39,5 @@ class Entities implements AttributeInterface
     public function setName(string $name)
     {
         $this->name = $name;
-    }
-
-    /**
-     * @return array
-     */
-    public function getValue(): array
-    {
-        return $this->value;
-    }
-
-    /**
-     * @param array $value
-     */
-    public function setValue(array $value)
-    {
-        $this->value = $value;
     }
 }

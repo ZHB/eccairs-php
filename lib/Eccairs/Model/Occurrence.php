@@ -1,8 +1,13 @@
 <?php
 
-namespace Zhb\Eccairs\Model;
+/*
+ * (c) ZHB <vincent.huck.pro@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
-use JMS\Serializer\Annotation as Serializer;
+namespace Zhb\Eccairs\Model;
 
 class Occurrence
 {
@@ -11,6 +16,25 @@ class Occurrence
     private $attributes = ['entityId' => '24'];
 
     private $value;
+
+    private $attr;
+
+    private $entities;
+
+    public function __construct(Entities $entities)
+    {
+        $this->entities = $entities;
+        $this->attr = new Attributes();
+    }
+
+    public function addAttribute($attr)
+    {
+        $this->attr->addAttribute($attr);
+
+        $this->value = [$this->attr, $this->entities];
+
+        return $this;
+    }
 
     /**
      * @return string
@@ -26,21 +50,5 @@ class Occurrence
     public function setName(string $name)
     {
         $this->name = $name;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getValue()
-    {
-        return $this->value;
-    }
-
-    /**
-     * @param mixed $value
-     */
-    public function setValue($value)
-    {
-        $this->value = $value;
     }
 }

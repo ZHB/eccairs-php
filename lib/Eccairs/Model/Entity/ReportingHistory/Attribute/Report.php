@@ -1,5 +1,12 @@
 <?php
 
+/*
+ * (c) ZHB <vincent.huck.pro@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
 namespace Zhb\Eccairs\Model\Entity\ReportingHistory\Attribute;
 
 use Zhb\Eccairs\Model\AttributeInterface;
@@ -24,7 +31,7 @@ class Report implements AttributeInterface
     public function __construct(string $fileName, string $description = null)
     {
         $fileName = basename($fileName);
-        $description = $description ?: preg_replace('/\\.[^.\\s]{3,4}$/', '', $fileName);;
+        $description = $description ?: preg_replace('/\\.[^.\\s]{3,4}$/', '', $fileName);
 
         $this->value = [
             [
@@ -32,14 +39,14 @@ class Report implements AttributeInterface
                 'value' => $fileName,
                 'attributes' => [
                     'xmlns' => self::DATA_TYPE,
-                ]
+                ],
             ],
             [
                 'name' => 'Description',
                 'value' => $description,
                 'attributes' => [
                     'xmlns' => self::DATA_TYPE,
-                ]
+                ],
             ],
         ];
     }
