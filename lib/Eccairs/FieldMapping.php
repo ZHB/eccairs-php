@@ -59,7 +59,7 @@ final class FieldMapping
     public static function map($field, $fields)
     {
         if (!array_key_exists($field, $fields)) {
-            throw new MissingMappingFieldException();
+            throw new MissingMappingFieldException(sprintf('The field %s doesn\'t exists in mapping fields', $field));
         }
 
         return $fields[$field];
