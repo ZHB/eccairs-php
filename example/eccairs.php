@@ -20,6 +20,9 @@ use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\BirdsWildlifeStruck;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\FlightNumber;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\FlightPhase;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\PartsDamaged;
+use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\PartsStruck;
+use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\PilotAdvisedOfBirds;
+use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\BirdsWildlifeSeen;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\SpeciesDescription;
 use Zhb\Eccairs\Model\Entity\Occurrence\Attribute\LatitudeOfOccurrence;
 use Zhb\Eccairs\Model\Entity\Occurrence\Attribute\LocalTime;
@@ -52,8 +55,11 @@ $aircraft = (new Aircraft())
     ->addAttribute(new FlightPhase('6'))
     ->addAttribute(new AircraftRegistration('A55'))
     ->addAttribute(new PartsDamaged('6'))
+    ->addAttribute(new PartsStruck('2'))
     ->addAttribute(new SpeciesDescription('1131'))
+    ->addAttribute(new BirdsWildlifeSeen())
     ->addAttribute(new BirdsWildlifeStruck(50))
+    ->addAttribute(new PilotAdvisedOfBirds(true))
 ;
 
 /**
