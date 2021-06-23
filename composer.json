@@ -13,8 +13,7 @@
     "require": {
         "php": "^7.0.25|^7.1",
         "nelexa/zip": "^3.1",
-        "sabre/xml": "^2.1",
-        "zhb/eccairs-php": "dev-master"
+        "sabre/xml": "^2.1"
     },
     "autoload": {
         "psr-4": { "Zhb\\Eccairs\\": "lib/Eccairs" }
