@@ -41,12 +41,18 @@ class Zipper
         $this->zip->addFile($filePath, $this->getFileName().'/'.basename($filePath));
     }
 
-    public function compress()
+    public function compress(string $path = null)
     {
         $fileName = $this->getFileName();
 
         $this->zip->addFromString($fileName.'.xml', $this->xml);
-        $this->zip->outputAsAttachment($fileName.self::OUTPUT_EXT);
+
+        if (null === $path) {
+            $this->zip->outputAsAttachment($fileName.self::OUTPUT_EXT);
+        } else {
+            $this->zip->saveAsFile($path);
+        }
+
         $this->zip->close();
     }
 

@@ -50,6 +50,11 @@ class Eccairs
         $this->zipper->compress();
     }
 
+    public function e5xAsFile(string $path)
+    {
+        $this->zipper->compress($path);
+    }
+
     /**
      * @return string
      */
