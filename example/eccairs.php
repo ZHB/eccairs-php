@@ -55,13 +55,13 @@ $aircraft = (new Aircraft())
     ->addAttribute(new FlightNumber('555'))
     ->addAttribute(new FlightPhase('6'))
     ->addAttribute(new AircraftRegistration('A55'))
+    ->addAttribute(new SpeedFirstEvent(150))
     ->addAttribute(new PartsDamaged('6'))
     ->addAttribute(new PartsStruck('2'))
     ->addAttribute(new SpeciesDescription('1131'))
     ->addAttribute(new BirdsWildlifeSeen())
     ->addAttribute(new BirdsWildlifeStruck(50))
     ->addAttribute(new PilotAdvisedOfBirds(true))
-    ->addAttribute(new SpeedFirstEvent(150))
 ;
 
 /**

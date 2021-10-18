@@ -17,6 +17,7 @@ class SpeedFirstEvent implements AttributeInterface
 
     private $attributes = [
         'attributeId' => '273',
+        'Unit' => 'kt',
     ];
 
     private $value;
