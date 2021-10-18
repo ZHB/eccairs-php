@@ -24,6 +24,7 @@ use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\PartsStruck;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\PilotAdvisedOfBirds;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\BirdsWildlifeSeen;
 use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\SpeciesDescription;
+use Zhb\Eccairs\Model\Entity\Aircraft\Attribute\SpeedFirstEvent;
 use Zhb\Eccairs\Model\Entity\Occurrence\Attribute\LatitudeOfOccurrence;
 use Zhb\Eccairs\Model\Entity\Occurrence\Attribute\LocalTime;
 use Zhb\Eccairs\Model\Entity\Occurrence\Attribute\LongitudeOfOccurrence;
@@ -60,6 +61,7 @@ $aircraft = (new Aircraft())
     ->addAttribute(new BirdsWildlifeSeen())
     ->addAttribute(new BirdsWildlifeStruck(50))
     ->addAttribute(new PilotAdvisedOfBirds(true))
+    ->addAttribute(new SpeedFirstEvent(150))
 ;
 
 /**
